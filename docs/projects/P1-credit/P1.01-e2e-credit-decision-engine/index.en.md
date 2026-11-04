@@ -1,4 +1,4 @@
-﻿---
+---
 id: P1.01
 title: "P1.01 · End-to-end credit decision engine"
 ---

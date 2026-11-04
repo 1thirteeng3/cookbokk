@@ -1,4 +1,4 @@
-﻿---
+---
 id: P1.01
 title: "P1.01 · Motor de concessão de crédito E2E"
 ---
