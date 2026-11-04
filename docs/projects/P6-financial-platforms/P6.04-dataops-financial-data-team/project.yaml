@@ -1,0 +1,18 @@
+id: P6.04
+slug: dataops-financial-data-team
+title:
+  pt: Transformação DataOps de um time de dados financeiro
+  en: DataOps for a financial data team
+group: P6
+domain: financial-platforms
+status: planned
+recipes:
+- K1–K4
+- N6.03
+- B5
+index_hint: —
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

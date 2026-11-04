@@ -1,0 +1,21 @@
+id: P1.09
+slug: full-audit-credit-model
+title:
+  pt: Auditoria completa de um modelo de crédito
+  en: Full audit of a credit model
+group: P1
+domain: credit
+status: planned
+recipes:
+- M0
+- M2
+- N1.12
+- N6.04
+- N5.10
+- H3.04
+index_hint: Home Credit, Lending Club
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

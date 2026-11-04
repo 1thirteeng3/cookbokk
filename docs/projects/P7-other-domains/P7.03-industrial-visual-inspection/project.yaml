@@ -1,0 +1,18 @@
+id: P7.03
+slug: industrial-visual-inspection
+title:
+  pt: Inspeção visual industrial
+  en: Industrial visual inspection
+group: P7
+domain: other
+status: planned
+recipes:
+- E2
+- E5.11
+- G1.10
+index_hint: MVTec AD
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

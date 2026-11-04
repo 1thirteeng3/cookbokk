@@ -1,0 +1,15 @@
+id: B2.04
+slug: joins-windows-aggregations-at-scale
+title:
+  pt: Joins, janelas e agregações em escala
+  en: Joins, windows, aggregations at scale
+part: B
+section: B2
+level: L3
+status: planned
+index_hint: broadcast, sort-merge, bucketing, skew handling, salting
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

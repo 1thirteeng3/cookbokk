@@ -1,0 +1,15 @@
+id: L1.07
+slug: deep-counterfactual-generative-models
+title:
+  pt: Modelos generativos contrafactuais (deep SCM)
+  en: Deep counterfactual generative models
+part: L
+section: L1
+level: L4
+status: planned
+index_hint: normalizing flows, VAEs, difusão (Diff-SCM); contrafactuais em imagem e texto
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: E1.07
+slug: experiment-tracking
+title:
+  pt: Rastreamento de experimentos
+  en: Experiment tracking
+part: E
+section: E1
+level: L2
+status: planned
+index_hint: MLflow, W&B, Neptune, Comet, TensorBoard, Aim, ClearML
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: K3.05
+slug: safe-reprocessing-backfill
+title:
+  pt: Reprocessamento e backfill seguros
+  en: Safe reprocessing and backfill
+part: K
+section: K3
+level: L3
+status: planned
+index_hint: idempotência, time travel, reprocessamento por partição
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

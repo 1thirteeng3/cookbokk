@@ -1,0 +1,19 @@
+id: P5.08
+slug: housing-price-indices-affordability
+title:
+  pt: 'Habitação: índices de preço e acessibilidade'
+  en: Housing price indices and affordability
+group: P5
+domain: socioeconomics
+status: planned
+recipes:
+- N5.11
+- N1.09
+- C2.08
+- D4
+index_hint: ITBI, FipeZap, PNAD
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

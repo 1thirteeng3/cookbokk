@@ -1,0 +1,16 @@
+id: J5.05
+slug: operating-agents-production
+title:
+  pt: 'AgentOps: operar agentes em produção'
+  en: Operating agents in production
+part: J
+section: J5
+level: L4
+status: planned
+index_hint: >-
+  replay de trajetórias, sandboxes, orçamentos, kill switch, versionamento de ferramentas e MCP
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

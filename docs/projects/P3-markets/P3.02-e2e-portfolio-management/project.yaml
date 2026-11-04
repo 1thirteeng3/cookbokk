@@ -1,0 +1,19 @@
+id: P3.02
+slug: e2e-portfolio-management
+title:
+  pt: 'Gestão de portfólio E2E: retorno, risco, otimização'
+  en: E2E portfolio management
+group: P3
+domain: markets
+status: planned
+recipes:
+- N3.03
+- N3.04
+- N3.10
+- D1.08
+index_hint: B3, Fama-French, Nefin (FEA-USP)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

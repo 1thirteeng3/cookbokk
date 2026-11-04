@@ -1,0 +1,36 @@
+name: colab
+
+# Gera as versões pt/ e en/ dos notebooks e publica no branch `colab`,
+# para onde apontam os badges "Abrir no Colab" (SPEC.md §5 e §14).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**/*.ipynb"
+      - "tools/split_notebooks.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --locked
+      - name: Dividir notebooks por idioma
+        run: uv run python tools/split_notebooks.py docs build/colab
+      - name: Publicar no branch colab
+        working-directory: build/colab
+        run: |
+          git init -q -b colab
+          git add .
+          git -c user.name="github-actions" -c user.email="github-actions@users.noreply.github.com" \
+            commit -q -m "Sync Colab notebooks from ${GITHUB_SHA::7}"
+          git push -q --force \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" colab

@@ -1,0 +1,15 @@
+id: G3.06
+slug: ml-cost-monitoring
+title:
+  pt: Monitoramento de custos de ML
+  en: ML cost monitoring
+part: G
+section: G3
+level: L3
+status: planned
+index_hint: tags, atribuição, custo por predição, GPU utilization
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

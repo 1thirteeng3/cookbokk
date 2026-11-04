@@ -1,0 +1,15 @@
+id: G2.03
+slug: model-registry
+title:
+  pt: Registro de modelos
+  en: Model registry
+part: G
+section: G2
+level: L2
+status: planned
+index_hint: MLflow, W&B, SageMaker, Vertex, Hugging Face Hub
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

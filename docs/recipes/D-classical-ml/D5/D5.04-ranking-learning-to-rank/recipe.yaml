@@ -1,0 +1,15 @@
+id: D5.04
+slug: ranking-learning-to-rank
+title:
+  pt: Ranking (learning to rank)
+  en: Ranking (learning to rank)
+part: D
+section: D5
+level: L3
+status: planned
+index_hint: LambdaMART (LightGBM/XGBoost), RankNet, cross-encoders, métricas NDCG/MAP
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

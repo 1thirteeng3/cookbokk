@@ -1,0 +1,15 @@
+id: L2.09
+slug: robustness-to-simulator-misspecification
+title:
+  pt: Robustez a simuladores mal especificados
+  en: Robustness to simulator misspecification
+part: L
+section: L2
+level: L4
+status: planned
+index_hint: robust NPE, detecção de OOD, generalized Bayes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

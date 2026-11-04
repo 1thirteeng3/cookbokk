@@ -1,0 +1,15 @@
+id: B1.10
+slug: iot-telemetry-ingestion
+title:
+  pt: Ingestão de dados de IoT e telemetria
+  en: IoT and telemetry ingestion
+part: B
+section: B1
+level: L3
+status: planned
+index_hint: MQTT, AWS IoT, Azure IoT Hub, Kafka, TimescaleDB, InfluxDB
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

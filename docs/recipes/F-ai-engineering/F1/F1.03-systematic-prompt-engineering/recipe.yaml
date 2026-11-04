@@ -1,0 +1,15 @@
+id: F1.03
+slug: systematic-prompt-engineering
+title:
+  pt: Prompt engineering sistemático
+  en: Systematic prompt engineering
+part: F
+section: F1
+level: L1
+status: planned
+index_hint: zero/few-shot, CoT, XML/estrutura, papéis, exemplos, iteração com evals
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

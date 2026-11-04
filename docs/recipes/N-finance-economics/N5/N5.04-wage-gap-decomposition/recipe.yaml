@@ -1,0 +1,15 @@
+id: N5.04
+slug: wage-gap-decomposition
+title:
+  pt: Decomposição de diferenciais salariais
+  en: Wage gap decomposition
+part: N
+section: N5
+level: L3
+status: planned
+index_hint: Oaxaca-Blinder, RIF regressions, quantílicas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

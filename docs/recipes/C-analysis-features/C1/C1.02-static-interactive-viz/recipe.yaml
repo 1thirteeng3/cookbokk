@@ -1,0 +1,15 @@
+id: C1.02
+slug: static-interactive-viz
+title:
+  pt: Visualização estática e interativa
+  en: Static and interactive viz
+part: C
+section: C1
+level: L1
+status: planned
+index_hint: matplotlib, seaborn, plotly, altair, plotnine, bokeh, hvplot
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

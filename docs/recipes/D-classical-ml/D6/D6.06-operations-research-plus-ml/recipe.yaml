@@ -1,0 +1,15 @@
+id: D6.06
+slug: operations-research-plus-ml
+title:
+  pt: Pesquisa operacional + ML
+  en: Operations research + ML
+part: D
+section: D6
+level: L3
+status: planned
+index_hint: OR-Tools, Pyomo, Gurobi, HiGHS; previsão → otimização
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

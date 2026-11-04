@@ -1,0 +1,15 @@
+id: F6.07
+slug: prompt-injection-agent-security
+title:
+  pt: Prompt injection e segurança de agentes
+  en: Prompt injection and agent security
+part: F
+section: F6
+level: L4
+status: planned
+index_hint: isolamento, privilégios mínimos, filtros, red teaming, OWASP LLM Top 10
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

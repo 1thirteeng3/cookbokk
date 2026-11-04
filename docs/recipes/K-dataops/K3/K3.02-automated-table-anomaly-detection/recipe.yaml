@@ -1,0 +1,15 @@
+id: K3.02
+slug: automated-table-anomaly-detection
+title:
+  pt: Detecção automática de anomalias em tabelas
+  en: Automated table anomaly detection
+part: K
+section: K3
+level: L3
+status: planned
+index_hint: Elementary, Soda, Monte Carlo, métodos estatísticos próprios
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

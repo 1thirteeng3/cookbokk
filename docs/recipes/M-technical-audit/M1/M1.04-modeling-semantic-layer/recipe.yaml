@@ -1,0 +1,15 @@
+id: M1.04
+slug: modeling-semantic-layer
+title:
+  pt: Modelagem e camada semântica
+  en: Modeling and semantic layer
+part: M
+section: M1
+level: L3
+status: planned
+index_hint: modelos dimensionais, definições de métricas, lógica duplicada
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

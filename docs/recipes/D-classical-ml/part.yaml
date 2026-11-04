@@ -1,0 +1,23 @@
+code: D
+title:
+  pt: Machine Learning Clássico
+  en: Classical Machine Learning
+sections:
+  D1:
+    pt: Fundamentos de modelagem
+    en: Modeling fundamentals
+  D2:
+    pt: Aprendizado supervisionado tabular
+    en: Tabular supervised learning
+  D3:
+    pt: Aprendizado não supervisionado
+    en: Unsupervised learning
+  D4:
+    pt: Séries temporais e previsão
+    en: Time series and forecasting
+  D5:
+    pt: Sistemas de recomendação e ranking
+    en: Recommender systems and ranking
+  D6:
+    pt: Dados especiais
+    en: Special data settings

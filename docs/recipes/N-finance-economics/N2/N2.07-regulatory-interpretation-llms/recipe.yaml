@@ -1,0 +1,15 @@
+id: N2.07
+slug: regulatory-interpretation-llms
+title:
+  pt: 'RegTech: interpretação de normas com LLM'
+  en: Regulatory interpretation with LLMs
+part: N
+section: N2
+level: L3
+status: planned
+index_hint: RAG sobre normas BCB, CVM, ANPD; versionamento de normas, citações
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

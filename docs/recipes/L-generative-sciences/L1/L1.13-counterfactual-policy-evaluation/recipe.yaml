@@ -1,0 +1,15 @@
+id: L1.13
+slug: counterfactual-policy-evaluation
+title:
+  pt: Avaliação contrafactual de políticas e decisões
+  en: Counterfactual policy evaluation
+part: L
+section: L1
+level: L4
+status: planned
+index_hint: dynamic treatment regimes, off-policy evaluation, causal RL
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

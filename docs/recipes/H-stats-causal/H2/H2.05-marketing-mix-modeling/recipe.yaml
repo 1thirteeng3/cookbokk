@@ -1,0 +1,15 @@
+id: H2.05
+slug: marketing-mix-modeling
+title:
+  pt: Mix de marketing (MMM) e incrementalidade
+  en: Marketing mix modeling
+part: H
+section: H2
+level: L4
+status: planned
+index_hint: Meridian, PyMC-Marketing, Robyn, geo-experiments
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

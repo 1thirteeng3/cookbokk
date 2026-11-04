@@ -1,0 +1,15 @@
+id: A2.07
+slug: applied-linear-algebra-optimization
+title:
+  pt: Álgebra linear e otimização na prática
+  en: Applied linear algebra and optimization
+part: A
+section: A2
+level: L2
+status: planned
+index_hint: NumPy, SciPy, CVXPY, JAX, autodiff; SGD, Adam, L-BFGS
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

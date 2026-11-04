@@ -1,0 +1,15 @@
+id: L3.04
+slug: relational-multi-table-synthesis
+title:
+  pt: Síntese relacional multitabela
+  en: Relational multi-table synthesis
+part: L
+section: L3
+level: L3
+status: planned
+index_hint: HMA (SDV), integridade referencial, cardinalidades
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

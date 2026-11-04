@@ -1,0 +1,15 @@
+id: L5.15
+slug: optimization-control-hybrid-models
+title:
+  pt: Otimização e controle com modelos híbridos
+  en: Optimization and control with hybrid models
+part: L
+section: L5
+level: L4
+status: planned
+index_hint: MPC com modelos aprendidos, otimização de processos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

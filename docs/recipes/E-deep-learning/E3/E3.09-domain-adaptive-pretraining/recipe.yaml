@@ -1,0 +1,15 @@
+id: E3.09
+slug: domain-adaptive-pretraining
+title:
+  pt: Pré-treino de modelo de linguagem de domínio
+  en: Domain-adaptive pretraining
+part: E
+section: E3
+level: L4
+status: planned
+index_hint: continued pretraining, tokenizer customizado, MLM vs CLM
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

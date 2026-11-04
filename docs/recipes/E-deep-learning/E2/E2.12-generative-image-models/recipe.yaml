@@ -1,0 +1,17 @@
+id: E2.12
+slug: generative-image-models
+title:
+  pt: Modelos generativos de imagem
+  en: Generative image models
+part: E
+section: E2
+level: L4
+status: planned
+index_hint: >-
+  GAN, VAE, difusão (Stable Diffusion, SDXL, Flux), ControlNet, LoRA, DreamBooth, avaliação (FID, CLIP
+  score)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

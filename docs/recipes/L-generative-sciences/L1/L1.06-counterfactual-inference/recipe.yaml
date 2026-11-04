@@ -1,0 +1,15 @@
+id: L1.06
+slug: counterfactual-inference
+title:
+  pt: Inferência contrafactual (abdução, ação, predição)
+  en: Counterfactual inference
+part: L
+section: L1
+level: L3
+status: planned
+index_hint: SCMs com ruído aditivo, identificabilidade de contrafactuais, limites
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: C1.07
+slug: text-eda
+title:
+  pt: EDA de texto
+  en: Text EDA
+part: C
+section: C1
+level: L2
+status: planned
+index_hint: frequências, n-gramas, tópicos, embeddings + UMAP
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

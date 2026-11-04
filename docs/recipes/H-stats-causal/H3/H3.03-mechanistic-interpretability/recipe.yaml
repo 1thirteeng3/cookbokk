@@ -1,0 +1,15 @@
+id: H3.03
+slug: mechanistic-interpretability
+title:
+  pt: Interpretabilidade mecanicista de LLMs
+  en: Mechanistic interpretability
+part: H
+section: H3
+level: L4
+status: planned
+index_hint: TransformerLens, SAEs, probing, activation patching
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

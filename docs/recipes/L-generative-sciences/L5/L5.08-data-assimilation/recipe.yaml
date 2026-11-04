@@ -1,0 +1,15 @@
+id: L5.08
+slug: data-assimilation
+title:
+  pt: Assimilação de dados
+  en: Data assimilation
+part: L
+section: L5
+level: L3
+status: planned
+index_hint: Kalman, EKF, UKF, EnKF, filtros de partículas, 4D-Var; filterpy, DAPPER
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

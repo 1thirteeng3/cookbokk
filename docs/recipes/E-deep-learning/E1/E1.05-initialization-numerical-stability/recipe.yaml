@@ -1,0 +1,15 @@
+id: E1.05
+slug: initialization-numerical-stability
+title:
+  pt: Inicialização e estabilidade numérica
+  en: Initialization and numerical stability
+part: E
+section: E1
+level: L3
+status: planned
+index_hint: Xavier/He, gradient clipping, mixed precision, loss scaling
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

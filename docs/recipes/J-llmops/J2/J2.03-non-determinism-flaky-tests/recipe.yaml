@@ -1,0 +1,15 @@
+id: J2.03
+slug: non-determinism-flaky-tests
+title:
+  pt: Lidar com não determinismo e testes instáveis
+  en: Non-determinism and flaky tests
+part: J
+section: J2
+level: L3
+status: planned
+index_hint: múltiplas amostras, pass@k e pass^k, intervalos de confiança
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

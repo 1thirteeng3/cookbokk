@@ -1,0 +1,4 @@
+# Configuração do repositório usada pelas ferramentas.
+# Troque OWNER pelo seu usuário do GitHub depois de criar o repositório privado.
+# Os links do Colab e a instalação do pacote no Colab usam este valor.
+github_repo: 1thirteeng3/ds-ai-cookbook

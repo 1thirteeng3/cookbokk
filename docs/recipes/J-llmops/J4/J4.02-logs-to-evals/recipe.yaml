@@ -1,0 +1,15 @@
+id: J4.02
+slug: logs-to-evals
+title:
+  pt: 'Do log ao eval: golden set crescente'
+  en: Logs to evals
+part: J
+section: J4
+level: L3
+status: planned
+index_hint: seleção de casos difíceis, rotulagem, versionamento de datasets
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

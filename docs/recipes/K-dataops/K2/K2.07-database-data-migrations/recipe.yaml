@@ -1,0 +1,15 @@
+id: K2.07
+slug: database-data-migrations
+title:
+  pt: Migrações de bancos e dados
+  en: Database and data migrations
+part: K
+section: K2
+level: L2
+status: planned
+index_hint: Alembic, Flyway, Liquibase, Atlas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: D4.01
+slug: univariate-forecasting-baseline
+title:
+  pt: Previsão univariada baseline
+  en: Univariate forecasting baseline
+part: D
+section: D4
+level: L1
+status: planned
+index_hint: naive, sazonal naive, média móvel, ETS, ARIMA/SARIMA
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

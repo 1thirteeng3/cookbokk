@@ -1,0 +1,15 @@
+id: E3.02
+slug: sentiment-analysis
+title:
+  pt: Análise de sentimento
+  en: Sentiment analysis
+part: E
+section: E3
+level: L1
+status: planned
+index_hint: VADER, modelos HF, fine-tune, LLM
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

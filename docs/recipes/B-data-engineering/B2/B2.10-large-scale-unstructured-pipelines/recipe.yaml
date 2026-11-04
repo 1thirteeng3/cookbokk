@@ -1,0 +1,15 @@
+id: B2.10
+slug: large-scale-unstructured-pipelines
+title:
+  pt: Pipelines de dados para texto/imagem/áudio em escala
+  en: Large-scale unstructured pipelines
+part: B
+section: B2
+level: L4
+status: planned
+index_hint: Ray Data, Spark + GPU, Dataflow, Daft, WebDataset, Mosaic Streaming
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

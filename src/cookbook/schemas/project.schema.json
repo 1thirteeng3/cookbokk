@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project.schema.json",
+  "title": "Cookbook integrating project metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "group",
+    "domain",
+    "status",
+    "recipes",
+    "environment",
+    "review_cycle_months"
+  ],
+  "$defs": {
+    "i18n": {
+      "$ref": "recipe.schema.json#/$defs/i18n"
+    },
+    "tier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "goal",
+        "notebooks",
+        "stack"
+      ],
+      "properties": {
+        "goal": {
+          "$ref": "recipe.schema.json#/$defs/i18n"
+        },
+        "notebooks": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^notebooks/[1-4][0-9]-[a-z0-9-]+\\.ipynb$"
+          }
+        },
+        "stack": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        }
+      }
+    }
+  },
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^P[1-7]\\.[0-9]{2}$"
+    },
+    "slug": {
+      "$ref": "recipe.schema.json#/$defs/slug"
+    },
+    "title": {
+      "$ref": "recipe.schema.json#/$defs/i18n"
+    },
+    "group": {
+      "enum": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5",
+        "P6",
+        "P7"
+      ]
+    },
+    "domain": {
+      "enum": [
+        "credit",
+        "fraud-aml",
+        "markets",
+        "macro",
+        "socioeconomics",
+        "financial-platforms",
+        "other"
+      ]
+    },
+    "status": {
+      "$ref": "recipe.schema.json#/$defs/status"
+    },
+    "summary": {
+      "$ref": "recipe.schema.json#/$defs/i18n"
+    },
+    "recipes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[A-N][0-9]{1,2}(\\.[0-9]{2})?(–[A-N][0-9]{1,2}(\\.[0-9]{2})?)?$"
+      }
+    },
+    "tiers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "L1",
+        "L3",
+        "L4"
+      ],
+      "properties": {
+        "L1": {
+          "$ref": "#/$defs/tier"
+        },
+        "L3": {
+          "$ref": "#/$defs/tier"
+        },
+        "L4": {
+          "$ref": "#/$defs/tier"
+        }
+      }
+    },
+    "datasets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "recipe.schema.json#/$defs/dataset"
+      }
+    },
+    "business_metrics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "recipe.schema.json#/$defs/i18n"
+      }
+    },
+    "technical_metrics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "regulatory": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "environment": {
+      "$ref": "recipe.schema.json#/properties/environment"
+    },
+    "last_verified": {
+      "oneOf": [
+        {
+          "$ref": "recipe.schema.json#/$defs/date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "review_cycle_months": {
+      "enum": [
+        3,
+        6,
+        12
+      ]
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "recipe.schema.json#/$defs/reference"
+      }
+    },
+    "index_hint": {
+      "type": "string",
+      "description": "Coluna 'Dados públicos sugeridos' do INDEX.md."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "draft",
+              "review",
+              "done"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "summary",
+          "tiers",
+          "datasets",
+          "business_metrics"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "done"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "last_verified",
+          "references"
+        ],
+        "properties": {
+          "last_verified": {
+            "$ref": "recipe.schema.json#/$defs/date"
+          }
+        }
+      }
+    }
+  ]
+}

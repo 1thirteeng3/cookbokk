@@ -1,0 +1,15 @@
+id: K4.02
+slug: golden-paths-templates
+title:
+  pt: Golden paths e templates de pipelines
+  en: Golden paths and templates
+part: K
+section: K4
+level: L3
+status: planned
+index_hint: Backstage, cookiecutters, pacotes dbt
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

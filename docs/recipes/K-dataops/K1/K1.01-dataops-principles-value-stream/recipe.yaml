@@ -1,0 +1,15 @@
+id: K1.01
+slug: dataops-principles-value-stream
+title:
+  pt: Princípios DataOps e mapa de fluxo de valor
+  en: DataOps principles and value stream
+part: K
+section: K1
+level: L1
+status: planned
+index_hint: manifesto DataOps, lean, value stream mapping
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: E2.13
+slug: few-zero-shot-vision
+title:
+  pt: Few-shot e zero-shot em visão
+  en: Few/zero-shot vision
+part: E
+section: E2
+level: L3
+status: planned
+index_hint: CLIP, SAM, DINOv2, VLMs, prompting visual
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

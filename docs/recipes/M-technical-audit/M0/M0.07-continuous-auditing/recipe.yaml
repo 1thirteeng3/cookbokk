@@ -1,0 +1,15 @@
+id: M0.07
+slug: continuous-auditing
+title:
+  pt: Auditoria contínua (audit-as-code, policy-as-code)
+  en: Continuous auditing
+part: M
+section: M0
+level: L4
+status: planned
+index_hint: OPA, checks em CI, dashboards de conformidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: C2.04
+slug: classical-text-features
+title:
+  pt: Features de texto clássicas
+  en: Classical text features
+part: C
+section: C2
+level: L2
+status: planned
+index_hint: BoW, TF-IDF, hashing, n-gramas, char-level
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

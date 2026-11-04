@@ -1,0 +1,19 @@
+id: P4.01
+slug: gdp-ibc-br-nowcasting
+title:
+  pt: Nowcasting do PIB/IBC-Br com dados mistos
+  en: GDP and IBC-Br nowcasting
+group: P4
+domain: macro
+status: planned
+recipes:
+- N4.01
+- N4.03
+- D4.09
+- B5.01
+index_hint: BCB SGS, IBGE SIDRA, Ipeadata
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

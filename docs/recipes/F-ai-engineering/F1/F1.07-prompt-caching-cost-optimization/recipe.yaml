@@ -1,0 +1,15 @@
+id: F1.07
+slug: prompt-caching-cost-optimization
+title:
+  pt: Prompt caching e otimização de custo
+  en: Prompt caching and cost optimization
+part: F
+section: F1
+level: L3
+status: planned
+index_hint: cache de prefixo, batch APIs, roteamento de modelos, modelos menores, destilação
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

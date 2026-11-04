@@ -1,0 +1,15 @@
+id: D3.08
+slug: fraud-detection
+title:
+  pt: Detecção de fraude
+  en: Fraud detection
+part: D
+section: D3
+level: L3
+status: planned
+index_hint: GBM, grafos (GNN), anomalias, regras híbridas, streaming, feedback loop
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

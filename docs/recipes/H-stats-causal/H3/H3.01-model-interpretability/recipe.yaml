@@ -1,0 +1,15 @@
+id: H3.01
+slug: model-interpretability
+title:
+  pt: Interpretabilidade de modelos
+  en: Model interpretability
+part: H
+section: H3
+level: L2
+status: planned
+index_hint: SHAP, LIME, PDP/ICE, permutation importance, counterfactuals
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

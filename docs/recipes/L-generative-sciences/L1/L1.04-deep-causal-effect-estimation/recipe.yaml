@@ -1,0 +1,15 @@
+id: L1.04
+slug: deep-causal-effect-estimation
+title:
+  pt: Estimar efeitos causais com deep learning
+  en: Deep causal effect estimation
+part: L
+section: L1
+level: L3
+status: planned
+index_hint: TARNet, CFRNet, DragonNet, CEVAE, causal transformers; EconML, CausalML
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

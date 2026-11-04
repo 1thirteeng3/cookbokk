@@ -1,0 +1,15 @@
+id: M1.05
+slug: lineage-traceability
+title:
+  pt: Linhagem e rastreabilidade
+  en: Lineage and traceability
+part: M
+section: M1
+level: L3
+status: planned
+index_hint: OpenLineage, lacunas, linhagem por coluna
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

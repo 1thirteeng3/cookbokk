@@ -1,0 +1,15 @@
+id: D2.14
+slug: tabular-deep-learning-sota
+title:
+  pt: Deep learning tabular SOTA
+  en: Tabular deep learning SOTA
+part: D
+section: D2
+level: L4
+status: planned
+index_hint: FT-Transformer, TabM, TabPFN v2, SAINT, foundation models tabulares; quando vencem GBMs
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

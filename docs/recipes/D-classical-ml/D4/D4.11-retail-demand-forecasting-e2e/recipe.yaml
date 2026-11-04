@@ -1,0 +1,15 @@
+id: D4.11
+slug: retail-demand-forecasting-e2e
+title:
+  pt: Previsão de demanda E2E (varejo)
+  en: Retail demand forecasting E2E
+part: D
+section: D4
+level: L3
+status: planned
+index_hint: hierarquia, promoções, canibalização, estoque, M5
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

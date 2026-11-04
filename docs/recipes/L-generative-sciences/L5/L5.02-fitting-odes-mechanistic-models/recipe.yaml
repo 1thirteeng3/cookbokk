@@ -1,0 +1,15 @@
+id: L5.02
+slug: fitting-odes-mechanistic-models
+title:
+  pt: Ajustar EDOs e modelos mecanísticos a dados
+  en: Fitting ODEs and mechanistic models
+part: L
+section: L5
+level: L2
+status: planned
+index_hint: SciPy, lmfit, PyMC ODE, Diffrax; identificabilidade de parâmetros
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

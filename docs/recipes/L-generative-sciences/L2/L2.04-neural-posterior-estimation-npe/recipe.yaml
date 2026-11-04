@@ -1,0 +1,15 @@
+id: L2.04
+slug: neural-posterior-estimation-npe
+title:
+  pt: Neural Posterior Estimation (NPE)
+  en: Neural Posterior Estimation (NPE)
+part: L
+section: L2
+level: L3
+status: planned
+index_hint: sbi, BayesFlow, LAMPE; normalizing flows, inferência amortizada
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: H3.04
+slug: fairness-algorithmic-bias
+title:
+  pt: Equidade e viés algorítmico
+  en: Fairness and algorithmic bias
+part: H
+section: H3
+level: L3
+status: planned
+index_hint: Fairlearn, AIF360, métricas de grupo, mitigação pré/in/pós-processamento
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

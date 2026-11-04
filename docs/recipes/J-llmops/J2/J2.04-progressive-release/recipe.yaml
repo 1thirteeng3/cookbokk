@@ -1,0 +1,15 @@
+id: J2.04
+slug: progressive-release
+title:
+  pt: Release progressivo de prompts e modelos
+  en: Progressive release
+part: J
+section: J2
+level: L3
+status: planned
+index_hint: canary, A/B, feature flags, rollback automático por métrica
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

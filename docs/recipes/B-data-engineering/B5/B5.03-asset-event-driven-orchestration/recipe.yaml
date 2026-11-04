@@ -1,0 +1,15 @@
+id: B5.03
+slug: asset-event-driven-orchestration
+title:
+  pt: Orquestração baseada em assets e eventos
+  en: Asset and event-driven orchestration
+part: B
+section: B5
+level: L3
+status: planned
+index_hint: Dagster, Airflow datasets, Argo Events
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

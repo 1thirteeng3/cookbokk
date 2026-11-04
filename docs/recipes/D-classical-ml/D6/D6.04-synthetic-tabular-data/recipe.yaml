@@ -1,0 +1,15 @@
+id: D6.04
+slug: synthetic-tabular-data
+title:
+  pt: Geração de dados sintéticos tabulares
+  en: Synthetic tabular data
+part: D
+section: D6
+level: L3
+status: planned
+index_hint: SDV, CTGAN, TabDDPM, copulas, LLM-based; avaliação de fidelidade e privacidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

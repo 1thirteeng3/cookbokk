@@ -1,0 +1,15 @@
+id: D2.02
+slug: multiclass-multilabel
+title:
+  pt: Classificação multiclasse e multirrótulo
+  en: Multiclass and multilabel
+part: D
+section: D2
+level: L2
+status: planned
+index_hint: OvR/OvO, classifier chains, métricas macro/micro
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

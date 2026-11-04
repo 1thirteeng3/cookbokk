@@ -1,0 +1,19 @@
+id: P4.03
+slug: copom-communication-monitor
+title:
+  pt: Monitor de comunicação do Copom com LLMs
+  en: Copom communication monitor
+group: P4
+domain: macro
+status: planned
+recipes:
+- N4.05
+- E3
+- F1.04
+- F6.02
+index_hint: atas e comunicados do Copom
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

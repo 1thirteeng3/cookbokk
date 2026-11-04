@@ -1,0 +1,15 @@
+id: L1.14
+slug: causal-counterfactual-fairness
+title:
+  pt: Fairness causal e contrafactual
+  en: Causal and counterfactual fairness
+part: L
+section: L1
+level: L4
+status: planned
+index_hint: counterfactual fairness, efeitos por caminho (path-specific)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

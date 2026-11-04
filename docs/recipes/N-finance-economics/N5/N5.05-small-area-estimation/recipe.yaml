@@ -1,0 +1,15 @@
+id: N5.05
+slug: small-area-estimation
+title:
+  pt: Estimação para pequenas áreas
+  en: Small area estimation
+part: N
+section: N5
+level: L3
+status: planned
+index_hint: Fay-Herriot, modelos hierárquicos bayesianos, imagens de satélite + ML
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

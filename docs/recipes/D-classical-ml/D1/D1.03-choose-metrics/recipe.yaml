@@ -1,0 +1,15 @@
+id: D1.03
+slug: choose-metrics
+title:
+  pt: Escolher métricas
+  en: Choose metrics
+part: D
+section: D1
+level: L2
+status: planned
+index_hint: classificação, regressão, ranking, calibração, métricas de negócio, custos assimétricos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

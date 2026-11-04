@@ -1,0 +1,15 @@
+id: N1.02
+slug: gbm-scorecards-regulatory-explainability
+title:
+  pt: Scorecard com GBM e explicabilidade regulatória
+  en: GBM scorecards with regulatory explainability
+part: N
+section: N1
+level: L2
+status: planned
+index_hint: XGBoost/LightGBM monotônicos, EBM, SHAP, reason codes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: D2.08
+slug: quantile-prediction-intervals
+title:
+  pt: Regressão quantílica e intervalos de predição
+  en: Quantile and prediction intervals
+part: D
+section: D2
+level: L3
+status: planned
+index_hint: quantile GBM, conformal, NGBoost, bayesiano
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

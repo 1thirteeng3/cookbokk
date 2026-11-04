@@ -1,0 +1,15 @@
+id: M4.08
+slug: fine-tuning-instruction-data
+title:
+  pt: Fine-tuning e dados de instrução
+  en: Fine-tuning and instruction data
+part: M
+section: M4
+level: L4
+status: planned
+index_hint: contaminação, licenças, regressões de capacidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

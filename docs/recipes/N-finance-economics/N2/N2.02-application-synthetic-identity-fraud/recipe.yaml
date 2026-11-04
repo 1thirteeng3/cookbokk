@@ -1,0 +1,15 @@
+id: N2.02
+slug: application-synthetic-identity-fraud
+title:
+  pt: Fraude de aplicação e identidade sintética
+  en: Application and synthetic identity fraud
+part: N
+section: N2
+level: L3
+status: planned
+index_hint: consistência cadastral, grafos de identidade, device fingerprint
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

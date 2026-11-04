@@ -1,0 +1,15 @@
+id: A1.07
+slug: notebooks-to-production
+title:
+  pt: Notebooks em produção
+  en: Notebooks to production
+part: A
+section: A1
+level: L2
+status: planned
+index_hint: Jupyter, JupyterLab, Marimo, papermill, nbdev, Quarto, conversão para scripts/pipelines
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

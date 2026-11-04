@@ -1,0 +1,15 @@
+id: J3.07
+slug: failure-mining-production-logs
+title:
+  pt: Mineração de falhas em logs de produção
+  en: Failure mining from production logs
+part: J
+section: J3
+level: L4
+status: planned
+index_hint: clustering de conversas, taxonomia de erros, triagem assistida por LLM
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

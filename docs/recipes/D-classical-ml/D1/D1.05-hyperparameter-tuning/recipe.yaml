@@ -1,0 +1,15 @@
+id: D1.05
+slug: hyperparameter-tuning
+title:
+  pt: Ajuste de hiperparâmetros
+  en: Hyperparameter tuning
+part: D
+section: D1
+level: L2
+status: planned
+index_hint: grid, random, Optuna, Hyperopt, Ray Tune, SMAC, Hyperband/ASHA, BO
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

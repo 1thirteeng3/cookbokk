@@ -1,0 +1,21 @@
+id: P2.01
+slug: real-time-transaction-fraud
+title:
+  pt: Antifraude de transações em tempo real (cartão, Pix)
+  en: Real-time transaction fraud
+group: P2
+domain: fraud-aml
+status: planned
+recipes:
+- N2.01
+- B3
+- C2.11
+- D3.08
+- G1
+- G3
+index_hint: IEEE-CIS Fraud Detection, PaySim, Credit Card Fraud (ULB)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

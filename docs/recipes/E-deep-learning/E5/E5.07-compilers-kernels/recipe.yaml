@@ -1,0 +1,15 @@
+id: E5.07
+slug: compilers-kernels
+title:
+  pt: Compilação e kernels
+  en: Compilers and kernels
+part: E
+section: E5
+level: L4
+status: planned
+index_hint: torch.compile, XLA, Triton, CUDA, CUTLASS, TensorRT
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

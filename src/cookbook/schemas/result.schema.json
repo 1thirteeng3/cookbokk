@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "result.schema.json",
+  "title": "Notebook run result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["recipe_id", "notebook", "stack", "run_mode", "timestamp", "hardware",
+               "versions", "dataset", "params", "metrics", "time_s"],
+  "properties": {
+    "recipe_id": {"type": "string", "pattern": "^([A-N][0-9]{1,2}|P[1-7])\\.[0-9]{2}$"},
+    "notebook": {"type": "string"},
+    "stack": {"type": "string"},
+    "variant": {"type": "string", "description": "Rótulo opcional quando um notebook grava várias configurações (ex.: valor de um eixo)."},
+    "run_mode": {"enum": ["smoke", "full"]},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "git_sha": {"type": ["string", "null"]},
+    "hardware": {
+      "type": "object",
+      "required": ["platform", "cpu", "ram_gb"],
+      "properties": {
+        "platform": {"enum": ["colab", "local", "ci"]},
+        "cpu": {"type": "string"},
+        "gpu": {"type": ["string", "null"]},
+        "ram_gb": {"type": "number"}
+      }
+    },
+    "versions": {
+      "type": "object",
+      "required": ["python"],
+      "additionalProperties": {"type": "string"}
+    },
+    "dataset": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {"type": "string"},
+        "sha256": {"type": ["string", "null"]},
+        "n_rows": {"type": "integer"},
+        "sample_frac": {"type": "number"}
+      }
+    },
+    "params": {"type": "object"},
+    "metrics": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["mean"],
+        "properties": {
+          "mean": {"type": "number"},
+          "std": {"type": ["number", "null"]},
+          "n": {"type": "integer", "minimum": 1}
+        }
+      }
+    },
+    "time_s": {
+      "type": "object",
+      "required": ["train"],
+      "properties": {
+        "train": {"type": "number"},
+        "inference_per_1k": {"type": ["number", "null"]}
+      }
+    },
+    "peak_mem_mb": {"type": ["number", "null"]}
+  }
+}

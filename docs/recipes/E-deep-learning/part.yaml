@@ -1,0 +1,23 @@
+code: E
+title:
+  pt: Deep Learning
+  en: Deep Learning
+sections:
+  E1:
+    pt: Fundamentos
+    en: Foundations
+  E2:
+    pt: Visão computacional
+    en: Computer vision
+  E3:
+    pt: NLP clássico e Transformers
+    en: NLP and Transformers
+  E4:
+    pt: Áudio, fala e multimodal
+    en: Audio, speech and multimodal
+  E5:
+    pt: Arquiteturas e treino em escala
+    en: Architectures and large-scale training
+  E6:
+    pt: Geração e outros paradigmas
+    en: Generative and other paradigms

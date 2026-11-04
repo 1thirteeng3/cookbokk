@@ -1,0 +1,15 @@
+id: J3.06
+slug: provider-degradation-outages
+title:
+  pt: Degradação e falha de provedores
+  en: Provider degradation and outages
+part: J
+section: J3
+level: L3
+status: planned
+index_hint: health checks, circuit breakers, failover entre provedores
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

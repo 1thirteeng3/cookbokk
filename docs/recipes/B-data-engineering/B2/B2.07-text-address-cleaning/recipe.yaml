@@ -1,0 +1,15 @@
+id: B2.07
+slug: text-address-cleaning
+title:
+  pt: Limpeza de dados textuais e endereços
+  en: Text and address cleaning
+part: B
+section: B2
+level: L2
+status: planned
+index_hint: regex, libpostal, spaCy, LLMs para normalização
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

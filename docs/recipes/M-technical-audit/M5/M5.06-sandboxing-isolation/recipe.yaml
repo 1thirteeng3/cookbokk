@@ -1,0 +1,15 @@
+id: M5.06
+slug: sandboxing-isolation
+title:
+  pt: Sandboxing e isolamento
+  en: Sandboxing and isolation
+part: M
+section: M5
+level: L4
+status: planned
+index_hint: containers, rede, sistema de arquivos, credenciais
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

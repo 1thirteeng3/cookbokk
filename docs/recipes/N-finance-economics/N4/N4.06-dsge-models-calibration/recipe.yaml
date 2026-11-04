@@ -1,0 +1,15 @@
+id: N4.06
+slug: dsge-models-calibration
+title:
+  pt: Modelos DSGE e calibração
+  en: DSGE models and calibration
+part: N
+section: N4
+level: L4
+status: planned
+index_hint: Dynare, estimação bayesiana, SBI (↔ L2)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

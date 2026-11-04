@@ -1,0 +1,15 @@
+id: A1.01
+slug: reproducible-python-environment
+title:
+  pt: Configurar ambiente Python reprodutível
+  en: Reproducible Python environment
+part: A
+section: A1
+level: L1
+status: planned
+index_hint: venv, conda/mamba, poetry, uv, pip-tools, Docker, devcontainers, Nix
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

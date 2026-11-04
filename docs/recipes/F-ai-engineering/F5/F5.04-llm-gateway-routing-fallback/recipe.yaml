@@ -1,0 +1,15 @@
+id: F5.04
+slug: llm-gateway-routing-fallback
+title:
+  pt: Gateway de LLM, roteamento e fallback
+  en: LLM gateway, routing, fallback
+part: F
+section: F5
+level: L3
+status: planned
+index_hint: LiteLLM, Portkey, OpenRouter, Kong, cache semântico
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

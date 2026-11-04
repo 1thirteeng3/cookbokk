@@ -1,0 +1,15 @@
+id: N4.02
+slug: time-series-econometrics
+title:
+  pt: Econometria de séries temporais
+  en: Time-series econometrics
+part: N
+section: N4
+level: L2
+status: planned
+index_hint: estacionariedade, cointegração, VAR, VECM, impulso-resposta; statsmodels
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

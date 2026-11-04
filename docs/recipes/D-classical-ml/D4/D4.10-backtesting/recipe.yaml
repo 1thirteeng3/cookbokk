@@ -1,0 +1,15 @@
+id: D4.10
+slug: backtesting
+title:
+  pt: Backtesting e avaliação em séries
+  en: Backtesting
+part: D
+section: D4
+level: L2
+status: planned
+index_hint: rolling origin, expanding window, MASE, sMAPE, WQL
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

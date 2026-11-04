@@ -1,0 +1,15 @@
+id: G2.01
+slug: reproducible-training-pipeline
+title:
+  pt: Pipeline de treino reprodutível
+  en: Reproducible training pipeline
+part: G
+section: G2
+level: L2
+status: planned
+index_hint: DVC, Kedro, ZenML, Metaflow, Prefect, Dagster
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

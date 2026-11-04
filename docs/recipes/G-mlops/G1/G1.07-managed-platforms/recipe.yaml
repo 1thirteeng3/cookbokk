@@ -1,0 +1,15 @@
+id: G1.07
+slug: managed-platforms
+title:
+  pt: Plataformas gerenciadas
+  en: Managed platforms
+part: G
+section: G1
+level: L3
+status: planned
+index_hint: SageMaker, Vertex AI, Azure ML, Databricks Mosaic AI; lock-in vs velocidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

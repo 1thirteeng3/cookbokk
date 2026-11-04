@@ -1,0 +1,15 @@
+id: M2.05
+slug: fairness
+title:
+  pt: Fairness
+  en: Fairness
+part: M
+section: M2
+level: L3
+status: planned
+index_hint: Fairlearn, AIF360; métricas de grupo, interseccionalidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

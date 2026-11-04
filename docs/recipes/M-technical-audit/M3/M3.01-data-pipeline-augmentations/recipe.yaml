@@ -1,0 +1,15 @@
+id: M3.01
+slug: data-pipeline-augmentations
+title:
+  pt: Pipeline de dados e augmentations
+  en: Data pipeline and augmentations
+part: M
+section: M3
+level: L2
+status: planned
+index_hint: vazamentos, distorções, consistência treino-inferência
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

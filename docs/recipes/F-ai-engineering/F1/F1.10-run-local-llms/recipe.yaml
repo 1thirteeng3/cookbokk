@@ -1,0 +1,15 @@
+id: F1.10
+slug: run-local-llms
+title:
+  pt: Rodar LLMs locais
+  en: Run local LLMs
+part: F
+section: F1
+level: L2
+status: planned
+index_hint: Ollama, llama.cpp, LM Studio, MLX, vLLM, GGUF; quantização
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

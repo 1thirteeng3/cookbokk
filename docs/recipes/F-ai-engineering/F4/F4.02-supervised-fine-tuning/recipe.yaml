@@ -1,0 +1,15 @@
+id: F4.02
+slug: supervised-fine-tuning
+title:
+  pt: Fine-tuning supervisionado (SFT)
+  en: Supervised fine-tuning
+part: F
+section: F4
+level: L3
+status: planned
+index_hint: Hugging Face TRL, Axolotl, Unsloth, LLaMA-Factory, torchtune, APIs gerenciadas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

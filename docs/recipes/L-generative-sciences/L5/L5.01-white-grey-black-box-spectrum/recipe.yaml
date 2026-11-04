@@ -1,0 +1,15 @@
+id: L5.01
+slug: white-grey-black-box-spectrum
+title:
+  pt: Espectro caixa-branca, cinza e preta
+  en: White, grey, black-box spectrum
+part: L
+section: L5
+level: L1
+status: planned
+index_hint: modelos mecanísticos vs orientados a dados, critérios de escolha
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: M4.07
+slug: data-flow-privacy
+title:
+  pt: Fluxo de dados e privacidade em apps LLM
+  en: Data flow and privacy
+part: M
+section: M4
+level: L3
+status: planned
+index_hint: dados enviados a provedores, retenção, residência
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

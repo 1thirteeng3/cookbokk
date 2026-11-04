@@ -1,0 +1,15 @@
+id: J5.06
+slug: llmops-maturity-roadmap
+title:
+  pt: Maturidade LLMOps e roadmap
+  en: LLMOps maturity and roadmap
+part: J
+section: J5
+level: L3
+status: planned
+index_hint: níveis 0–4, priorização de capacidades
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

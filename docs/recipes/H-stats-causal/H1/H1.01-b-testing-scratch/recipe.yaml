@@ -1,0 +1,15 @@
+id: H1.01
+slug: b-testing-scratch
+title:
+  pt: Teste A/B do zero
+  en: A/B testing from scratch
+part: H
+section: H1
+level: L2
+status: planned
+index_hint: poder amostral, MDE, testes de proporção/média, SRM, duração
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

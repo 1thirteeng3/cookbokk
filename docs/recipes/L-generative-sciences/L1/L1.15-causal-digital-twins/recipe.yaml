@@ -1,0 +1,15 @@
+id: L1.15
+slug: causal-digital-twins
+title:
+  pt: Gêmeos digitais causais
+  en: Causal digital twins
+part: L
+section: L1
+level: L4
+status: planned
+index_hint: SCM + simulador, análise what-if de intervenções (↔ L4.13, L5.10)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

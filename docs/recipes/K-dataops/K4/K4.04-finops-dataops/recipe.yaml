@@ -1,0 +1,15 @@
+id: K4.04
+slug: finops-dataops
+title:
+  pt: FinOps integrado ao DataOps
+  en: FinOps in DataOps
+part: K
+section: K4
+level: L3
+status: planned
+index_hint: custo por pipeline e produto, chargeback e showback
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

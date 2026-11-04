@@ -1,0 +1,15 @@
+id: M5.01
+slug: tool-permission-inventory
+title:
+  pt: Inventário de ferramentas e permissões
+  en: Tool and permission inventory
+part: M
+section: M5
+level: L2
+status: planned
+index_hint: mapa de ferramentas, escopos, privilégio mínimo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: B4.10
+slug: graph-database
+title:
+  pt: Banco de grafos
+  en: Graph database
+part: B
+section: B4
+level: L3
+status: planned
+index_hint: Neo4j, Memgraph, Neptune, TigerGraph, Cypher/Gremlin/GQL
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

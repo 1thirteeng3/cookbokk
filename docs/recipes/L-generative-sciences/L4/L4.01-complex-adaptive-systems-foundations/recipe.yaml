@@ -1,0 +1,15 @@
+id: L4.01
+slug: complex-adaptive-systems-foundations
+title:
+  pt: Fundamentos de sistemas complexos adaptativos
+  en: Complex adaptive systems foundations
+part: L
+section: L4
+level: L1
+status: planned
+index_hint: emergência, feedback, não linearidade, autômatos celulares
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

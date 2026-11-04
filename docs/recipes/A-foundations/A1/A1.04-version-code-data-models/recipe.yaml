@@ -1,0 +1,15 @@
+id: A1.04
+slug: version-code-data-models
+title:
+  pt: Versionar código, dados e modelos
+  en: Version code, data, models
+part: A
+section: A1
+level: L2
+status: planned
+index_hint: Git, Git LFS, DVC, lakeFS, DagsHub, Hugging Face Hub, W&B Artifacts
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

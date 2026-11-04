@@ -1,0 +1,15 @@
+id: F5.06
+slug: device-inference
+title:
+  pt: Inferência em borda e dispositivo
+  en: On-device inference
+part: F
+section: F5
+level: L4
+status: planned
+index_hint: llama.cpp, MLC, ExecuTorch, CoreML, WebGPU/Transformers.js
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

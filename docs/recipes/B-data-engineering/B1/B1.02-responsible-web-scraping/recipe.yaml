@@ -1,0 +1,15 @@
+id: B1.02
+slug: responsible-web-scraping
+title:
+  pt: Web scraping responsável
+  en: Responsible web scraping
+part: B
+section: B1
+level: L2
+status: planned
+index_hint: BeautifulSoup, Scrapy, Playwright, Selenium; robots.txt, legalidade, anti-bot
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: E5.11
+slug: compression
+title:
+  pt: 'Compressão: quantização, poda, destilação'
+  en: Compression
+part: E
+section: E5
+level: L3
+status: planned
+index_hint: PTQ, QAT, GPTQ, AWQ, GGUF, bitsandbytes, pruning, knowledge distillation
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

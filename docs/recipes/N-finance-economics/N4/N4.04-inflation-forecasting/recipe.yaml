@@ -1,0 +1,15 @@
+id: N4.04
+slug: inflation-forecasting
+title:
+  pt: Previsão de inflação
+  en: Inflation forecasting
+part: N
+section: N4
+level: L3
+status: planned
+index_hint: Phillips, combinação de previsões, ML, foundation models de séries, desagregação por itens
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

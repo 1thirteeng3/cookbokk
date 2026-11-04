@@ -1,0 +1,15 @@
+id: F4.07
+slug: llm-distillation
+title:
+  pt: Destilação de LLMs
+  en: LLM distillation
+part: F
+section: F4
+level: L4
+status: planned
+index_hint: logits, dados gerados por professor, rejection sampling
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

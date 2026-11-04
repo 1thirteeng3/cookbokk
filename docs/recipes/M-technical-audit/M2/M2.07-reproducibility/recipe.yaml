@@ -1,0 +1,15 @@
+id: M2.07
+slug: reproducibility
+title:
+  pt: Reprodutibilidade
+  en: Reproducibility
+part: M
+section: M2
+level: L2
+status: planned
+index_hint: reexecução independente, versões, seeds, ambientes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

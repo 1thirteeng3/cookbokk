@@ -1,0 +1,19 @@
+id: P5.01
+slug: cash-transfer-impact-evaluation
+title:
+  pt: Avaliação de impacto de programa de transferência de renda
+  en: Cash transfer impact evaluation
+group: P5
+domain: socioeconomics
+status: planned
+recipes:
+- N5.06
+- H2.02
+- L1.11
+- N5.02
+index_hint: Portal da Transparência, PNAD Contínua, Base dos Dados
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

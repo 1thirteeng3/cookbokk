@@ -1,0 +1,15 @@
+id: L1.03
+slug: hybrid-causal-discovery
+title:
+  pt: Descoberta causal híbrida (conhecimento + dados)
+  en: Hybrid causal discovery
+part: L
+section: L1
+level: L3
+status: planned
+index_hint: causal-learn, gCastle, restrições de conhecimento, NOTEARS, DAG-GNN
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

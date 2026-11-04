@@ -1,0 +1,20 @@
+id: P6.05
+slug: banking-service-agent-audit
+title:
+  pt: Agente de atendimento bancário com ferramentas e auditoria
+  en: Banking service agent with audit
+group: P6
+domain: financial-platforms
+status: planned
+recipes:
+- F2
+- F3
+- F7.09
+- M5
+- J5.05
+index_hint: FAQs públicas, dados sintéticos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

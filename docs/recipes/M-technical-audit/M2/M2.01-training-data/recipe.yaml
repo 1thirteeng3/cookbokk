@@ -1,0 +1,15 @@
+id: M2.01
+slug: training-data
+title:
+  pt: Dados de treino
+  en: Training data
+part: M
+section: M2
+level: L2
+status: planned
+index_hint: representatividade, vieses, leakage, qualidade de rótulos, licenças
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: K2.01
+slug: lint-style
+title:
+  pt: Lint e padronização de SQL e código de dados
+  en: Lint and style
+part: K
+section: K2
+level: L1
+status: planned
+index_hint: sqlfluff, ruff, pre-commit, convenções de nomes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

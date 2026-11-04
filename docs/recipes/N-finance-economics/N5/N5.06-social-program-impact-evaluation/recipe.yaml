@@ -1,0 +1,15 @@
+id: N5.06
+slug: social-program-impact-evaluation
+title:
+  pt: Avaliação de impacto de programas sociais
+  en: Social program impact evaluation
+part: N
+section: N5
+level: L3
+status: planned
+index_hint: DiD com múltiplos períodos, RDD, controle sintético (↔ H2, L1)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

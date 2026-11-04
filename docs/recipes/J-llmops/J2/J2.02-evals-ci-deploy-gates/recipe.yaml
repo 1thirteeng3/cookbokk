@@ -1,0 +1,15 @@
+id: J2.02
+slug: evals-ci-deploy-gates
+title:
+  pt: Evals no CI como gate de deploy
+  en: Evals as CI deploy gates
+part: J
+section: J2
+level: L3
+status: planned
+index_hint: promptfoo, DeepEval, Inspect, Braintrust; limiares, significância, custo do CI
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

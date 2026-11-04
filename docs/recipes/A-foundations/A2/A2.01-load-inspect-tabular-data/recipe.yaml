@@ -1,0 +1,15 @@
+id: A2.01
+slug: load-inspect-tabular-data
+title:
+  pt: Carregar e inspecionar dados tabulares
+  en: Load and inspect tabular data
+part: A
+section: A2
+level: L1
+status: planned
+index_hint: pandas, Polars, DuckDB, PyArrow, Modin, Vaex (comparar memória/velocidade)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

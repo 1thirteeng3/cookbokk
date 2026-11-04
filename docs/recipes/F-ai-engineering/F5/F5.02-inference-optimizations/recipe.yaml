@@ -1,0 +1,16 @@
+id: F5.02
+slug: inference-optimizations
+title:
+  pt: Otimizações de inferência
+  en: Inference optimizations
+part: F
+section: F5
+level: L4
+status: planned
+index_hint: >-
+  continuous batching, PagedAttention, KV cache, prefix caching, speculative decoding, quantização
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

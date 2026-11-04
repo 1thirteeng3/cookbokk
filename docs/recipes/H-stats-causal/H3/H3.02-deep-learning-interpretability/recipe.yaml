@@ -1,0 +1,15 @@
+id: H3.02
+slug: deep-learning-interpretability
+title:
+  pt: Interpretabilidade de deep learning
+  en: Deep learning interpretability
+part: H
+section: H3
+level: L3
+status: planned
+index_hint: Grad-CAM, Integrated Gradients, attention, Captum
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

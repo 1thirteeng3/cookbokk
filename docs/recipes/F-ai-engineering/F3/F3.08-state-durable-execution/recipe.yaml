@@ -1,0 +1,15 @@
+id: F3.08
+slug: state-durable-execution
+title:
+  pt: Estado, persistência e execução durável
+  en: State and durable execution
+part: F
+section: F3
+level: L4
+status: planned
+index_hint: LangGraph checkpointers, Temporal, Inngest, filas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

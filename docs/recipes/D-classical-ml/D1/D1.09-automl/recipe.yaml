@@ -1,0 +1,15 @@
+id: D1.09
+slug: automl
+title:
+  pt: AutoML
+  en: AutoML
+part: D
+section: D1
+level: L2
+status: planned
+index_hint: AutoGluon, FLAML, H2O, auto-sklearn, TPOT, Vertex AutoML, SageMaker Autopilot
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: G1.06
+slug: serverless-deploy
+title:
+  pt: Deploy serverless de modelos
+  en: Serverless deploy
+part: G
+section: G1
+level: L3
+status: planned
+index_hint: Lambda, Cloud Run, Modal, Replicate, SageMaker Serverless; cold start
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

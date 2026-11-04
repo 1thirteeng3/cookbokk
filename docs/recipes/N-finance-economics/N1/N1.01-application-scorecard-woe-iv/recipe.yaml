@@ -1,0 +1,15 @@
+id: N1.01
+slug: application-scorecard-woe-iv
+title:
+  pt: Scorecard de concessão com WoE/IV
+  en: Application scorecard with WoE/IV
+part: N
+section: N1
+level: L1
+status: planned
+index_hint: optbinning, scorecardpy, regressão logística, pontos por atributo, PDO
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

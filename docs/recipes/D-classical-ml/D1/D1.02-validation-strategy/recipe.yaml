@@ -1,0 +1,15 @@
+id: D1.02
+slug: validation-strategy
+title:
+  pt: Estratégia de validação
+  en: Validation strategy
+part: D
+section: D1
+level: L2
+status: planned
+index_hint: hold-out, k-fold, stratified, group, time-series split, nested CV, purged CV
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: L3.07
+slug: topological-metrics-synthetic-data
+title:
+  pt: Métricas topológicas para dados sintéticos
+  en: Topological metrics for synthetic data
+part: L
+section: L3
+level: L4
+status: planned
+index_hint: distâncias bottleneck e Wasserstein entre diagramas, persistence landscapes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

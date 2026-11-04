@@ -1,0 +1,15 @@
+id: L4.08
+slug: hybrid-rule-plus-llm-abms
+title:
+  pt: ABMs híbridos regras + LLM para escala e custo
+  en: Hybrid rule + LLM ABMs
+part: L
+section: L4
+level: L4
+status: planned
+index_hint: LLM só em decisões-chave, agentes arquetípicos, cache, modelos pequenos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

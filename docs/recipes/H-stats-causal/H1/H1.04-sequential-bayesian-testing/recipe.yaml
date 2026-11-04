@@ -1,0 +1,15 @@
+id: H1.04
+slug: sequential-bayesian-testing
+title:
+  pt: Testes sequenciais e bayesianos
+  en: Sequential and Bayesian testing
+part: H
+section: H1
+level: L3
+status: planned
+index_hint: mSPRT, always-valid p-values, bayesian A/B, bandits
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

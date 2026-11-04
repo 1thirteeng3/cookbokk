@@ -1,0 +1,19 @@
+id: P5.02
+slug: poverty-mapping-satellite-plus-census
+title:
+  pt: Mapa de pobreza com satélite + censo (pequenas áreas)
+  en: Poverty mapping with satellite + census
+group: P5
+domain: socioeconomics
+status: planned
+recipes:
+- N5.05
+- E2
+- N5.03
+- C2.08
+index_hint: Censo 2022, Sentinel-2, VIIRS
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

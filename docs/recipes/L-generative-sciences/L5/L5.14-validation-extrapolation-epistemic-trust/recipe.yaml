@@ -1,0 +1,15 @@
+id: L5.14
+slug: validation-extrapolation-epistemic-trust
+title:
+  pt: Validação, extrapolação e confiança epistêmica
+  en: Validation, extrapolation, epistemic trust
+part: L
+section: L5
+level: L4
+status: planned
+index_hint: testes fora do domínio, verificação de invariantes, critérios de aceitação
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

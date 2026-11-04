@@ -1,0 +1,15 @@
+id: M5.03
+slug: agent-threat-modeling
+title:
+  pt: Modelagem de ameaças de agentes
+  en: Agent threat modeling
+part: M
+section: M5
+level: L4
+status: planned
+index_hint: injeção indireta, exfiltração, confused deputy; OWASP Agentic, MITRE ATLAS
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

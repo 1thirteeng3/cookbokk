@@ -1,0 +1,15 @@
+id: E2.09
+slug: video
+title:
+  pt: Vídeo (classificação, ação, tracking)
+  en: Video
+part: E
+section: E2
+level: L4
+status: planned
+index_hint: SlowFast, VideoMAE, TimeSformer, ByteTrack, DeepSORT, SAM2
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

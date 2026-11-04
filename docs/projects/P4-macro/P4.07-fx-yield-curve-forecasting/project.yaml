@@ -1,0 +1,19 @@
+id: P4.07
+slug: fx-yield-curve-forecasting
+title:
+  pt: Previsão de câmbio e curva de juros
+  en: FX and yield curve forecasting
+group: P4
+domain: macro
+status: planned
+recipes:
+- N4.10
+- N3.06
+- D4
+- D1.08
+index_hint: BCB SGS, ANBIMA
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

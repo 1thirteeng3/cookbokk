@@ -1,0 +1,82 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 9 * * 1"   # segunda-feira: smoke completo + itens desatualizados
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - name: Ambiente
+        run: uv sync --locked
+      - name: Lint
+        run: uv run ruff check src tools tests docs
+      - name: Conteúdo gerado em dia
+        run: uv run python tools/render.py --check
+      - name: Validação
+        run: uv run python tools/validate.py
+      - name: Testes
+        run: uv run pytest -m "not slow"
+
+  notebooks:
+    needs: check
+    runs-on: ubuntu-latest
+    env:
+      COOKBOOK_DATA_DIR: ${{ github.workspace }}/data
+      KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+      KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --locked --all-extras
+      - uses: actions/cache@v4
+        with:
+          path: data
+          key: data-${{ hashFiles('src/cookbook/data.py') }}
+      - name: Smoke (itens alterados)
+        if: github.event_name != 'schedule'
+        run: |
+          BASE=${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || 'HEAD~1' }}
+          uv run python tools/run_notebooks.py --offline --changed-since "$BASE"
+      - name: Smoke (todos)
+        if: github.event_name == 'schedule'
+        run: uv run python tools/run_notebooks.py --offline --all
+      - name: Itens desatualizados
+        if: github.event_name == 'schedule'
+        run: uv run python tools/validate.py --outdated >> "$GITHUB_STEP_SUMMARY"
+
+  docs:
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+      - run: uv sync --locked
+      - name: Build do site com Zensical (pt + en, estrito)
+        run: uv run python tools/build_site.py build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site
+          retention-days: 14

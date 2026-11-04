@@ -1,0 +1,15 @@
+id: I1.10
+slug: sustainability-energy-efficiency
+title:
+  pt: Sustentabilidade e eficiência energética
+  en: Sustainability and energy efficiency
+part: I
+section: I1
+level: L3
+status: planned
+index_hint: CodeCarbon, medição de pegada, eficiência de modelos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

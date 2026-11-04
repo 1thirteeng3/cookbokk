@@ -1,0 +1,15 @@
+id: F3.10
+slug: agent-reliability
+title:
+  pt: Confiabilidade de agentes
+  en: Agent reliability
+part: F
+section: F3
+level: L4
+status: planned
+index_hint: limites de passos, orçamentos, detecção de loops, fallback, idempotência de ferramentas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

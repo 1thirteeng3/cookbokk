@@ -1,0 +1,15 @@
+id: N3.03
+slug: volatility-forecasting
+title:
+  pt: Previsão de volatilidade
+  en: Volatility forecasting
+part: N
+section: N3
+level: L2
+status: planned
+index_hint: GARCH (arch), volatilidade realizada, HAR, DL, foundation models de séries
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

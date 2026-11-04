@@ -1,0 +1,15 @@
+id: E1.02
+slug: robust-training-loop
+title:
+  pt: Loop de treino robusto
+  en: Robust training loop
+part: E
+section: E1
+level: L2
+status: planned
+index_hint: PyTorch puro, Lightning, Keras, Accelerate, fastai, Hugging Face Trainer
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

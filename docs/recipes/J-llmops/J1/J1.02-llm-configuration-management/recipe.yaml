@@ -1,0 +1,16 @@
+id: J1.02
+slug: llm-configuration-management
+title:
+  pt: Gerenciar configurações de LLM
+  en: LLM configuration management
+part: J
+section: J1
+level: L2
+status: planned
+index_hint: >-
+  Hydra, Pydantic Settings, feature flags (LaunchDarkly, Unleash, Flagsmith), config imutável por release
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: G3.02
+slug: drift-detection
+title:
+  pt: Detectar data drift e concept drift
+  en: Drift detection
+part: G
+section: G3
+level: L3
+status: planned
+index_hint: Evidently, NannyML, WhyLabs, Alibi Detect; PSI, KS, MMD, performance estimada sem rótulo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

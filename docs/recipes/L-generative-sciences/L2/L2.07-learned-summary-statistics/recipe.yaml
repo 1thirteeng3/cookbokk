@@ -1,0 +1,15 @@
+id: L2.07
+slug: learned-summary-statistics
+title:
+  pt: Aprender estatísticas-resumo
+  en: Learned summary statistics
+part: L
+section: L2
+level: L3
+status: planned
+index_hint: embedding networks, DeepSets, transformers
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

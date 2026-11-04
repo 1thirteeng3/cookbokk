@@ -1,0 +1,15 @@
+id: M3.05
+slug: privacy-memorization
+title:
+  pt: Privacidade e memorização
+  en: Privacy and memorization
+part: M
+section: M3
+level: L4
+status: planned
+index_hint: membership inference (ML Privacy Meter), extração de dados de treino
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

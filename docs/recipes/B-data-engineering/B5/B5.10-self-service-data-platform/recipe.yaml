@@ -1,0 +1,15 @@
+id: B5.10
+slug: self-service-data-platform
+title:
+  pt: Plataforma de dados self-service
+  en: Self-service data platform
+part: B
+section: B5
+level: L4
+status: planned
+index_hint: Data Mesh, produtos de dados, semantic layer (dbt SL, Cube, MetricFlow)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

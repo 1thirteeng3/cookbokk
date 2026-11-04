@@ -1,0 +1,15 @@
+id: G1.08
+slug: release-strategies
+title:
+  pt: Estratégias de release
+  en: Release strategies
+part: G
+section: G1
+level: L3
+status: planned
+index_hint: shadow, canary, blue-green, A/B, champion-challenger
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

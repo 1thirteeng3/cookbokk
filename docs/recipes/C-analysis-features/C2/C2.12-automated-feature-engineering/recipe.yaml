@@ -1,0 +1,15 @@
+id: C2.12
+slug: automated-feature-engineering
+title:
+  pt: Geração automática de features (AutoFE)
+  en: Automated feature engineering
+part: C
+section: C2
+level: L3
+status: planned
+index_hint: Featuretools, AutoGluon, LLM-assisted FE
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

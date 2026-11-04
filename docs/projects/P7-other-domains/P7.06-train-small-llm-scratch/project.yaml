@@ -1,0 +1,18 @@
+id: P7.06
+slug: train-small-llm-scratch
+title:
+  pt: Treinar um LLM pequeno do zero
+  en: Train a small LLM from scratch
+group: P7
+domain: other
+status: planned
+recipes:
+- E3.12
+- E5
+- F4.11
+index_hint: corpora abertos em PT-BR
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

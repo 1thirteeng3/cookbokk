@@ -1,0 +1,18 @@
+id: P7.02
+slug: product-recommender
+title:
+  pt: Sistema de recomendação de produtos (next best offer)
+  en: Product recommender
+group: P7
+domain: other
+status: planned
+recipes:
+- D5
+- B4.11
+- H1
+index_hint: MovieLens, Santander Product Recommendation
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

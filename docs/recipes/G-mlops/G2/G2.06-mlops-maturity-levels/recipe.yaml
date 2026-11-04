@@ -1,0 +1,15 @@
+id: G2.06
+slug: mlops-maturity-levels
+title:
+  pt: Níveis de maturidade MLOps
+  en: MLOps maturity levels
+part: G
+section: G2
+level: L3
+status: planned
+index_hint: mapa 0–3, arquitetura por nível
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

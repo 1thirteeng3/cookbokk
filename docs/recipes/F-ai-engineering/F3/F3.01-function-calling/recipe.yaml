@@ -1,0 +1,15 @@
+id: F3.01
+slug: function-calling
+title:
+  pt: Tool use
+  en: function calling
+part: F
+section: F3
+level: L2
+status: planned
+index_hint: APIs nativas, definição de schemas, paralelismo, tratamento de erro
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

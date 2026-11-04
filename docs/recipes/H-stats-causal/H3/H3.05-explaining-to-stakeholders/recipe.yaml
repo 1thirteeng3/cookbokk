@@ -1,0 +1,15 @@
+id: H3.05
+slug: explaining-to-stakeholders
+title:
+  pt: Explicações para stakeholders
+  en: Explaining to stakeholders
+part: H
+section: H3
+level: L2
+status: planned
+index_hint: storytelling, tradução técnico → negócio
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

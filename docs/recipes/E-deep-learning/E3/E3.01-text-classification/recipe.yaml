@@ -1,0 +1,15 @@
+id: E3.01
+slug: text-classification
+title:
+  pt: Classificação de texto
+  en: Text classification
+part: E
+section: E3
+level: L1
+status: planned
+index_hint: TF-IDF + LR, fastText, BERT/DeBERTa fine-tune, SetFit, embeddings + LR, LLM zero/few-shot
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

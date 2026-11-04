@@ -1,0 +1,15 @@
+id: N1.05
+slug: expected-credit-loss-ifrs-9-cpc
+title:
+  pt: Perda esperada IFRS 9 / CPC 48 / Resolução CMN 4.966
+  en: 'Expected credit loss: IFRS 9 / CPC 48 / CMN Resolution 4.966'
+part: N
+section: N1
+level: L4
+status: planned
+index_hint: estágios, SICR, ECL lifetime, cenários macro ponderados
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

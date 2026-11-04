@@ -1,0 +1,15 @@
+id: L1.10
+slug: causal-representation-learning
+title:
+  pt: Aprendizado de representações causais
+  en: Causal representation learning
+part: L
+section: L1
+level: L4
+status: planned
+index_hint: latentes causais, iVAE, identificabilidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

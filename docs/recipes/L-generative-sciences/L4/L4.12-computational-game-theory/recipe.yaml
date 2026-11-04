@@ -1,0 +1,15 @@
+id: L4.12
+slug: computational-game-theory
+title:
+  pt: Teoria dos jogos computacional e design de mecanismos
+  en: Computational game theory
+part: L
+section: L4
+level: L3
+status: planned
+index_hint: OpenSpiel, equilíbrios, LLMs como jogadores
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

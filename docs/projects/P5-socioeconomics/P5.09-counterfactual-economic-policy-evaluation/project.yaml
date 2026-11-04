@@ -1,0 +1,19 @@
+id: P5.09
+slug: counterfactual-economic-policy-evaluation
+title:
+  pt: Avaliação contrafactual de política econômica
+  en: Counterfactual economic policy evaluation
+group: P5
+domain: socioeconomics
+status: planned
+recipes:
+- L1
+- H2
+- L4.13
+- N5.06
+index_hint: Ipeadata, BCB, IBGE
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

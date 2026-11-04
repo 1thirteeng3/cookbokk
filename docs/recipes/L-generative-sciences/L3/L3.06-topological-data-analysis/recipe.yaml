@@ -1,0 +1,15 @@
+id: L3.06
+slug: topological-data-analysis
+title:
+  pt: Análise topológica de dados (TDA)
+  en: Topological data analysis
+part: L
+section: L3
+level: L3
+status: planned
+index_hint: homologia persistente, Mapper; giotto-tda, GUDHI, ripser, KeplerMapper
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

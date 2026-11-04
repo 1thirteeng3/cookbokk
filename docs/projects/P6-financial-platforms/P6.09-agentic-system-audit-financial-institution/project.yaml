@@ -1,0 +1,20 @@
+id: P6.09
+slug: agentic-system-audit-financial-institution
+title:
+  pt: Auditoria de sistema agêntico em instituição financeira
+  en: Agentic system audit in a financial institution
+group: P6
+domain: financial-platforms
+status: planned
+recipes:
+- M0
+- M4
+- M5
+- N6.06
+- F6.07
+index_hint: —
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

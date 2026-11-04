@@ -1,0 +1,15 @@
+id: L4.11
+slug: multi-agent-rl
+title:
+  pt: Aprendizado por reforço multiagente
+  en: Multi-agent RL
+part: L
+section: L4
+level: L4
+status: planned
+index_hint: PettingZoo, RLlib, MAPPO; cooperação e competição
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

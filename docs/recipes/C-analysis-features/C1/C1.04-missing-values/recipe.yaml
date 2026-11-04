@@ -1,0 +1,15 @@
+id: C1.04
+slug: missing-values
+title:
+  pt: Detectar e tratar valores ausentes
+  en: Missing values
+part: C
+section: C1
+level: L1
+status: planned
+index_hint: MCAR/MAR/MNAR, imputação simples, KNN, MICE, modelos, indicadores
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

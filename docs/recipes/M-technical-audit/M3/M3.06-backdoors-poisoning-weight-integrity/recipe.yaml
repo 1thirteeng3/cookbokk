@@ -1,0 +1,15 @@
+id: M3.06
+slug: backdoors-poisoning-weight-integrity
+title:
+  pt: Backdoors, envenenamento e integridade de pesos
+  en: Backdoors, poisoning, weight integrity
+part: M
+section: M3
+level: L4
+status: planned
+index_hint: detecção de trojans, procedência, safetensors, ModelScan
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

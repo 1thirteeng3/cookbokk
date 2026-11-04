@@ -1,0 +1,15 @@
+id: G1.04
+slug: containerization
+title:
+  pt: Containerização
+  en: Containerization
+part: G
+section: G1
+level: L2
+status: planned
+index_hint: Docker multi-stage, imagens leves, GPU, segurança
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

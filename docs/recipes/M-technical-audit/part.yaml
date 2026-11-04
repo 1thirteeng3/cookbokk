@@ -1,0 +1,23 @@
+code: M
+title:
+  pt: Auditoria Técnica
+  en: Technical Auditing
+sections:
+  M0:
+    pt: Fundamentos e metodologia
+    en: Foundations and methodology
+  M1:
+    pt: Auditoria de sistemas de dados
+    en: Data systems audit
+  M2:
+    pt: Auditoria de algoritmos de ML
+    en: ML algorithms audit
+  M3:
+    pt: Auditoria de deep learning
+    en: Deep learning audit
+  M4:
+    pt: Auditoria de arquiteturas de IA e LLM
+    en: AI and LLM architecture audit
+  M5:
+    pt: Auditoria de sistemas agênticos
+    en: Agentic systems audit

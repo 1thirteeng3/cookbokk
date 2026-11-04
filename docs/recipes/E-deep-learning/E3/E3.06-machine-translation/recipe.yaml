@@ -1,0 +1,15 @@
+id: E3.06
+slug: machine-translation
+title:
+  pt: Tradução automática
+  en: Machine translation
+part: E
+section: E3
+level: L3
+status: planned
+index_hint: MarianMT, NLLB, M2M, LLMs, avaliação (COMET, BLEU)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

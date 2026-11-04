@@ -1,0 +1,15 @@
+id: M4.05
+slug: llm-application-security
+title:
+  pt: Segurança de aplicações LLM
+  en: LLM application security
+part: M
+section: M4
+level: L4
+status: planned
+index_hint: OWASP Top 10 para LLM, MITRE ATLAS, red teaming (garak, PyRIT)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

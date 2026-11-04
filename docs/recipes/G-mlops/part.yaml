@@ -1,0 +1,14 @@
+code: G
+title:
+  pt: MLOps e Produção
+  en: MLOps and Production
+sections:
+  G1:
+    pt: Empacotamento, deploy e serving
+    en: Packaging, deployment, serving
+  G2:
+    pt: Pipelines, CI/CD e governança de modelos
+    en: Pipelines, CI/CD, model governance
+  G3:
+    pt: Monitoramento e operação
+    en: Monitoring and operations

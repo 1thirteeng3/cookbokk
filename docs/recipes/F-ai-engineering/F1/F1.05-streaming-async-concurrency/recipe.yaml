@@ -1,0 +1,15 @@
+id: F1.05
+slug: streaming-async-concurrency
+title:
+  pt: Streaming, async e concorrência
+  en: Streaming, async, concurrency
+part: F
+section: F1
+level: L2
+status: planned
+index_hint: SSE, asyncio, semáforos, rate limit, retries
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,20 @@
+id: P1.06
+slug: sme-lending-open-finance
+title:
+  pt: Crédito PME com Open Finance e dados alternativos
+  en: SME lending with Open Finance
+group: P1
+domain: credit
+status: planned
+recipes:
+- N1.11
+- N6.01
+- N2.06
+- C2.06
+- C2.09
+index_hint: dados sintéticos de transações (↔ P6.06)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

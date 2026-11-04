@@ -1,0 +1,444 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "recipe.schema.json",
+  "title": "Cookbook recipe metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "part",
+    "section",
+    "level",
+    "status",
+    "environment",
+    "review_cycle_months"
+  ],
+  "$defs": {
+    "i18n": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pt",
+        "en"
+      ],
+      "properties": {
+        "pt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "level": {
+      "enum": [
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ]
+    },
+    "recipeId": {
+      "type": "string",
+      "pattern": "^[A-N][0-9]{1,2}\\.[0-9]{2}$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+){0,7}$"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "dataset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "url",
+        "license",
+        "loader"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "license": {
+          "type": "string"
+        },
+        "size_mb": {
+          "type": "number",
+          "minimum": 0
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "loader": {
+          "type": "string",
+          "description": "Função ou trecho que baixa os dados, ex.: cookbook.data.fetch('home-credit')"
+        },
+        "requires_auth": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "url",
+        "type"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "enum": [
+            "paper",
+            "docs",
+            "book",
+            "blog",
+            "dataset",
+            "regulation",
+            "code"
+          ]
+        },
+        "accessed": {
+          "$ref": "#/$defs/date"
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "planned",
+        "draft",
+        "review",
+        "done",
+        "outdated"
+      ]
+    },
+    "colabRuntime": {
+      "enum": [
+        "cpu",
+        "gpu-t4",
+        "gpu-l4",
+        "gpu-a100",
+        "tpu"
+      ]
+    }
+  },
+  "properties": {
+    "id": {
+      "$ref": "#/$defs/recipeId"
+    },
+    "slug": {
+      "$ref": "#/$defs/slug"
+    },
+    "title": {
+      "$ref": "#/$defs/i18n"
+    },
+    "part": {
+      "type": "string",
+      "pattern": "^[A-N]$"
+    },
+    "section": {
+      "type": "string",
+      "pattern": "^[A-N][0-9]{1,2}$"
+    },
+    "level": {
+      "$ref": "#/$defs/level"
+    },
+    "status": {
+      "$ref": "#/$defs/status"
+    },
+    "summary": {
+      "$ref": "#/$defs/i18n"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/recipeId"
+      },
+      "uniqueItems": true
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/recipeId"
+      },
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "stacks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "level",
+          "notebook",
+          "packages",
+          "gpu",
+          "runtime_min",
+          "cost",
+          "maturity",
+          "learning_curve"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/slug"
+          },
+          "name": {
+            "type": "string"
+          },
+          "level": {
+            "$ref": "#/$defs/level"
+          },
+          "notebook": {
+            "type": "string",
+            "pattern": "^notebooks/[0-7][0-9]-[a-z0-9-]+\\.ipynb$"
+          },
+          "packages": {
+            "type": "object",
+            "description": "pacote -> versão exata (==). Use '<pin>' só enquanto status=planned/draft.",
+            "additionalProperties": {
+              "type": "string",
+              "pattern": "^([0-9]+(\\.[0-9A-Za-z]+)*|<pin>)$"
+            }
+          },
+          "gpu": {
+            "enum": [
+              "none",
+              "optional",
+              "required"
+            ]
+          },
+          "runtime_min": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "smoke",
+              "full"
+            ],
+            "properties": {
+              "smoke": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10
+              },
+              "full": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          },
+          "cost": {
+            "enum": [
+              "free",
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "maturity": {
+            "enum": [
+              "experimental",
+              "emerging",
+              "stable",
+              "legacy"
+            ]
+          },
+          "learning_curve": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        }
+      }
+    },
+    "variation_axes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "values",
+          "notebook"
+        ],
+        "properties": {
+          "id": {
+            "$ref": "#/$defs/slug"
+          },
+          "name": {
+            "$ref": "#/$defs/i18n"
+          },
+          "values": {
+            "type": "array",
+            "minItems": 2
+          },
+          "notebook": {
+            "type": "string",
+            "pattern": "^notebooks/[0-8][0-9]-[a-z0-9-]+\\.ipynb$"
+          }
+        }
+      }
+    },
+    "datasets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/dataset"
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary"
+      ],
+      "properties": {
+        "primary": {
+          "type": "string"
+        },
+        "secondary": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "python",
+        "colab_runtime"
+      ],
+      "properties": {
+        "python": {
+          "const": "3.12"
+        },
+        "colab_runtime": {
+          "$ref": "#/$defs/colabRuntime"
+        }
+      }
+    },
+    "last_verified": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/date"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "review_cycle_months": {
+      "enum": [
+        3,
+        6,
+        12
+      ]
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/reference"
+      }
+    },
+    "index_hint": {
+      "type": "string",
+      "description": "Coluna 'Stacks e eixos' do INDEX.md, preservada pelo scaffold."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "draft",
+              "review",
+              "done"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "summary",
+          "stacks",
+          "datasets",
+          "metrics"
+        ],
+        "properties": {
+          "stacks": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "done"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "last_verified",
+          "references"
+        ],
+        "properties": {
+          "last_verified": {
+            "$ref": "#/$defs/date"
+          },
+          "stacks": {
+            "items": {
+              "properties": {
+                "packages": {
+                  "additionalProperties": {
+                    "not": {
+                      "const": "<pin>"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

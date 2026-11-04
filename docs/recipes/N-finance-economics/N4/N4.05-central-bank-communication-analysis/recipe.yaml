@@ -1,0 +1,15 @@
+id: N4.05
+slug: central-bank-communication-analysis
+title:
+  pt: Análise de comunicação de bancos centrais
+  en: Central bank communication analysis
+part: N
+section: N4
+level: L3
+status: planned
+index_hint: atas e comunicados do Copom, índices hawkish/dovish, LLMs
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

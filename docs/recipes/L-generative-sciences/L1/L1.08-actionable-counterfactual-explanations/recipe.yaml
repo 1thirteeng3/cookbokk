@@ -1,0 +1,15 @@
+id: L1.08
+slug: actionable-counterfactual-explanations
+title:
+  pt: Explicações contrafactuais acionáveis
+  en: Actionable counterfactual explanations
+part: L
+section: L1
+level: L2
+status: planned
+index_hint: DiCE, Alibi, recourse algorítmico, restrições de plausibilidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

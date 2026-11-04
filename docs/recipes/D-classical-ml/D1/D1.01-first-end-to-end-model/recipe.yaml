@@ -1,0 +1,15 @@
+id: D1.01
+slug: first-end-to-end-model
+title:
+  pt: Primeiro modelo end-to-end (baseline)
+  en: First end-to-end model
+part: D
+section: D1
+level: L1
+status: planned
+index_hint: scikit-learn; dummy baseline, regressão logística/linear
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: N3.08
+slug: deep-hedging-rl-finance
+title:
+  pt: Deep hedging e RL em finanças
+  en: Deep hedging and RL in finance
+part: N
+section: N3
+level: L4
+status: planned
+index_hint: deep hedging, execução ótima, armadilhas de RL em mercados
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: E2.04
+slug: object-detection
+title:
+  pt: Detecção de objetos
+  en: Object detection
+part: E
+section: E2
+level: L3
+status: planned
+index_hint: YOLO (v8–v12), RT-DETR, Faster R-CNN, DETR, Detectron2, MMDetection, Grounding DINO
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

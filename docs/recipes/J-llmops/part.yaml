@@ -1,0 +1,20 @@
+code: J
+title:
+  pt: LLMOps
+  en: LLMOps
+sections:
+  J1:
+    pt: Ciclo de vida de prompts, configurações e modelos
+    en: Prompt, config and model lifecycle
+  J2:
+    pt: CI/CD e testes para aplicações de LLM
+    en: CI/CD and testing for LLM apps
+  J3:
+    pt: Observabilidade, custo e desempenho
+    en: Observability, cost and performance
+  J4:
+    pt: Ciclo de dados e melhoria contínua (data flywheel)
+    en: Data flywheel
+  J5:
+    pt: Governança e segurança operacional
+    en: Operational governance and security

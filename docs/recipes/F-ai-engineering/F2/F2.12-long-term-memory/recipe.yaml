@@ -1,0 +1,15 @@
+id: F2.12
+slug: long-term-memory
+title:
+  pt: Memória de longo prazo para agentes e assistentes
+  en: Long-term memory
+part: F
+section: F2
+level: L4
+status: planned
+index_hint: memória episódica/semântica, mem0, Letta, resumos, vetor + grafo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: D2.09
+slug: monotonic-inherently-interpretable
+title:
+  pt: Modelos monotônicos e interpretáveis por desenho
+  en: Monotonic and inherently interpretable
+part: D
+section: D2
+level: L3
+status: planned
+index_hint: EBM (InterpretML), GAM, regras, constraints monotônicas em GBM
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

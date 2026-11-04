@@ -1,0 +1,15 @@
+id: F2.09
+slug: agentic-multi-hop-rag
+title:
+  pt: RAG agentico e multi-hop
+  en: Agentic and multi-hop RAG
+part: F
+section: F2
+level: L4
+status: planned
+index_hint: self-RAG, CRAG, loops de recuperação, planejamento
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

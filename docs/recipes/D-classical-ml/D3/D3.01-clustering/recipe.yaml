@@ -1,0 +1,15 @@
+id: D3.01
+slug: clustering
+title:
+  pt: Clusterização
+  en: Clustering
+part: D
+section: D3
+level: L1
+status: planned
+index_hint: k-means, GMM, DBSCAN, HDBSCAN, hierárquico, spectral; métricas internas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: D2.04
+slug: imbalanced-data
+title:
+  pt: Dados desbalanceados
+  en: Imbalanced data
+part: D
+section: D2
+level: L2
+status: planned
+index_hint: pesos, SMOTE e variantes, undersampling, focal loss, threshold, métricas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

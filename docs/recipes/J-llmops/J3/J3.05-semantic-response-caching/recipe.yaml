@@ -1,0 +1,15 @@
+id: J3.05
+slug: semantic-response-caching
+title:
+  pt: Cache semântico e de respostas
+  en: Semantic and response caching
+part: J
+section: J3
+level: L3
+status: planned
+index_hint: Redis, GPTCache; limiar de similaridade, invalidação, riscos de resposta errada
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

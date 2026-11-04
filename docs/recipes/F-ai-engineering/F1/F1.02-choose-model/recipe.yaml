@@ -1,0 +1,15 @@
+id: F1.02
+slug: choose-model
+title:
+  pt: Escolher modelo (qualidade/custo/latência)
+  en: Choose a model
+part: F
+section: F1
+level: L2
+status: planned
+index_hint: proprietários vs open-weights, tamanhos, tabelas de decisão, benchmarks próprios
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: D3.02
+slug: customer-segmentation
+title:
+  pt: Segmentação de clientes
+  en: Customer segmentation
+part: D
+section: D3
+level: L2
+status: planned
+index_hint: RFM, k-means, embeddings, LCA
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

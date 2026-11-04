@@ -1,0 +1,15 @@
+id: F5.01
+slug: serve-llm
+title:
+  pt: Servir LLM em produção
+  en: Serve an LLM
+part: F
+section: F5
+level: L3
+status: planned
+index_hint: vLLM, SGLang, TGI, TensorRT-LLM, llama.cpp, Ollama, Triton, NIM
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

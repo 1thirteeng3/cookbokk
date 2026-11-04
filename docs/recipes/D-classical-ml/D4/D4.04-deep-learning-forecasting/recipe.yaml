@@ -1,0 +1,15 @@
+id: D4.04
+slug: deep-learning-forecasting
+title:
+  pt: Previsão com deep learning
+  en: Deep learning forecasting
+part: D
+section: D4
+level: L3
+status: planned
+index_hint: N-BEATS, N-HiTS, TFT, DeepAR, PatchTST, iTransformer, TimesNet
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

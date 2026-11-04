@@ -1,0 +1,15 @@
+id: B1.07
+slug: semi-structured-nested-data
+title:
+  pt: Ingestão de dados semiestruturados e aninhados
+  en: Semi-structured nested data
+part: B
+section: B1
+level: L2
+status: planned
+index_hint: JSON/XML, explode, flatten, schema evolution, variant types
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

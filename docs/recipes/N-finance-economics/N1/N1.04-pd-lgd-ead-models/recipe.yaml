@@ -1,0 +1,15 @@
+id: N1.04
+slug: pd-lgd-ead-models
+title:
+  pt: Modelos PD, LGD e EAD
+  en: PD, LGD, EAD models
+part: N
+section: N1
+level: L3
+status: planned
+index_hint: PD point-in-time vs through-the-cycle, LGD beta/fracionária, CCF, survival
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

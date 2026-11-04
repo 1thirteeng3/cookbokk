@@ -1,0 +1,11 @@
+code: A
+title:
+  pt: Fundações
+  en: Foundations
+sections:
+  A1:
+    pt: Ambiente, reprodutibilidade e ferramentas
+    en: Environment, reproducibility, tooling
+  A2:
+    pt: Fundamentos de dados e estatística aplicada
+    en: Data and applied statistics foundations

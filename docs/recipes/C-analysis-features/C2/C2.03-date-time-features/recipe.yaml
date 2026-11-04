@@ -1,0 +1,15 @@
+id: C2.03
+slug: date-time-features
+title:
+  pt: Features de data e tempo
+  en: Date and time features
+part: C
+section: C2
+level: L2
+status: planned
+index_hint: calendário, cíclicas (sin/cos), lags, rolling, feriados, Fourier
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

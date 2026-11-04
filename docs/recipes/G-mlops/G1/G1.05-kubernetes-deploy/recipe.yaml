@@ -1,0 +1,15 @@
+id: G1.05
+slug: kubernetes-deploy
+title:
+  pt: Deploy em Kubernetes
+  en: Kubernetes deploy
+part: G
+section: G1
+level: L3
+status: planned
+index_hint: Helm, KServe, HPA/KEDA, GPU scheduling, Kubeflow
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

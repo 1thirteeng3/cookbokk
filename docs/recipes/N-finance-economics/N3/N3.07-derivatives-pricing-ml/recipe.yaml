@@ -1,0 +1,15 @@
+id: N3.07
+slug: derivatives-pricing-ml
+title:
+  pt: Precificação de derivativos com ML
+  en: Derivatives pricing with ML
+part: N
+section: N3
+level: L4
+status: planned
+index_hint: Black-Scholes, Monte Carlo, PINNs para EDPs (↔ L5.03), neural SDEs, QuantLib
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

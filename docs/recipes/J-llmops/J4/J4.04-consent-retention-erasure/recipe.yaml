@@ -1,0 +1,15 @@
+id: J4.04
+slug: consent-retention-erasure
+title:
+  pt: Consentimento, retenção e direito ao esquecimento
+  en: Consent, retention, erasure
+part: J
+section: J4
+level: L3
+status: planned
+index_hint: LGPD/GDPR, políticas de retenção, remoção de dados de datasets derivados
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

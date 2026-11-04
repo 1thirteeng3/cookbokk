@@ -1,0 +1,20 @@
+id: P1.05
+slug: smart-collections
+title:
+  pt: 'Cobrança inteligente: survival, uplift e otimização da régua'
+  en: Smart collections
+group: P1
+domain: credit
+status: planned
+recipes:
+- N1.08
+- D2.13
+- H2.03
+- D5.07
+- D6.06
+index_hint: Home Credit (parcelas), dados simulados
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

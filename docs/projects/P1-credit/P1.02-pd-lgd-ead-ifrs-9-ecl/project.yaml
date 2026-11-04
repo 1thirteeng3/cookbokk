@@ -1,0 +1,20 @@
+id: P1.02
+slug: pd-lgd-ead-ifrs-9-ecl
+title:
+  pt: Modelos PD/LGD/EAD e perda esperada IFRS 9 com cenários macro
+  en: PD-LGD-EAD and IFRS 9 ECL
+group: P1
+domain: credit
+status: planned
+recipes:
+- N1.04
+- N1.05
+- N1.14
+- N4.01
+- D2.13
+index_hint: Freddie Mac Single-Family Loan-Level, BCB SGS
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

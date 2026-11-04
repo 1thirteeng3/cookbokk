@@ -1,0 +1,15 @@
+id: M1.11
+slug: data-platform-technical-due-diligence
+title:
+  pt: Due diligence técnica de plataforma de dados
+  en: Data platform technical due diligence
+part: M
+section: M1
+level: L4
+status: planned
+index_hint: M&A, avaliação de fornecedores, dívida técnica
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

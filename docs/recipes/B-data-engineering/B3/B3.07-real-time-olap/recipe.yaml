@@ -1,0 +1,15 @@
+id: B3.07
+slug: real-time-olap
+title:
+  pt: Analytics em tempo real (OLAP streaming)
+  en: Real-time OLAP
+part: B
+section: B3
+level: L3
+status: planned
+index_hint: ClickHouse, Druid, Pinot, Rockset-like, DuckDB, Materialize
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

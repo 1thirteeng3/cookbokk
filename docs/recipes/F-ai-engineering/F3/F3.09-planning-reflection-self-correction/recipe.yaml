@@ -1,0 +1,15 @@
+id: F3.09
+slug: planning-reflection-self-correction
+title:
+  pt: Planejamento, reflexão e auto-correção
+  en: Planning, reflection, self-correction
+part: F
+section: F3
+level: L4
+status: planned
+index_hint: plan-and-execute, reflexion, verificadores
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

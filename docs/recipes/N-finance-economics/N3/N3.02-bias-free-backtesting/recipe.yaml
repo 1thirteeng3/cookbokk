@@ -1,0 +1,16 @@
+id: N3.02
+slug: bias-free-backtesting
+title:
+  pt: Backtesting sem vieses
+  en: Bias-free backtesting
+part: N
+section: N3
+level: L3
+status: planned
+index_hint: >-
+  survivorship, look-ahead, purged/embargoed CV, deflated Sharpe; vectorbt, backtrader, zipline-reloaded
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

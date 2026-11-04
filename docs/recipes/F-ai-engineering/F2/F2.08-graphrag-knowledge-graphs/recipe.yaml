@@ -1,0 +1,15 @@
+id: F2.08
+slug: graphrag-knowledge-graphs
+title:
+  pt: GraphRAG e knowledge graphs
+  en: GraphRAG and knowledge graphs
+part: F
+section: F2
+level: L4
+status: planned
+index_hint: Neo4j, Microsoft GraphRAG, LightRAG, extração de entidades por LLM
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

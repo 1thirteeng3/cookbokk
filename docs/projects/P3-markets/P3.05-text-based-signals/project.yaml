@@ -1,0 +1,20 @@
+id: P3.05
+slug: text-based-signals
+title:
+  pt: 'Sinais a partir de texto: notícias, fatos relevantes, resultados'
+  en: Text-based signals
+group: P3
+domain: markets
+status: planned
+recipes:
+- N3.09
+- E3.01
+- F1.04
+- F2
+- N3.02
+index_hint: CVM (fatos relevantes, DFP/ITR), notícias
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

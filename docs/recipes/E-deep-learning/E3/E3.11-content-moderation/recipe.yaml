@@ -1,0 +1,15 @@
+id: E3.11
+slug: content-moderation
+title:
+  pt: Moderação de conteúdo e toxicidade
+  en: Content moderation
+part: E
+section: E3
+level: L3
+status: planned
+index_hint: classificadores, LLM-as-classifier, listas, humanos no loop
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

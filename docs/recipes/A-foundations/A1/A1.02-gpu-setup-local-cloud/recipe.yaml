@@ -1,0 +1,16 @@
+id: A1.02
+slug: gpu-setup-local-cloud
+title:
+  pt: Configurar GPU local e em nuvem
+  en: GPU setup local and cloud
+part: A
+section: A1
+level: L1
+status: planned
+index_hint: >-
+  CUDA/cuDNN, ROCm, Apple MPS, Colab, Kaggle, Lambda, RunPod, Vast.ai, SageMaker, Vertex, Azure ML
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

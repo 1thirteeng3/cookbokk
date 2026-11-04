@@ -1,0 +1,16 @@
+id: B4.11
+slug: vector-database
+title:
+  pt: Banco vetorial
+  en: Vector database
+part: B
+section: B4
+level: L3
+status: planned
+index_hint: >-
+  pgvector, Qdrant, Weaviate, Milvus, Pinecone, Chroma, FAISS, LanceDB, OpenSearch; índices HNSW/IVF/PQ/DiskANN
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

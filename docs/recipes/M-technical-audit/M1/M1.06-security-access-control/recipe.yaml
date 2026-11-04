@@ -1,0 +1,15 @@
+id: M1.06
+slug: security-access-control
+title:
+  pt: Segurança e controle de acesso
+  en: Security and access control
+part: M
+section: M1
+level: L3
+status: planned
+index_hint: IAM, privilégios excessivos, segredos, criptografia, logs de acesso
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

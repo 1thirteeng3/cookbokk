@@ -1,0 +1,15 @@
+id: L2.13
+slug: bayesian-optimization-calibration
+title:
+  pt: Otimização bayesiana para calibração
+  en: Bayesian optimization for calibration
+part: L
+section: L2
+level: L3
+status: planned
+index_hint: BoTorch, Ax, scikit-optimize
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

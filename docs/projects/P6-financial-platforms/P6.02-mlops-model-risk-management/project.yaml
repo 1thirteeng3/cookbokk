@@ -1,0 +1,19 @@
+id: P6.02
+slug: mlops-model-risk-management
+title:
+  pt: Plataforma de MLOps com gestão de risco de modelos
+  en: MLOps with model risk management
+group: P6
+domain: financial-platforms
+status: planned
+recipes:
+- G1–G3
+- N6.04
+- M2.09
+- C2.11
+index_hint: Home Credit, Lending Club
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

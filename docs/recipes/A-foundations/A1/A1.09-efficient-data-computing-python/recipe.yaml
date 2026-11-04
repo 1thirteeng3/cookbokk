@@ -1,0 +1,15 @@
+id: A1.09
+slug: efficient-data-computing-python
+title:
+  pt: Computação eficiente em Python (dados)
+  en: Efficient data computing in Python
+part: A
+section: A1
+level: L3
+status: planned
+index_hint: NumPy vetorização, Numba, Cython, Rust (PyO3), Polars, multiprocessing, Dask, Ray
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

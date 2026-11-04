@@ -1,0 +1,15 @@
+id: A2.04
+slug: descriptive-stats-basic-inference
+title:
+  pt: Estatística descritiva e inferência básica
+  en: Descriptive stats and basic inference
+part: A
+section: A2
+level: L1
+status: planned
+index_hint: scipy, statsmodels, pingouin; testes paramétricos vs não paramétricos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

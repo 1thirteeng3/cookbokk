@@ -1,0 +1,15 @@
+id: M5.02
+slug: autonomy-levels-human-oversight
+title:
+  pt: Níveis de autonomia e supervisão humana
+  en: Autonomy levels and human oversight
+part: M
+section: M5
+level: L3
+status: planned
+index_hint: pontos de aprovação, ações irreversíveis
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

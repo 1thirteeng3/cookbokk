@@ -1,0 +1,16 @@
+id: A2.02
+slug: choose-file-format
+title:
+  pt: Escolher formato de arquivo
+  en: Choose file format
+part: A
+section: A2
+level: L2
+status: planned
+index_hint: >-
+  CSV, JSON/NDJSON, Parquet, ORC, Avro, Feather/Arrow IPC, HDF5, Zarr (compressão, schema, leitura parcial)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

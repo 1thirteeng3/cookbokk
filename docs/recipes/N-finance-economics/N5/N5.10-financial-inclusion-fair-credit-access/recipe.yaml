@@ -1,0 +1,15 @@
+id: N5.10
+slug: financial-inclusion-fair-credit-access
+title:
+  pt: Inclusão financeira e fairness no acesso a crédito
+  en: Financial inclusion and fair credit access
+part: N
+section: N5
+level: L3
+status: planned
+index_hint: métricas de acesso, vieses regionais e demográficos (↔ M2.05)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

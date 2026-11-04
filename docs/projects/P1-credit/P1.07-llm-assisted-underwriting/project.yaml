@@ -1,0 +1,21 @@
+id: P1.07
+slug: llm-assisted-underwriting
+title:
+  pt: 'Underwriting assistido por LLM: documentos → parecer → auditoria'
+  en: LLM-assisted underwriting
+group: P1
+domain: credit
+status: planned
+recipes:
+- F1.04
+- E2.06
+- F3.12
+- F6
+- M4
+- N6.06
+index_hint: documentos sintéticos (holerites, extratos, matrículas)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,19 @@
+id: P6.03
+slug: llmops-regulated-environment
+title:
+  pt: Plataforma LLMOps em ambiente regulado
+  en: LLMOps in a regulated environment
+group: P6
+domain: financial-platforms
+status: planned
+recipes:
+- J1–J5
+- N6.06
+- F6
+- I1.06
+index_hint: —
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

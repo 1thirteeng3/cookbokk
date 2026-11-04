@@ -1,0 +1,15 @@
+id: F6.10
+slug: bias-fairness-responsible-ai
+title:
+  pt: Vieses, equidade e IA responsável em LLMs
+  en: Bias, fairness, responsible AI
+part: F
+section: F6
+level: L3
+status: planned
+index_hint: benchmarks (BBQ), auditoria, model cards
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

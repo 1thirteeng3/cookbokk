@@ -1,0 +1,15 @@
+id: N6.04
+slug: model-risk-management-finance
+title:
+  pt: Gestão de risco de modelos no setor financeiro
+  en: Model risk management in finance
+part: N
+section: N6
+level: L3
+status: planned
+index_hint: inventário, tiering, validação independente, Res. CMN 4.557, SR 11-7 (↔ M2.09)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

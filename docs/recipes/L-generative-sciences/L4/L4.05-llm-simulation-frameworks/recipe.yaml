@@ -1,0 +1,15 @@
+id: L4.05
+slug: llm-simulation-frameworks
+title:
+  pt: Frameworks de simulação com LLM
+  en: LLM simulation frameworks
+part: L
+section: L4
+level: L3
+status: planned
+index_hint: Concordia, AgentSociety, OASIS, AgentTorch, CAMEL; comparação
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

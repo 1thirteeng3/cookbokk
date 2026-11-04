@@ -1,0 +1,15 @@
+id: L3.08
+slug: topology-preserving-generation
+title:
+  pt: Geração com perdas topológicas
+  en: Topology-preserving generation
+part: L
+section: L3
+level: L4
+status: planned
+index_hint: perdas de persistência diferenciáveis, regularização topológica em VAEs, GANs e difusão
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

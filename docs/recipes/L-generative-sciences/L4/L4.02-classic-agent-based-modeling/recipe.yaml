@@ -1,0 +1,15 @@
+id: L4.02
+slug: classic-agent-based-modeling
+title:
+  pt: Modelagem baseada em agentes clássica
+  en: Classic agent-based modeling
+part: L
+section: L4
+level: L2
+status: planned
+index_hint: Mesa, NetLogo, AgentPy, Repast; regras, scheduling, espaço, redes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

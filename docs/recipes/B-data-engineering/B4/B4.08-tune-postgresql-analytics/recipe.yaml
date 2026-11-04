@@ -1,0 +1,15 @@
+id: B4.08
+slug: tune-postgresql-analytics
+title:
+  pt: Otimizar PostgreSQL para analytics
+  en: Tune PostgreSQL for analytics
+part: B
+section: B4
+level: L3
+status: planned
+index_hint: EXPLAIN, índices, particionamento, pgvector, TimescaleDB, Citus
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

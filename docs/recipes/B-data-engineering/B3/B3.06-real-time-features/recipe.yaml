@@ -1,0 +1,15 @@
+id: B3.06
+slug: real-time-features
+title:
+  pt: Feature computation em tempo real
+  en: Real-time features
+part: B
+section: B3
+level: L4
+status: planned
+index_hint: Flink, Feast, Tecton, Hopsworks, Redis, Materialize
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

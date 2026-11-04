@@ -1,0 +1,15 @@
+id: N3.01
+slug: market-data-corporate-actions
+title:
+  pt: Dados de mercado e ajustes corporativos
+  en: Market data and corporate actions
+part: N
+section: N3
+level: L1
+status: planned
+index_hint: cotações, dividendos, splits; yfinance, B3, CVM, dados de fundos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: E6.01
+slug: autoencoders-vaes
+title:
+  pt: Autoencoders e VAEs
+  en: Autoencoders and VAEs
+part: E
+section: E6
+level: L2
+status: planned
+index_hint: PyTorch, Keras; espaço latente, β-VAE
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

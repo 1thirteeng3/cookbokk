@@ -1,0 +1,15 @@
+id: E3.03
+slug: ner-information-extraction
+title:
+  pt: NER e extração de informação
+  en: NER and information extraction
+part: E
+section: E3
+level: L2
+status: planned
+index_hint: spaCy, Flair, BERT-NER, GLiNER, LLM com saída estruturada
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

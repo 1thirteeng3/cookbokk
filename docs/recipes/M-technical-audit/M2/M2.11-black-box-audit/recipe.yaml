@@ -1,0 +1,15 @@
+id: M2.11
+slug: black-box-audit
+title:
+  pt: Auditoria caixa-preta
+  en: Black-box audit
+part: M
+section: M2
+level: L4
+status: planned
+index_hint: testes por consulta, auditorias externas sem acesso a código ou modelo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

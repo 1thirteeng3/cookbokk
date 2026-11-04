@@ -1,0 +1,16 @@
+id: B1.08
+slug: unstructured-ingestion
+title:
+  pt: Ingestão de dados não estruturados em escala (PDF, imagem, áudio, vídeo)
+  en: Unstructured ingestion
+part: B
+section: B1
+level: L3
+status: planned
+index_hint: >-
+  Unstructured, Docling, Tika, Textract, Document AI, ffmpeg, OCR (Tesseract, PaddleOCR, VLMs)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

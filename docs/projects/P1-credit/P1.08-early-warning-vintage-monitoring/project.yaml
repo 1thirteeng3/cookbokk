@@ -1,0 +1,19 @@
+id: P1.08
+slug: early-warning-vintage-monitoring
+title:
+  pt: Early warning e monitoramento de carteira por safras
+  en: Early warning and vintage monitoring
+group: P1
+domain: credit
+status: planned
+recipes:
+- N1.13
+- N1.12
+- G3.02
+- C1.03
+index_hint: Freddie Mac, Lending Club
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

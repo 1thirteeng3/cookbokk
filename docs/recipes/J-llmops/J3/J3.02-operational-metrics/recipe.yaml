@@ -1,0 +1,15 @@
+id: J3.02
+slug: operational-metrics
+title:
+  pt: Métricas operacionais
+  en: Operational metrics
+part: J
+section: J3
+level: L2
+status: planned
+index_hint: TTFT, latência, tokens, taxa de erro, cache hit; Prometheus, Grafana, SLOs
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

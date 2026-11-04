@@ -1,0 +1,15 @@
+id: B4.02
+slug: relational-modeling
+title:
+  pt: Modelagem relacional e normalização
+  en: Relational modeling
+part: B
+section: B4
+level: L1
+status: planned
+index_hint: 3NF, índices, constraints, PostgreSQL, MySQL
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

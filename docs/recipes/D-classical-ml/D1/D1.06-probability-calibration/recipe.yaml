@@ -1,0 +1,15 @@
+id: D1.06
+slug: probability-calibration
+title:
+  pt: Calibração de probabilidades
+  en: Probability calibration
+part: D
+section: D1
+level: L3
+status: planned
+index_hint: Platt, isotônica, temperature scaling, conformal prediction
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

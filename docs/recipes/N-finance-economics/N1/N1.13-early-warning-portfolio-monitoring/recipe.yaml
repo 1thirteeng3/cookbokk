@@ -1,0 +1,15 @@
+id: N1.13
+slug: early-warning-portfolio-monitoring
+title:
+  pt: Early warning e monitoramento de carteira
+  en: Early warning and portfolio monitoring
+part: N
+section: N1
+level: L3
+status: planned
+index_hint: safras (vintage), migração de rating, sinais antecedentes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

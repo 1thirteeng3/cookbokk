@@ -1,0 +1,19 @@
+id: P2.05
+slug: conduct-monitoring
+title:
+  pt: 'Monitoramento de conduta: ouvidoria, reclamações e chamadas'
+  en: Conduct monitoring
+group: P2
+domain: fraud-aml
+status: planned
+recipes:
+- N2.08
+- E4.02
+- E3.01
+- F7.04
+index_hint: Consumidor.gov.br, ranking de reclamações do BCB
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: G2.02
+slug: ml-orchestration
+title:
+  pt: Orquestração de ML
+  en: ML orchestration
+part: G
+section: G2
+level: L3
+status: planned
+index_hint: Kubeflow, Airflow, Argo, Flyte, Vertex Pipelines, SageMaker Pipelines
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

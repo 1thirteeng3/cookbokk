@@ -1,0 +1,15 @@
+id: M2.06
+slug: explainability-documentation
+title:
+  pt: Explicabilidade e documentação
+  en: Explainability and documentation
+part: M
+section: M2
+level: L2
+status: planned
+index_hint: SHAP, model cards, datasheets
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

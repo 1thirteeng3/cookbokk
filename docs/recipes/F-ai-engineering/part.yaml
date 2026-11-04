@@ -1,0 +1,26 @@
+code: F
+title:
+  pt: AI Engineering (LLMs e sistemas de IA)
+  en: AI Engineering (LLMs and AI systems)
+sections:
+  F1:
+    pt: Fundamentos de uso de LLMs
+    en: LLM usage fundamentals
+  F2:
+    pt: RAG e conhecimento
+    en: RAG and knowledge
+  F3:
+    pt: Agentes e sistemas compostos
+    en: Agents and compound systems
+  F4:
+    pt: Adaptação de modelos
+    en: Model adaptation
+  F5:
+    pt: Serving e inferência
+    en: Serving and inference
+  F6:
+    pt: Avaliação, qualidade e segurança de IA
+    en: Evaluation, quality and AI safety
+  F7:
+    pt: Aplicações de IA (produtos)
+    en: AI product applications

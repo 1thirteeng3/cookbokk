@@ -1,0 +1,15 @@
+id: N4.07
+slug: agent-based-macroeconomics
+title:
+  pt: Macro baseada em agentes
+  en: Agent-based macroeconomics
+part: N
+section: N4
+level: L4
+status: planned
+index_hint: ABMs macro, calibração, agentes LLM (↔ L4)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

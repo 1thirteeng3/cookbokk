@@ -1,0 +1,15 @@
+id: F4.09
+slug: multimodal-fine-tuning
+title:
+  pt: Fine-tuning multimodal
+  en: Multimodal fine-tuning
+part: F
+section: F4
+level: L4
+status: planned
+index_hint: VLMs, LoRA em visão-linguagem
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

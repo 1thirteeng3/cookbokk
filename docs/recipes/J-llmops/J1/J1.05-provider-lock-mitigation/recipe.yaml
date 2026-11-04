@@ -1,0 +1,15 @@
+id: J1.05
+slug: provider-lock-mitigation
+title:
+  pt: Reduzir dependência de provedor (lock-in)
+  en: Provider lock-in mitigation
+part: J
+section: J1
+level: L3
+status: planned
+index_hint: camadas de abstração (LiteLLM, Vercel AI SDK), multi-provider, fallback para open-weights
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

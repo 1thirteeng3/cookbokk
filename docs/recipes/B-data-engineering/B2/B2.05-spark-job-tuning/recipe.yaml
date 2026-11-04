@@ -1,0 +1,15 @@
+id: B2.05
+slug: spark-job-tuning
+title:
+  pt: Otimização de jobs Spark
+  en: Spark job tuning
+part: B
+section: B2
+level: L4
+status: planned
+index_hint: partições, shuffle, AQE, memória, formatos, Photon, Velox, Gluten
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

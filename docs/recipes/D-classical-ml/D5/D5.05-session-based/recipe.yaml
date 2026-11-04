@@ -1,0 +1,15 @@
+id: D5.05
+slug: session-based
+title:
+  pt: Sequential
+  en: session-based
+part: D
+section: D5
+level: L4
+status: planned
+index_hint: GRU4Rec, SASRec, BERT4Rec, Transformers4Rec, HSTU
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,14 @@
+code: H
+title:
+  pt: Estatística Avançada, Inferência Causal e Experimentação
+  en: Advanced Statistics, Causal Inference, Experimentation
+sections:
+  H1:
+    pt: Experimentação
+    en: Experimentation
+  H2:
+    pt: Inferência causal
+    en: Causal inference
+  H3:
+    pt: Interpretabilidade e equidade
+    en: Interpretability and fairness

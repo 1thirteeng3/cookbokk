@@ -1,0 +1,15 @@
+id: L4.03
+slug: network-dynamics-diffusion-contagion
+title:
+  pt: Dinâmica de redes, difusão e contágio
+  en: Network dynamics, diffusion, contagion
+part: L
+section: L4
+level: L2
+status: planned
+index_hint: NetworkX, SIR em redes, dinâmica de opinião, cascatas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

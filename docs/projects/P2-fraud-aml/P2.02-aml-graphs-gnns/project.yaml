@@ -1,0 +1,20 @@
+id: P2.02
+slug: aml-graphs-gnns
+title:
+  pt: PLD/AML com grafos e GNNs
+  en: AML with graphs and GNNs
+group: P2
+domain: fraud-aml
+status: planned
+recipes:
+- N2.04
+- N2.05
+- D6.01
+- B2.09
+- H3.01
+index_hint: IBM AML transactions (sintético), Elliptic
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

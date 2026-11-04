@@ -1,0 +1,15 @@
+id: K3.04
+slug: incident-response-post-mortems
+title:
+  pt: Resposta a incidentes e post-mortems
+  en: Incident response and post-mortems
+part: K
+section: K3
+level: L3
+status: planned
+index_hint: runbooks, causa raiz via linhagem, cultura blameless
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

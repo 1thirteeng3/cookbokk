@@ -1,0 +1,17 @@
+id: P7.05
+slug: sbi-calibration-epidemic-model
+title:
+  pt: Calibração SBI de modelo epidemiológico
+  en: SBI calibration of an epidemic model
+group: P7
+domain: other
+status: planned
+recipes:
+- L2
+- L4.02
+index_hint: dados públicos de saúde (DataSUS)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: L1.05
+slug: causal-probabilistic-programming
+title:
+  pt: Programação probabilística causal
+  en: Causal probabilistic programming
+part: L
+section: L1
+level: L4
+status: planned
+index_hint: Pyro + ChiRho, NumPyro; intervenções e contrafactuais em modelos generativos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

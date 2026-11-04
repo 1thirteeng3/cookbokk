@@ -1,0 +1,15 @@
+id: L2.02
+slug: full-bayesian-workflow
+title:
+  pt: Workflow bayesiano completo
+  en: Full Bayesian workflow
+part: L
+section: L2
+level: L3
+status: planned
+index_hint: prior e posterior predictive checks, LOO, WAIC, stacking de modelos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

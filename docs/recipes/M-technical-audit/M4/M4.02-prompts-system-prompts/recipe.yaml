@@ -1,0 +1,15 @@
+id: M4.02
+slug: prompts-system-prompts
+title:
+  pt: Prompts e system prompts
+  en: Prompts and system prompts
+part: M
+section: M4
+level: L2
+status: planned
+index_hint: clareza, conflitos, vazamento de instruções, superfície de injeção
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

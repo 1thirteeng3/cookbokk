@@ -1,0 +1,15 @@
+id: J5.01
+slug: secrets-api-keys
+title:
+  pt: Segredos e chaves de API
+  en: Secrets and API keys
+part: J
+section: J5
+level: L2
+status: planned
+index_hint: Vault, Secrets Manager, rotação, chaves por ambiente e por serviço
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

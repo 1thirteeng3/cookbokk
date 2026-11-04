@@ -1,0 +1,19 @@
+id: P3.08
+slug: treasury-cash-flow-liquidity-forecasting
+title:
+  pt: 'Tesouraria: previsão de fluxo de caixa e liquidez'
+  en: 'Treasury: cash-flow and liquidity forecasting'
+group: P3
+domain: markets
+status: planned
+recipes:
+- N3.12
+- D4.06
+- D4.07
+- D4.05
+index_hint: dados sintéticos, BCB
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

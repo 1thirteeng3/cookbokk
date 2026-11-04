@@ -1,0 +1,15 @@
+id: E2.10
+slug: pose-depth-3d
+title:
+  pt: Estimativa de pose, profundidade e 3D
+  en: Pose, depth and 3D
+part: E
+section: E2
+level: L4
+status: planned
+index_hint: MediaPipe, ViTPose, Depth Anything, NeRF, 3D Gaussian Splatting
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

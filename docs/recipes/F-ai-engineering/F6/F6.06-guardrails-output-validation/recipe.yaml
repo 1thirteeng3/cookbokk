@@ -1,0 +1,15 @@
+id: F6.06
+slug: guardrails-output-validation
+title:
+  pt: Guardrails e validação de saída
+  en: Guardrails and output validation
+part: F
+section: F6
+level: L3
+status: planned
+index_hint: Guardrails AI, NeMo Guardrails, Llama Guard, classificadores, regras
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

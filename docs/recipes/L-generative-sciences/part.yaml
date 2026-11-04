@@ -1,0 +1,20 @@
+code: L
+title:
+  pt: Ciências Generativas + Ciência de Dados
+  en: Generative Sciences + Data Science
+sections:
+  L1:
+    pt: Modelagem Causal Híbrida e Inferência Contrafactual
+    en: Hybrid Causal Modeling and Counterfactual Inference
+  L2:
+    pt: Calibração Bayesiana e Simulation-Based Inference (SBI)
+    en: Bayesian Calibration and SBI
+  L3:
+    pt: Síntese Controlada de Dados e Preservação de Topologia Dinâmica
+    en: Controlled Data Synthesis and Dynamic Topology Preservation
+  L4:
+    pt: Sistemas Complexos Adaptativos Aumentados por LLMs e Multiagentes (Generative Agents)
+    en: LLM-Augmented Complex Adaptive Systems
+  L5:
+    pt: Physics-Informed Data Science e Modelos Híbridos Epistêmicos
+    en: Physics-Informed DS and Epistemic Hybrid Models

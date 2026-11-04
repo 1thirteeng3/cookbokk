@@ -1,0 +1,15 @@
+id: F6.13
+slug: user-feedback-continuous-improvement
+title:
+  pt: Feedback de usuários e melhoria contínua
+  en: User feedback and continuous improvement
+part: F
+section: F6
+level: L3
+status: planned
+index_hint: thumbs, logs → datasets de eval/FT, active learning
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

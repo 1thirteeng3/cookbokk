@@ -1,0 +1,15 @@
+id: L5.12
+slug: epistemic-aleatoric-uncertainty
+title:
+  pt: Incerteza epistêmica vs aleatória
+  en: Epistemic vs aleatoric uncertainty
+part: L
+section: L5
+level: L3
+status: planned
+index_hint: ensembles, abordagem bayesiana, discrepância de modelo (↔ L2.11)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

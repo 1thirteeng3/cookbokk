@@ -1,0 +1,15 @@
+id: M0.01
+slug: technical-audit-methodology
+title:
+  pt: Metodologia de auditoria técnica
+  en: Technical audit methodology
+part: M
+section: M0
+level: L1
+status: planned
+index_hint: escopo, critérios, coleta de evidências, amostragem, entrevistas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: C2.07
+slug: feature-selection
+title:
+  pt: Seleção de features
+  en: Feature selection
+part: C
+section: C2
+level: L2
+status: planned
+index_hint: filter, wrapper, embedded, Boruta, SHAP, permutation, L1
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

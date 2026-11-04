@@ -1,0 +1,15 @@
+id: E4.02
+slug: speech-recognition
+title:
+  pt: Reconhecimento de fala (ASR)
+  en: Speech recognition
+part: E
+section: E4
+level: L3
+status: planned
+index_hint: Whisper (faster-whisper, WhisperX), wav2vec2, NeMo, Deepgram, Google/Azure/AWS STT
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

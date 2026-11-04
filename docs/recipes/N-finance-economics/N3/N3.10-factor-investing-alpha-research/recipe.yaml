@@ -1,0 +1,15 @@
+id: N3.10
+slug: factor-investing-alpha-research
+title:
+  pt: Fatores e alphas
+  en: Factor investing and alpha research
+part: N
+section: N3
+level: L3
+status: planned
+index_hint: fatores (valor, momento, qualidade), Fama-French, ML cross-sectional
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

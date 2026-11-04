@@ -1,0 +1,15 @@
+id: B5.02
+slug: robust-dags
+title:
+  pt: 'DAGs robustos: retries, idempotência, backfill'
+  en: Robust DAGs
+part: B
+section: B5
+level: L2
+status: planned
+index_hint: Airflow, Dagster (assets), Prefect, Temporal
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

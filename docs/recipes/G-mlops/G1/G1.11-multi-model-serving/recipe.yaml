@@ -1,0 +1,15 @@
+id: G1.11
+slug: multi-model-serving
+title:
+  pt: Serving de múltiplos modelos
+  en: Multi-model serving
+part: G
+section: G1
+level: L4
+status: planned
+index_hint: Triton, Ray Serve, multi-tenancy, model mesh
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

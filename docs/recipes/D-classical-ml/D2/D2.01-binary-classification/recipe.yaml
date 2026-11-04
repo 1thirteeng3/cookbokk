@@ -1,0 +1,15 @@
+id: D2.01
+slug: binary-classification
+title:
+  pt: Classificação binária
+  en: Binary classification
+part: D
+section: D2
+level: L1
+status: planned
+index_hint: LR, árvores, RF, GBM (XGB/LGBM/CatBoost), SVM, KNN, TabPFN, TabM/FT-Transformer
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

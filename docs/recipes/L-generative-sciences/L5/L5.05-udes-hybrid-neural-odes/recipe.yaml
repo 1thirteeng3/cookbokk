@@ -1,0 +1,15 @@
+id: L5.05
+slug: udes-hybrid-neural-odes
+title:
+  pt: Universal Differential Equations e neural ODEs híbridas
+  en: UDEs and hybrid neural ODEs
+part: L
+section: L5
+level: L4
+status: planned
+index_hint: SciML (Julia), torchdiffeq, Diffrax; aprender o termo desconhecido
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

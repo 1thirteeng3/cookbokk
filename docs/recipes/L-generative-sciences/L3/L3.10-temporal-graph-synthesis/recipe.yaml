@@ -1,0 +1,15 @@
+id: L3.10
+slug: temporal-graph-synthesis
+title:
+  pt: Síntese de grafos temporais e redes dinâmicas
+  en: Temporal graph synthesis
+part: L
+section: L3
+level: L4
+status: planned
+index_hint: TagGen, TG-GAN, difusão temporal; evolução de comunidades e motivos temporais
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

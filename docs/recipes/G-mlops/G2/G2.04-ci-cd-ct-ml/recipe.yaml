@@ -1,0 +1,15 @@
+id: G2.04
+slug: ci-cd-ct-ml
+title:
+  pt: CI/CD/CT para ML
+  en: CI/CD/CT for ML
+part: G
+section: G2
+level: L3
+status: planned
+index_hint: GitHub Actions, testes de dados/modelo, gates de qualidade, retreino contínuo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: L1.01
+slug: structural-causal-models-scratch
+title:
+  pt: Modelos causais estruturais (SCM) do zero
+  en: Structural causal models from scratch
+part: L
+section: L1
+level: L2
+status: planned
+index_hint: DAGs, do-calculus, critérios backdoor e frontdoor; pgmpy, DoWhy, y0
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

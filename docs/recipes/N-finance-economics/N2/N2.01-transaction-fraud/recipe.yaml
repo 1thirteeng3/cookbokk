@@ -1,0 +1,15 @@
+id: N2.01
+slug: transaction-fraud
+title:
+  pt: Fraude de transação (cartão, Pix)
+  en: Transaction fraud
+part: N
+section: N2
+level: L2
+status: planned
+index_hint: features de velocidade, perfis, GBM, regras + ML, custo de falsos positivos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

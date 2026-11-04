@@ -1,0 +1,15 @@
+id: I1.02
+slug: kubernetes-data-ml
+title:
+  pt: Kubernetes para dados e ML
+  en: Kubernetes for data and ML
+part: I
+section: I1
+level: L3
+status: planned
+index_hint: operadores, GPU, Ray on K8s, Spark on K8s, Karpenter
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: B1.01
+slug: ingest-rest-graphql-apis
+title:
+  pt: Ler dados de APIs REST/GraphQL
+  en: Ingest from REST/GraphQL APIs
+part: B
+section: B1
+level: L1
+status: planned
+index_hint: requests, httpx, aiohttp; paginação, rate limit, retry, backoff
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

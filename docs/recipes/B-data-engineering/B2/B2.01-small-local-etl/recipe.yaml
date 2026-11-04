@@ -1,0 +1,15 @@
+id: B2.01
+slug: small-local-etl
+title:
+  pt: ETL local pequeno
+  en: Small local ETL
+part: B
+section: B2
+level: L1
+status: planned
+index_hint: pandas, Polars, DuckDB, SQL puro
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

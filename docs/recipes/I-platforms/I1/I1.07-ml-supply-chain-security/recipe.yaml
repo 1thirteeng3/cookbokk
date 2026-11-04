@@ -1,0 +1,15 @@
+id: I1.07
+slug: ml-supply-chain-security
+title:
+  pt: Segurança da cadeia de suprimentos de ML
+  en: ML supply chain security
+part: I
+section: I1
+level: L4
+status: planned
+index_hint: assinatura de modelos, SBOM, scanning de pesos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

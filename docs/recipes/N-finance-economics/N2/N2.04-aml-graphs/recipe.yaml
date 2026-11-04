@@ -1,0 +1,15 @@
+id: N2.04
+slug: aml-graphs
+title:
+  pt: PLD/AML com grafos
+  en: AML with graphs
+part: N
+section: N2
+level: L3
+status: planned
+index_hint: tipologias, community detection, GNNs, ranking de alertas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

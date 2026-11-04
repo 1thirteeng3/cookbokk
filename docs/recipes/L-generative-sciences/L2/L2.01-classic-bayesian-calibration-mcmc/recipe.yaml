@@ -1,0 +1,15 @@
+id: L2.01
+slug: classic-bayesian-calibration-mcmc
+title:
+  pt: Calibração bayesiana clássica com MCMC
+  en: Classic Bayesian calibration with MCMC
+part: L
+section: L2
+level: L2
+status: planned
+index_hint: PyMC, Stan, NumPyro; priors, diagnósticos (R-hat, ESS, divergências), ArviZ
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

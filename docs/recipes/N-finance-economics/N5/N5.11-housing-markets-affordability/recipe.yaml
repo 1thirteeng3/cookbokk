@@ -1,0 +1,15 @@
+id: N5.11
+slug: housing-markets-affordability
+title:
+  pt: Mercado imobiliário e acessibilidade habitacional
+  en: Housing markets and affordability
+part: N
+section: N5
+level: L3
+status: planned
+index_hint: índices de preços (FipeZap, ITBI), repeat sales, hedônicos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

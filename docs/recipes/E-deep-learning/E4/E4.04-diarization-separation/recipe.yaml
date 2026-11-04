@@ -1,0 +1,15 @@
+id: E4.04
+slug: diarization-separation
+title:
+  pt: Diarização e separação
+  en: Diarization and separation
+part: E
+section: E4
+level: L3
+status: planned
+index_hint: pyannote, Demucs, NeMo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

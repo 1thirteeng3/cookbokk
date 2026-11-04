@@ -1,0 +1,15 @@
+id: L2.11
+slug: computer-model-calibration-discrepancy
+title:
+  pt: Calibração de modelos computacionais com discrepância
+  en: Computer model calibration with discrepancy
+part: L
+section: L2
+level: L4
+status: planned
+index_hint: Kennedy–O'Hagan, history matching
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

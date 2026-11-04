@@ -1,0 +1,96 @@
+# Template de metadados de receita. Os valores abaixo usam N1.01 como exemplo.
+# Recipe metadata template. Values below use N1.01 as an example.
+# Schema: src/cookbook/schemas/recipe.schema.json · Spec: SPEC.md §6.1
+
+id: N1.01
+slug: application-scorecard-woe-iv
+title:
+  pt: Scorecard de concessão com WoE/IV
+  en: Application scorecard with WoE/IV
+part: N
+section: N1
+level: L1                      # nível de entrada; cada stack tem o seu
+status: draft                  # planned | draft | review | done | outdated
+summary:
+  pt: >-
+    Construir um scorecard de concessão de crédito interpretável, do binning à tabela de pontos,
+    comparando bibliotecas e medindo o efeito das escolhas de binning e escala.
+  en: >-
+    Build an interpretable credit application scorecard, from binning to the points table,
+    comparing libraries and measuring the effect of binning and scaling choices.
+
+prerequisites: [D1.01, D1.02, D1.03]
+related: [N1.02, N1.12, D2.04, D2.09, M2.06]
+tags: [credit-risk, scorecard, woe, iv, logistic-regression, interpretability]
+
+stacks:
+  - id: optbinning-logistic
+    name: OptBinning + LogisticRegression (scikit-learn)
+    level: L1
+    notebook: notebooks/01-optbinning-logistic.ipynb
+    packages: {optbinning: "<pin>", scikit-learn: "<pin>", pandas: "<pin>"}
+    gpu: none
+    runtime_min: {smoke: 2, full: 10}
+    cost: free
+    maturity: stable
+    learning_curve: low
+  - id: scorecardpy
+    name: scorecardpy
+    level: L1
+    notebook: notebooks/02-scorecardpy.ipynb
+    packages: {scorecardpy: "<pin>", pandas: "<pin>"}
+    gpu: none
+    runtime_min: {smoke: 2, full: 8}
+    cost: free
+    maturity: stable
+    learning_curve: low
+  - id: toad
+    name: toad
+    level: L2
+    notebook: notebooks/03-toad.ipynb
+    packages: {toad: "<pin>", pandas: "<pin>"}
+    gpu: none
+    runtime_min: {smoke: 3, full: 12}
+    cost: free
+    maturity: stable
+    learning_curve: medium
+
+variation_axes:
+  - id: binning-strategy
+    name: {pt: Estratégia de binning, en: Binning strategy}
+    values: [equal-frequency, decision-tree, optimal-monotonic]
+    notebook: notebooks/80-axis-binning-strategy.ipynb
+  - id: sample-size
+    name: {pt: Tamanho da amostra de desenvolvimento, en: Development sample size}
+    values: [5000, 20000, 100000, full]
+    notebook: notebooks/81-axis-sample-size.ipynb
+
+datasets:
+  - name: Default of Credit Card Clients (UCI)
+    url: https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients
+    license: CC BY 4.0
+    size_mb: 5.5
+    loader: cookbook.data.fetch("uci-credit-default")
+  - name: Home Credit Default Risk (Kaggle)
+    url: https://www.kaggle.com/competitions/home-credit-default-risk
+    license: Kaggle competition rules
+    size_mb: 2700
+    loader: cookbook.data.fetch("home-credit")
+    requires_auth: true
+
+metrics:
+  primary: gini
+  secondary: [ks, auc, brier, psi_oot, n_features]
+
+environment:
+  python: "3.12"
+  colab_runtime: cpu
+
+last_verified: null            # "YYYY-MM-DD" (com aspas / quoted) após rodar full / after a full run
+review_cycle_months: 12
+
+references:
+  - title: OptBinning documentation
+    url: https://gnpalencia.org/optbinning/
+    type: docs
+    accessed: "2026-11-03"

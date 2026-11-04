@@ -1,0 +1,19 @@
+id: P1.10
+slug: portfolio-stress-testing
+title:
+  pt: Stress testing de carteira com modelos satélite
+  en: Portfolio stress testing
+group: P1
+domain: credit
+status: planned
+recipes:
+- N1.14
+- N4.02
+- N4.04
+- D4.07
+index_hint: BCB SGS, Freddie Mac
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

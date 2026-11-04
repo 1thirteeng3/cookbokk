@@ -1,0 +1,15 @@
+id: D4.09
+slug: multivariate-exogenous
+title:
+  pt: Previsão multivariada e com regressores exógenos
+  en: Multivariate and exogenous
+part: D
+section: D4
+level: L3
+status: planned
+index_hint: VAR, VARMAX, TFT, ML com features exógenas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

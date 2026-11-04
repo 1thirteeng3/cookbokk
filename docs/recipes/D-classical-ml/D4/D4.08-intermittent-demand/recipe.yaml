@@ -1,0 +1,15 @@
+id: D4.08
+slug: intermittent-demand
+title:
+  pt: Demanda intermitente
+  en: Intermittent demand
+part: D
+section: D4
+level: L3
+status: planned
+index_hint: Croston, SBA, TSB, ADIDA
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

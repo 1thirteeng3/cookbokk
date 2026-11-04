@@ -1,0 +1,15 @@
+id: F1.08
+slug: reasoning-models
+title:
+  pt: Raciocínio e modelos "thinking"
+  en: Reasoning models
+part: F
+section: F1
+level: L3
+status: planned
+index_hint: orçamento de raciocínio, quando usar, custo/latência
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

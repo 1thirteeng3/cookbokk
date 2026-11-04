@@ -1,0 +1,15 @@
+id: F6.01
+slug: build-eval-set
+title:
+  pt: Construir um conjunto de avaliação (golden set)
+  en: Build an eval set
+part: F
+section: F6
+level: L2
+status: planned
+index_hint: curadoria, casos de borda, dados sintéticos, anotação
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

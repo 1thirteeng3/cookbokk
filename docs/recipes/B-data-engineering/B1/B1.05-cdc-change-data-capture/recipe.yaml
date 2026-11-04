@@ -1,0 +1,15 @@
+id: B1.05
+slug: cdc-change-data-capture
+title:
+  pt: CDC (Change Data Capture)
+  en: CDC (Change Data Capture)
+part: B
+section: B1
+level: L3
+status: planned
+index_hint: Debezium, Kafka Connect, AWS DMS, Datastream, Fivetran, log-based vs trigger-based
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

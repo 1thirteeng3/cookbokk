@@ -1,0 +1,15 @@
+id: D2.15
+slug: distribution-shift
+title:
+  pt: Domain shift e covariate shift
+  en: Distribution shift
+part: D
+section: D2
+level: L4
+status: planned
+index_hint: importance weighting, adversarial validation, DRO, domain adaptation
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

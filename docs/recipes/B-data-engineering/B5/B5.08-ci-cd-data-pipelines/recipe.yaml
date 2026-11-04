@@ -1,0 +1,15 @@
+id: B5.08
+slug: ci-cd-data-pipelines
+title:
+  pt: CI/CD para pipelines de dados
+  en: CI/CD for data pipelines
+part: B
+section: B5
+level: L3
+status: planned
+index_hint: GitHub Actions, GitLab CI, dbt slim CI, ambientes efêmeros
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

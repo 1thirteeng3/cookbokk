@@ -1,0 +1,15 @@
+id: G2.05
+slug: automated-retraining-triggers
+title:
+  pt: Retreino automático e gatilhos
+  en: Automated retraining and triggers
+part: G
+section: G2
+level: L3
+status: planned
+index_hint: agenda, drift, degradação de métrica
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

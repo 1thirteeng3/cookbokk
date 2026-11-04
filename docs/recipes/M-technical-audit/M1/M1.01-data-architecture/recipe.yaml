@@ -1,0 +1,15 @@
+id: M1.01
+slug: data-architecture
+title:
+  pt: Arquitetura de dados
+  en: Data architecture
+part: M
+section: M1
+level: L2
+status: planned
+index_hint: aderência a padrões, acoplamento, escalabilidade, pontos únicos de falha
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

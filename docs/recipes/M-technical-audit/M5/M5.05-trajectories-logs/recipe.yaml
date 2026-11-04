@@ -1,0 +1,15 @@
+id: M5.05
+slug: trajectories-logs
+title:
+  pt: Trajetórias e logs
+  en: Trajectories and logs
+part: M
+section: M5
+level: L3
+status: planned
+index_hint: completude dos logs, replay, rastreabilidade de decisões
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

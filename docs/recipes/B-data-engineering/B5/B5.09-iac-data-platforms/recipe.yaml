@@ -1,0 +1,15 @@
+id: B5.09
+slug: iac-data-platforms
+title:
+  pt: Infraestrutura como código para dados
+  en: IaC for data platforms
+part: B
+section: B5
+level: L3
+status: planned
+index_hint: Terraform, Pulumi, CDK, Crossplane
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

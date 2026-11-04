@@ -1,0 +1,15 @@
+id: E2.06
+slug: ocr-document-understanding
+title:
+  pt: OCR e documentos
+  en: OCR and document understanding
+part: E
+section: E2
+level: L3
+status: planned
+index_hint: Tesseract, PaddleOCR, TrOCR, LayoutLM, Donut, VLMs (Qwen-VL, Gemini, Claude)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

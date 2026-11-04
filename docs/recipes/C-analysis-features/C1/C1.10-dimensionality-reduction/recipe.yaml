@@ -1,0 +1,15 @@
+id: C1.10
+slug: dimensionality-reduction
+title:
+  pt: Redução de dimensionalidade e visualização
+  en: Dimensionality reduction
+part: C
+section: C1
+level: L2
+status: planned
+index_hint: PCA, t-SNE, UMAP, PaCMAP, autoencoders
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

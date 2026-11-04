@@ -1,0 +1,31 @@
+# Hooks locais: usam as versões do uv.lock, sem baixar repositórios de hooks.
+repos:
+  - repo: local
+    hooks:
+      - id: nbstripout
+        name: nbstripout (remove saídas, mantém tags)
+        entry: uv run nbstripout
+        language: system
+        files: \.ipynb$
+      - id: ruff
+        name: ruff
+        entry: uv run ruff check --fix
+        language: system
+        types_or: [python, jupyter]
+      - id: ruff-format
+        name: ruff format
+        entry: uv run ruff format
+        language: system
+        types_or: [python, jupyter]
+      - id: render
+        name: render (regenera conteúdo gerado)
+        entry: uv run python tools/render.py
+        language: system
+        pass_filenames: false
+        files: ^(docs/|config/|tools/|INDEX\.md)
+      - id: validate
+        name: validate
+        entry: uv run python tools/validate.py
+        language: system
+        pass_filenames: false
+        files: ^(docs/|src/cookbook/schemas/|tools/)

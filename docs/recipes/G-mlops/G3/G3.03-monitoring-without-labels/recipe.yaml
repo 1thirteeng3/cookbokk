@@ -1,0 +1,15 @@
+id: G3.03
+slug: monitoring-without-labels
+title:
+  pt: Monitoramento sem rótulos
+  en: Monitoring without labels
+part: G
+section: G3
+level: L4
+status: planned
+index_hint: CBPE, proxies, shadow models
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

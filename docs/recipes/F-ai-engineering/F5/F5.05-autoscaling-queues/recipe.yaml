@@ -1,0 +1,15 @@
+id: F5.05
+slug: autoscaling-queues
+title:
+  pt: Autoscaling e filas para inferência
+  en: Autoscaling and queues
+part: F
+section: F5
+level: L4
+status: planned
+index_hint: KServe, Ray Serve, Modal, Kubernetes, KEDA
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

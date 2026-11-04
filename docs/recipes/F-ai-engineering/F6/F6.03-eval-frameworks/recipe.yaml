@@ -1,0 +1,16 @@
+id: F6.03
+slug: eval-frameworks
+title:
+  pt: Frameworks de eval
+  en: Eval frameworks
+part: F
+section: F6
+level: L3
+status: planned
+index_hint: >-
+  promptfoo, DeepEval, Inspect, Braintrust, LangSmith, Phoenix, lm-eval-harness, OpenAI Evals
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

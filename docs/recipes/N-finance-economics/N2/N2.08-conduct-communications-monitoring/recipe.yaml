@@ -1,0 +1,15 @@
+id: N2.08
+slug: conduct-communications-monitoring
+title:
+  pt: Monitoramento de conduta e comunicações
+  en: Conduct and communications monitoring
+part: N
+section: N2
+level: L3
+status: planned
+index_hint: ASR + classificação, reclamações e ouvidoria, Reclame Aqui
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: E5.02
+slug: mixed-precision-training
+title:
+  pt: Treino com mixed precision
+  en: Mixed-precision training
+part: E
+section: E5
+level: L3
+status: planned
+index_hint: fp16, bf16, fp8, AMP, Transformer Engine
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: B1.04
+slug: incremental-ingestion
+title:
+  pt: Ingestão incremental
+  en: Incremental ingestion
+part: B
+section: B1
+level: L2
+status: planned
+index_hint: watermark, timestamp, hash diff, Airbyte, Fivetran, Meltano, dlt
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

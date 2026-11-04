@@ -1,0 +1,15 @@
+id: L2.10
+slug: emulators-surrogates
+title:
+  pt: Emuladores e surrogates de simuladores caros
+  en: Emulators and surrogates
+part: L
+section: L2
+level: L3
+status: planned
+index_hint: processos gaussianos (GPyTorch, GPflow), emuladores neurais, polynomial chaos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

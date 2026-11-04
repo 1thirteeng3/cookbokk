@@ -1,0 +1,15 @@
+id: D4.02
+slug: forecasting-ml
+title:
+  pt: Previsão com ML
+  en: Forecasting with ML
+part: D
+section: D4
+level: L2
+status: planned
+index_hint: LightGBM com lags, sktime, skforecast, mlforecast, direct vs recursive vs multi-output
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

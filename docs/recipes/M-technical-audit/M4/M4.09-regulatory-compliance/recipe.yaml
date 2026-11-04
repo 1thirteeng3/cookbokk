@@ -1,0 +1,15 @@
+id: M4.09
+slug: regulatory-compliance
+title:
+  pt: Conformidade regulatória de sistemas de IA
+  en: Regulatory compliance
+part: M
+section: M4
+level: L3
+status: planned
+index_hint: classificação de risco (EU AI Act), documentação técnica, transparência
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

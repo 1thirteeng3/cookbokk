@@ -1,0 +1,15 @@
+id: N1.07
+slug: risk-based-pricing-elasticity
+title:
+  pt: Precificação baseada em risco e elasticidade
+  en: Risk-based pricing and elasticity
+part: N
+section: N1
+level: L4
+status: planned
+index_hint: elasticidade causal à taxa (↔ H2, L1), RAROC, otimização de margem
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: N1.06
+slug: behavior-scoring-limit-management
+title:
+  pt: Behavior score e gestão de limites
+  en: Behavior scoring and limit management
+part: N
+section: N1
+level: L2
+status: planned
+index_hint: features de comportamento, limites dinâmicos, otimização sob risco
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

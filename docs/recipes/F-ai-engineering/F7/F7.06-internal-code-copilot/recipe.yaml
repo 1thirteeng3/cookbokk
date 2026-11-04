@@ -1,0 +1,15 @@
+id: F7.06
+slug: internal-code-copilot
+title:
+  pt: Copiloto de código interno
+  en: Internal code copilot
+part: F
+section: F7
+level: L4
+status: planned
+index_hint: RAG sobre repositórios, agentes, testes automáticos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: F4.03
+slug: peft-lora-qlora-dora-adapters
+title:
+  pt: 'PEFT: LoRA, QLoRA, DoRA, adapters'
+  en: 'PEFT: LoRA, QLoRA, DoRA, adapters'
+part: F
+section: F4
+level: L3
+status: planned
+index_hint: PEFT, Unsloth; rank, alvo de módulos, LR, quantização
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

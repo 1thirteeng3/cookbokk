@@ -1,0 +1,16 @@
+id: L1.02
+slug: dag-elicitation-experts-llms
+title:
+  pt: Elicitar DAGs com especialistas e LLMs
+  en: DAG elicitation with experts and LLMs
+part: L
+section: L1
+level: L3
+status: planned
+index_hint: >-
+  LLM como prior de grafo, combinação com descoberta causal, testes de independência condicional
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

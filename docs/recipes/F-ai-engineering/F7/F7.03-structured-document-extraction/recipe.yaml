@@ -1,0 +1,15 @@
+id: F7.03
+slug: structured-document-extraction
+title:
+  pt: Extração estruturada de documentos
+  en: Structured document extraction
+part: F
+section: F7
+level: L3
+status: planned
+index_hint: VLM/LLM + schema + validação + revisão humana
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

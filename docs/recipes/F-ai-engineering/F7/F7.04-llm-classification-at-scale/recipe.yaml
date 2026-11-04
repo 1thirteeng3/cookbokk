@@ -1,0 +1,15 @@
+id: F7.04
+slug: llm-classification-at-scale
+title:
+  pt: Classificação e triagem em escala com LLM
+  en: LLM classification at scale
+part: F
+section: F7
+level: L3
+status: planned
+index_hint: batch APIs, cascatas (modelo pequeno → grande), custo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

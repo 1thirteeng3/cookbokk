@@ -1,0 +1,15 @@
+id: J1.03
+slug: dev-staging-prod-environments
+title:
+  pt: Ambientes dev/staging/prod para apps de LLM
+  en: Dev, staging, prod environments
+part: J
+section: J1
+level: L2
+status: planned
+index_hint: chaves por ambiente, mocks de LLM, gravação e replay (VCR), dados sintéticos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

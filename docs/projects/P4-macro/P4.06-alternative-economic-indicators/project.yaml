@@ -1,0 +1,19 @@
+id: P4.06
+slug: alternative-economic-indicators
+title:
+  pt: Indicadores alternativos de atividade econômica
+  en: Alternative economic indicators
+group: P4
+domain: macro
+status: planned
+recipes:
+- N4.09
+- B1.02
+- E2
+- C2.08
+index_hint: luzes noturnas (VIIRS), Google Trends, preços online
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

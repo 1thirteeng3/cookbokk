@@ -1,0 +1,17 @@
+code: K
+title:
+  pt: DataOps
+  en: DataOps
+sections:
+  K1:
+    pt: Princípios e fundações
+    en: Principles and foundations
+  K2:
+    pt: CI/CD e testes
+    en: CI/CD and testing
+  K3:
+    pt: Confiabilidade, observabilidade e incidentes
+    en: Reliability, observability, incidents
+  K4:
+    pt: Organização, colaboração e plataforma
+    en: Organization, collaboration, platform

@@ -1,0 +1,15 @@
+id: C1.01
+slug: full-tabular-eda
+title:
+  pt: EDA tabular completa
+  en: Full tabular EDA
+part: C
+section: C1
+level: L1
+status: planned
+index_hint: pandas, ydata-profiling, sweetviz, Polars, DuckDB
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

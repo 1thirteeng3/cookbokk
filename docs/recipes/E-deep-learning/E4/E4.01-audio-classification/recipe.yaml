@@ -1,0 +1,15 @@
+id: E4.01
+slug: audio-classification
+title:
+  pt: Classificação de áudio
+  en: Audio classification
+part: E
+section: E4
+level: L2
+status: planned
+index_hint: librosa, espectrogramas, CNN, AST, BEATs, YAMNet
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

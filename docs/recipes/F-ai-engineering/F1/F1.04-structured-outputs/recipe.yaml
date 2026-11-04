@@ -1,0 +1,15 @@
+id: F1.04
+slug: structured-outputs
+title:
+  pt: Saídas estruturadas
+  en: Structured outputs
+part: F
+section: F1
+level: L2
+status: planned
+index_hint: JSON schema, tool use, Pydantic, Instructor, Outlines, grammars, constrained decoding
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

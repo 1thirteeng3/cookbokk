@@ -1,0 +1,15 @@
+id: D5.01
+slug: popularity-content-based
+title:
+  pt: Recomendação baseada em popularidade/conteúdo
+  en: Popularity and content-based
+part: D
+section: D5
+level: L1
+status: planned
+index_hint: TF-IDF, embeddings, similaridade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: N5.07
+slug: tax-benefit-microsimulation
+title:
+  pt: Microssimulação tributária e de transferências
+  en: Tax-benefit microsimulation
+part: N
+section: N5
+level: L4
+status: planned
+index_hint: modelos estáticos e comportamentais, simulação de reformas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

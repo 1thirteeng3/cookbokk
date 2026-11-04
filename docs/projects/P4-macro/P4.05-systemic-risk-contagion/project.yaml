@@ -1,0 +1,19 @@
+id: P4.05
+slug: systemic-risk-contagion
+title:
+  pt: Risco sistêmico e contágio em redes financeiras
+  en: Systemic risk and contagion
+group: P4
+domain: macro
+status: planned
+recipes:
+- N4.08
+- D6.01
+- L4.03
+- L3.09
+index_hint: dados agregados do BCB, redes sintéticas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

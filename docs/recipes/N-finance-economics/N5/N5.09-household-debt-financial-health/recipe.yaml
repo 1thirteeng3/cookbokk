@@ -1,0 +1,15 @@
+id: N5.09
+slug: household-debt-financial-health
+title:
+  pt: Endividamento e saúde financeira das famílias
+  en: Household debt and financial health
+part: N
+section: N5
+level: L3
+status: planned
+index_hint: superendividamento, comprometimento de renda, segmentação, early warning
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

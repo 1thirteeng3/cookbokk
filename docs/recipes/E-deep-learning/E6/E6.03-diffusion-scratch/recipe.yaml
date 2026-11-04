@@ -1,0 +1,15 @@
+id: E6.03
+slug: diffusion-scratch
+title:
+  pt: Modelos de difusão do zero
+  en: Diffusion from scratch
+part: E
+section: E6
+level: L4
+status: planned
+index_hint: DDPM, DDIM, flow matching, diffusers, classifier-free guidance
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

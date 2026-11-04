@@ -1,0 +1,15 @@
+id: I1.04
+slug: networking-gpu-interconnect
+title:
+  pt: Redes, GPUs e interconexão
+  en: Networking and GPU interconnect
+part: I
+section: I1
+level: L4
+status: planned
+index_hint: NVLink, InfiniBand, NCCL, topologia
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,17 @@
+id: F2.03
+slug: choose-embeddings
+title:
+  pt: Escolher embeddings
+  en: Choose embeddings
+part: F
+section: F2
+level: L2
+status: planned
+index_hint: >-
+  OpenAI, Cohere, Voyage, Gemini, BGE, E5, Jina, Nomic, Matryoshka; avaliação no próprio domínio (MTEB,
+  PT-BR)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

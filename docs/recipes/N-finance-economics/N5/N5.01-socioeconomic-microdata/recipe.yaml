@@ -1,0 +1,15 @@
+id: N5.01
+slug: socioeconomic-microdata
+title:
+  pt: Microdados socioeconômicos
+  en: Socioeconomic microdata
+part: N
+section: N5
+level: L1
+status: planned
+index_hint: PNAD Contínua, Censo, POF, RAIS, CAGED, CadÚnico agregado; Base dos Dados, pesos amostrais
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

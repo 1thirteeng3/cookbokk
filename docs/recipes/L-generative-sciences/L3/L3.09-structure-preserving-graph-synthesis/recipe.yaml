@@ -1,0 +1,15 @@
+id: L3.09
+slug: structure-preserving-graph-synthesis
+title:
+  pt: Síntese de grafos preservando estrutura
+  en: Structure-preserving graph synthesis
+part: L
+section: L3
+level: L3
+status: planned
+index_hint: ER, BA, SBM, GraphRNN, DiGress; distribuição de graus, motifs, comunidades
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

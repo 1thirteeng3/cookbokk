@@ -1,0 +1,15 @@
+id: B5.04
+slug: data-tests-contracts
+title:
+  pt: Testes e contratos de dados
+  en: Data tests and contracts
+part: B
+section: B5
+level: L2
+status: planned
+index_hint: Great Expectations, Soda, dbt tests, Pandera, Pydantic, data contracts
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

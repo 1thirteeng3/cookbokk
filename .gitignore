@@ -1,0 +1,28 @@
+# Ambiente
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.pytest_cache/
+
+# Dados e artefatos (nunca versionar dados, SPEC.md §13)
+data/
+build/
+site/
+mlruns/
+*.ckpt
+*.pt
+*.safetensors
+
+# Resultados smoke são descartáveis; só os full são versionados
+**/results/*.smoke.json
+
+# Jupyter / SO
+.ipynb_checkpoints/
+.DS_Store
+.env
+ds-ai-cookbook-step*/
+
+# Configurações geradas do Zensical (tools/build_site.py)
+.zensical.*.toml
+.cache/

@@ -1,0 +1,15 @@
+id: N1.10
+slug: secured-lending
+title:
+  pt: Crédito com garantia (home equity, auto)
+  en: Secured lending
+part: N
+section: N1
+level: L3
+status: planned
+index_hint: LTV dinâmico, risco de garantia, correlação PD × valor da garantia
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

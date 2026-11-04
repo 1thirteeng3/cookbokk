@@ -1,0 +1,15 @@
+id: I1.01
+slug: choose-cloud-services
+title:
+  pt: Escolher cloud e serviços de dados/ML
+  en: Choose cloud and services
+part: I
+section: I1
+level: L2
+status: planned
+index_hint: AWS vs GCP vs Azure vs on-prem vs neoclouds; matriz de decisão
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

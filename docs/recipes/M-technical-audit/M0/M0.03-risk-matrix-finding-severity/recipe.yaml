@@ -1,0 +1,15 @@
+id: M0.03
+slug: risk-matrix-finding-severity
+title:
+  pt: Matriz de riscos e severidade de achados
+  en: Risk matrix and finding severity
+part: M
+section: M0
+level: L2
+status: planned
+index_hint: probabilidade × impacto, priorização
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

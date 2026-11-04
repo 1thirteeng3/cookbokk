@@ -1,0 +1,15 @@
+id: L4.14
+slug: risks-ethics-llm-simulations
+title:
+  pt: Riscos, vieses e ética em simulações com LLM
+  en: Risks and ethics of LLM simulations
+part: L
+section: L4
+level: L3
+status: planned
+index_hint: homogeneização, estereótipos, sobreinterpretação, transparência
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

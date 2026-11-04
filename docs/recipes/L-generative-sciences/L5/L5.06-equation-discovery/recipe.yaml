@@ -1,0 +1,15 @@
+id: L5.06
+slug: equation-discovery
+title:
+  pt: Descoberta de equações
+  en: Equation discovery
+part: L
+section: L5
+level: L3
+status: planned
+index_hint: SINDy (PySINDy), regressão simbólica (PySR)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: N6.05
+slug: lgpd-banking-secrecy
+title:
+  pt: LGPD e sigilo bancário em projetos de dados
+  en: LGPD and banking secrecy
+part: N
+section: N6
+level: L3
+status: planned
+index_hint: LC 105/2001, bases legais, anonimização, dados sintéticos (↔ L3.13)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

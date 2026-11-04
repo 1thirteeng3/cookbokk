@@ -1,0 +1,15 @@
+id: J2.05
+slug: load-rate-limit-testing
+title:
+  pt: Testes de carga e limites de taxa
+  en: Load and rate-limit testing
+part: J
+section: J2
+level: L3
+status: planned
+index_hint: Locust, k6; RPM/TPM, backpressure, filas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

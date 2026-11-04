@@ -1,0 +1,15 @@
+id: K3.06
+slug: backup-dr-continuity
+title:
+  pt: Backup, DR e continuidade
+  en: Backup, DR, continuity
+part: K
+section: K3
+level: L3
+status: planned
+index_hint: RPO/RTO, replicação entre regiões, testes de restauração
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,17 @@
+id: M0.02
+slug: reference-frameworks-standards
+title:
+  pt: Frameworks e normas de referência
+  en: Reference frameworks and standards
+part: M
+section: M0
+level: L2
+status: planned
+index_hint: >-
+  NIST AI RMF e perfil GenAI (AI 600-1), ISO/IEC 42001, 23894, 5259, 25012, DAMA-DMBOK, COBIT, EU AI Act,
+  LGPD, PL 2338/2023, SR 11-7
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

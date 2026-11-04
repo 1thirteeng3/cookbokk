@@ -1,0 +1,19 @@
+id: P6.01
+slug: lending-company-data-platform
+title:
+  pt: Plataforma de dados de uma financeira (lakehouse + Open Finance)
+  en: Lending company data platform
+group: P6
+domain: financial-platforms
+status: planned
+recipes:
+- B1–B5
+- N6.01
+- N6.02
+- I1
+index_hint: dados sintéticos (↔ P6.06)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

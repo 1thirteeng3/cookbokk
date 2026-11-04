@@ -1,0 +1,15 @@
+id: N4.08
+slug: systemic-risk-network-contagion
+title:
+  pt: Risco sistêmico e contágio em redes financeiras
+  en: Systemic risk and network contagion
+part: N
+section: N4
+level: L4
+status: planned
+index_hint: redes interbancárias, DebtRank, CoVaR, simulação de choques
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

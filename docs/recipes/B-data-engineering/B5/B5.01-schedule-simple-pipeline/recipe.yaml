@@ -1,0 +1,15 @@
+id: B5.01
+slug: schedule-simple-pipeline
+title:
+  pt: Agendar um pipeline simples
+  en: Schedule a simple pipeline
+part: B
+section: B5
+level: L1
+status: planned
+index_hint: cron, Airflow, Prefect, Dagster, Mage, Kestra, Step Functions, Cloud Composer
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

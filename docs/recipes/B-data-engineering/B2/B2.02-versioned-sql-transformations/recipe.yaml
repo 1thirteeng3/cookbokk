@@ -1,0 +1,15 @@
+id: B2.02
+slug: versioned-sql-transformations
+title:
+  pt: Transformações SQL versionadas
+  en: Versioned SQL transformations
+part: B
+section: B2
+level: L2
+status: planned
+index_hint: dbt, SQLMesh, Dataform; modelos incrementais, snapshots, testes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

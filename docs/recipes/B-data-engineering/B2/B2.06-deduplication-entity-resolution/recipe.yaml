@@ -1,0 +1,15 @@
+id: B2.06
+slug: deduplication-entity-resolution
+title:
+  pt: Deduplicação e entity resolution
+  en: Deduplication and entity resolution
+part: B
+section: B2
+level: L3
+status: planned
+index_hint: regras, fuzzy (RapidFuzz), Splink, dedupe, embeddings + ANN, LLM-assisted
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

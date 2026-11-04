@@ -1,0 +1,15 @@
+id: C2.10
+slug: leak-free-feature-pipelines
+title:
+  pt: Pipelines de features sem leakage
+  en: Leak-free feature pipelines
+part: C
+section: C2
+level: L2
+status: planned
+index_hint: sklearn Pipeline, ColumnTransformer, feature-engine
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

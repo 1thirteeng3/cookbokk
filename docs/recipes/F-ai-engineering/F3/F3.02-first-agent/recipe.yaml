@@ -1,0 +1,16 @@
+id: F3.02
+slug: first-agent
+title:
+  pt: Primeiro agente (loop ReAct)
+  en: First agent
+part: F
+section: F3
+level: L2
+status: planned
+index_hint: >-
+  código puro, LangGraph, Claude Agent SDK, OpenAI Agents SDK, PydanticAI, smolagents, CrewAI
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,19 @@
+id: P3.04
+slug: derivatives-pricing-pinns
+title:
+  pt: Precificação de derivativos com PINNs e neural SDEs
+  en: Derivatives pricing with PINNs
+group: P3
+domain: markets
+status: planned
+recipes:
+- N3.07
+- L5.03
+- L5.04
+- E5
+index_hint: dados sintéticos e opções da B3
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

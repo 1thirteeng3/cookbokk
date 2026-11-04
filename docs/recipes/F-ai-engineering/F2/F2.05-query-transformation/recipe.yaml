@@ -1,0 +1,15 @@
+id: F2.05
+slug: query-transformation
+title:
+  pt: Query transformation
+  en: Query transformation
+part: F
+section: F2
+level: L3
+status: planned
+index_hint: rewriting, HyDE, multi-query, decomposição, step-back
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

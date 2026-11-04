@@ -1,0 +1,15 @@
+id: B5.11
+slug: data-platform-migration
+title:
+  pt: Migração de plataformas de dados
+  en: Data platform migration
+part: B
+section: B5
+level: L4
+status: planned
+index_hint: estratégia strangler, validação de paridade, dual-run
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

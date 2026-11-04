@@ -1,0 +1,15 @@
+id: E2.11
+slug: visual-search
+title:
+  pt: Busca visual e similaridade
+  en: Visual search
+part: E
+section: E2
+level: L3
+status: planned
+index_hint: CLIP/SigLIP + FAISS/vector DB, metric learning
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

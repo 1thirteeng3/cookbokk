@@ -1,0 +1,15 @@
+id: F4.01
+slug: decide-between-prompting-rag-fine-tuning
+title:
+  pt: 'Decidir: prompt vs RAG vs fine-tuning'
+  en: Decide between prompting, RAG, fine-tuning
+part: F
+section: F4
+level: L2
+status: planned
+index_hint: árvore de decisão, custo, dados necessários
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

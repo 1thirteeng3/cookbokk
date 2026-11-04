@@ -1,0 +1,15 @@
+id: D1.10
+slug: ensembles
+title:
+  pt: 'Ensembles: bagging, boosting, stacking, blending'
+  en: Ensembles
+part: D
+section: D1
+level: L3
+status: planned
+index_hint: RF, ExtraTrees, XGBoost, LightGBM, CatBoost, stacking, hill climbing
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

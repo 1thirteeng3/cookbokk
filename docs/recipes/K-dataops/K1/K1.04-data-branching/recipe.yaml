@@ -1,0 +1,15 @@
+id: K1.04
+slug: data-branching
+title:
+  pt: Branching de dados ("Git para dados")
+  en: Data branching
+part: K
+section: K1
+level: L3
+status: planned
+index_hint: lakeFS, Nessie, branches e tags do Iceberg, clones Delta, Dolt
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

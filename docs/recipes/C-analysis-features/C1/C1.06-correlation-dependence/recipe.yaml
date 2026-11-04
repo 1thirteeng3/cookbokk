@@ -1,0 +1,15 @@
+id: C1.06
+slug: correlation-dependence
+title:
+  pt: Análise de correlação e dependência
+  en: Correlation and dependence
+part: C
+section: C1
+level: L2
+status: planned
+index_hint: Pearson, Spearman, MI, distance correlation, SHAP interactions
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

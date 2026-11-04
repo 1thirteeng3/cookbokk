@@ -1,0 +1,15 @@
+id: D4.03
+slug: dedicated-forecasting-libs
+title:
+  pt: Previsão com bibliotecas dedicadas
+  en: Dedicated forecasting libs
+part: D
+section: D4
+level: L2
+status: planned
+index_hint: Prophet, NeuralProphet, statsforecast, Darts, GluonTS
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

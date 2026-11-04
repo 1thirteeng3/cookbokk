@@ -1,0 +1,15 @@
+id: L1.11
+slug: sensitivity-to-unobserved-confounding
+title:
+  pt: Sensibilidade a confundimento não observado
+  en: Sensitivity to unobserved confounding
+part: L
+section: L1
+level: L3
+status: planned
+index_hint: sensemakr, E-values, bounds parciais
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

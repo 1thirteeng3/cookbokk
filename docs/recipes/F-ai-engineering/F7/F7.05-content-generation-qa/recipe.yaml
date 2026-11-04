@@ -1,0 +1,15 @@
+id: F7.05
+slug: content-generation-qa
+title:
+  pt: Geração de conteúdo com controle de qualidade
+  en: Content generation with QA
+part: F
+section: F7
+level: L3
+status: planned
+index_hint: templates, verificadores, estilo, humano no loop
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

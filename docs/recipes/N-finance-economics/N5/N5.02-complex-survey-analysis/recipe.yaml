@@ -1,0 +1,15 @@
+id: N5.02
+slug: complex-survey-analysis
+title:
+  pt: Análise de pesquisas com desenho amostral complexo
+  en: Complex survey analysis
+part: N
+section: N5
+level: L2
+status: planned
+index_hint: pesos, estratos, conglomerados; samplics, survey (R)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

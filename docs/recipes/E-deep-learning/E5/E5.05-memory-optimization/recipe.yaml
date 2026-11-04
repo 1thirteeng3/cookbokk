@@ -1,0 +1,15 @@
+id: E5.05
+slug: memory-optimization
+title:
+  pt: Otimização de memória
+  en: Memory optimization
+part: E
+section: E5
+level: L3
+status: planned
+index_hint: gradient checkpointing, accumulation, offload, 8-bit optimizers, FlashAttention
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

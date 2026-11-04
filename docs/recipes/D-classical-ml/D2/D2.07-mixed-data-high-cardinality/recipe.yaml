@@ -1,0 +1,15 @@
+id: D2.07
+slug: mixed-data-high-cardinality
+title:
+  pt: Dados mistos e alta cardinalidade
+  en: Mixed data, high cardinality
+part: D
+section: D2
+level: L3
+status: planned
+index_hint: CatBoost, embeddings, target encoding com CV
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

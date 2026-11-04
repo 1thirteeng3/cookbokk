@@ -1,0 +1,15 @@
+id: F4.08
+slug: fine-tune-embeddings-rerankers
+title:
+  pt: Fine-tuning de embeddings e rerankers
+  en: Fine-tune embeddings and rerankers
+part: F
+section: F4
+level: L3
+status: planned
+index_hint: sentence-transformers, hard negatives, MNRL, dados sintéticos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

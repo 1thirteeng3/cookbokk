@@ -1,0 +1,15 @@
+id: F1.01
+slug: first-llm-call
+title:
+  pt: Primeira chamada a um LLM
+  en: First LLM call
+part: F
+section: F1
+level: L1
+status: planned
+index_hint: APIs Anthropic, OpenAI, Google, Mistral, Cohere; SDKs oficiais
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

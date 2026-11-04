@@ -1,0 +1,15 @@
+id: G2.09
+slug: model-reproducibility-audit
+title:
+  pt: Reprodutibilidade de modelos e auditoria
+  en: Model reproducibility and audit
+part: G
+section: G2
+level: L3
+status: planned
+index_hint: lineage dados → código → modelo, ambientes congelados
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

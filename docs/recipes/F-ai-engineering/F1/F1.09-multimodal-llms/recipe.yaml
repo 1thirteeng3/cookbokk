@@ -1,0 +1,15 @@
+id: F1.09
+slug: multimodal-llms
+title:
+  pt: Multimodal com LLMs (imagem, PDF, áudio)
+  en: Multimodal with LLMs
+part: F
+section: F1
+level: L2
+status: planned
+index_hint: visão em APIs, extração de documentos, limites
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

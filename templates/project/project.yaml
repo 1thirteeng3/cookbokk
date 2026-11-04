@@ -1,0 +1,72 @@
+# Template de metadados de projeto integrador. Exemplo: P1.01.
+# Integrating project metadata template. Example: P1.01.
+# Schema: src/cookbook/schemas/project.schema.json · Spec: SPEC.md §6.2, §9
+
+id: P1.01
+slug: credit-decision-engine
+title:
+  pt: Motor de concessão de crédito E2E
+  en: End-to-end credit decision engine
+group: P1
+domain: credit
+status: draft
+summary:
+  pt: >-
+    Do dado bruto à decisão monitorada: scorecard interpretável, modelo GBM, política de
+    aprovação com threshold por custo, API de decisão e monitoramento de estabilidade.
+  en: >-
+    From raw data to a monitored decision: interpretable scorecard, GBM model, cost-based
+    approval policy, decision API and stability monitoring.
+
+recipes: [N1.01, N1.02, N1.03, N1.12, D1.06, D1.07, G1, G3]
+
+tiers:
+  L1:
+    goal:
+      pt: Scorecard WoE/IV + regressão logística com política de corte simples, em um notebook.
+      en: WoE/IV scorecard + logistic regression with a simple cut-off policy, in one notebook.
+    notebooks: [notebooks/10-minimal-scorecard.ipynb]
+    stack: [pandas, optbinning, scikit-learn]
+  L3:
+    goal:
+      pt: Pipeline versionado, GBM monotônico calibrado, threshold por custo, API, monitoramento PSI/CSI.
+      en: Versioned pipeline, calibrated monotonic GBM, cost-based threshold, API, PSI/CSI monitoring.
+    notebooks:
+      - notebooks/30-feature-pipeline.ipynb
+      - notebooks/31-gbm-monotonic-calibrated.ipynb
+      - notebooks/32-decision-policy.ipynb
+      - notebooks/33-serving-fastapi.ipynb
+      - notebooks/34-monitoring.ipynb
+    stack: [polars, lightgbm, optuna, mlflow, fastapi, evidently]
+  L4:
+    goal:
+      pt: Inferência de rejeitados, deep learning tabular e foundation models tabulares, ganho medido sobre L3.
+      en: Reject inference, tabular deep learning and tabular foundation models, gain measured over L3.
+    notebooks:
+      - notebooks/40-reject-inference.ipynb
+      - notebooks/41-tabular-foundation-models.ipynb
+    stack: [tabpfn, pytorch, econml]
+
+datasets:
+  - name: Home Credit Default Risk (Kaggle)
+    url: https://www.kaggle.com/competitions/home-credit-default-risk
+    license: Kaggle competition rules
+    size_mb: 2700
+    loader: cookbook.data.fetch("home-credit")
+    requires_auth: true
+
+business_metrics:
+  - {pt: Taxa de aprovação, en: Approval rate}
+  - {pt: Taxa de inadimplência dos aprovados, en: Bad rate among approved}
+  - {pt: Lucro esperado por proposta, en: Expected profit per application}
+
+technical_metrics: [gini, ks, brier, psi, latency_p95_ms]
+regulatory: [Resolução CMN 4.557, Resolução CMN 4.966, LGPD]
+
+environment:
+  python: "3.12"
+  colab_runtime: cpu
+
+last_verified: null
+review_cycle_months: 12
+references: []

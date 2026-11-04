@@ -1,0 +1,15 @@
+id: D4.05
+slug: time-series-foundation-models
+title:
+  pt: Foundation models para séries
+  en: Time-series foundation models
+part: D
+section: D4
+level: L4
+status: planned
+index_hint: TimesFM, Chronos(-Bolt), Moirai, Lag-Llama, TimeGPT, MOMENT; zero-shot vs fine-tune
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

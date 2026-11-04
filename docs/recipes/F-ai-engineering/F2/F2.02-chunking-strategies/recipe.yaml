@@ -1,0 +1,16 @@
+id: F2.02
+slug: chunking-strategies
+title:
+  pt: Estratégias de chunking
+  en: Chunking strategies
+part: F
+section: F2
+level: L2
+status: planned
+index_hint: >-
+  tamanho fixo, recursivo, semântico, por estrutura, late chunking, parent-child, contextual retrieval
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

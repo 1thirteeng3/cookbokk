@@ -1,0 +1,15 @@
+id: B1.09
+slug: managed-custom-elt
+title:
+  pt: Conectores SaaS e ELT gerenciado vs custom
+  en: Managed vs custom ELT
+part: B
+section: B1
+level: L2
+status: planned
+index_hint: Airbyte, Fivetran, Stitch, dlt, scripts próprios (custo vs manutenção)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

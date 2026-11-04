@@ -1,0 +1,15 @@
+id: D2.12
+slug: weak-supervision
+title:
+  pt: Weak supervision
+  en: Weak supervision
+part: D
+section: D2
+level: L3
+status: planned
+index_hint: Snorkel, labeling functions, LLM como rotulador
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

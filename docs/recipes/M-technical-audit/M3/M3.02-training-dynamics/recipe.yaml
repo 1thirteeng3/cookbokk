@@ -1,0 +1,15 @@
+id: M3.02
+slug: training-dynamics
+title:
+  pt: Dinâmica de treino
+  en: Training dynamics
+part: M
+section: M3
+level: L3
+status: planned
+index_hint: curvas, instabilidades, critérios de escolha de checkpoint
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

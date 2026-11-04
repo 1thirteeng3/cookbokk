@@ -1,0 +1,19 @@
+id: P5.05
+slug: labor-market-forecasting-wage-gaps
+title:
+  pt: 'Mercado de trabalho: previsão de emprego e desigualdade salarial'
+  en: Labor market forecasting and wage gaps
+group: P5
+domain: socioeconomics
+status: planned
+recipes:
+- N5.08
+- N5.04
+- D4
+- N5.02
+index_hint: RAIS, Novo CAGED, PNAD Contínua
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

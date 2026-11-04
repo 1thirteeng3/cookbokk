@@ -1,0 +1,15 @@
+id: D3.03
+slug: tabular-anomaly-detection
+title:
+  pt: Detecção de anomalias tabular
+  en: Tabular anomaly detection
+part: D
+section: D3
+level: L2
+status: planned
+index_hint: Isolation Forest, LOF, OCSVM, autoencoder, PyOD, ECOD
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

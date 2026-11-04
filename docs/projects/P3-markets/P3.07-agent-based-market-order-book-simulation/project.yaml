@@ -1,0 +1,19 @@
+id: P3.07
+slug: agent-based-market-order-book-simulation
+title:
+  pt: Simulação de mercado e livro de ofertas com agentes
+  en: Agent-based market and order book simulation
+group: P3
+domain: markets
+status: planned
+recipes:
+- N3.11
+- L4.04–L4.10
+- L2.14
+- D6.05
+index_hint: dados de LOB públicos (LOBSTER amostral), sintéticos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: D5.10
+slug: llm-based-recommendation
+title:
+  pt: Recomendação com LLMs
+  en: LLM-based recommendation
+part: D
+section: D5
+level: L4
+status: planned
+index_hint: LLM como ranker, embeddings, geração de explicações, semantic IDs
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

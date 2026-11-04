@@ -1,0 +1,15 @@
+id: E1.03
+slug: optimizers-schedulers
+title:
+  pt: Otimizadores e schedulers
+  en: Optimizers and schedulers
+part: E
+section: E1
+level: L2
+status: planned
+index_hint: SGD, Adam/AdamW, Lion, Sophia, Muon, Shampoo; warmup, cosine, OneCycle
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

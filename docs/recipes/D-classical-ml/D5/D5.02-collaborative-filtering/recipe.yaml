@@ -1,0 +1,15 @@
+id: D5.02
+slug: collaborative-filtering
+title:
+  pt: Filtragem colaborativa
+  en: Collaborative filtering
+part: D
+section: D5
+level: L2
+status: planned
+index_hint: KNN, SVD, ALS (implicit), LightFM, Surprise
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

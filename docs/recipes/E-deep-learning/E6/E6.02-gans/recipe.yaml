@@ -1,0 +1,15 @@
+id: E6.02
+slug: gans
+title:
+  pt: GANs
+  en: GANs
+part: E
+section: E6
+level: L3
+status: planned
+index_hint: DCGAN, StyleGAN, WGAN-GP; estabilidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

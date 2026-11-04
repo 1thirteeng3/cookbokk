@@ -1,0 +1,15 @@
+id: N1.12
+slug: risk-model-validation
+title:
+  pt: Validação de modelos de risco (backtesting, estabilidade)
+  en: Risk model validation
+part: N
+section: N1
+level: L2
+status: planned
+index_hint: KS, Gini, PSI, CSI, binomial test, Hosmer-Lemeshow, Traffic Light
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

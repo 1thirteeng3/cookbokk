@@ -1,0 +1,15 @@
+id: G3.04
+slug: feedback-loops-delayed-labels
+title:
+  pt: Loops de feedback e rotulagem tardia
+  en: Feedback loops and delayed labels
+part: G
+section: G3
+level: L3
+status: planned
+index_hint: amostragem, active learning, viés de seleção
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

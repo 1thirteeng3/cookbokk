@@ -1,0 +1,15 @@
+id: H1.03
+slug: variance-reduction
+title:
+  pt: Redução de variância (CUPED)
+  en: Variance reduction
+part: H
+section: H1
+level: L3
+status: planned
+index_hint: CUPED, estratificação, regressão ajustada
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

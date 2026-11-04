@@ -1,0 +1,15 @@
+id: D3.07
+slug: representation-learning
+title:
+  pt: Aprendizado de representações
+  en: Representation learning
+part: D
+section: D3
+level: L4
+status: planned
+index_hint: autoencoders, VAE, contrastive (SimCLR, CLIP-style), SSL (DINOv2, MAE)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

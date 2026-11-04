@@ -1,0 +1,15 @@
+id: M1.08
+slug: cost-efficiency
+title:
+  pt: Custo e eficiência
+  en: Cost and efficiency
+part: M
+section: M1
+level: L2
+status: planned
+index_hint: queries caras, storage órfão, compute ocioso
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

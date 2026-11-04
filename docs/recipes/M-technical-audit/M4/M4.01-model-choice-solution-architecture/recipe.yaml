@@ -1,0 +1,15 @@
+id: M4.01
+slug: model-choice-solution-architecture
+title:
+  pt: Escolha de modelos e arquitetura da solução
+  en: Model choice and solution architecture
+part: M
+section: M4
+level: L2
+status: planned
+index_hint: adequação, custo, latência, lock-in
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: N4.09
+slug: alternative-high-frequency-indicators
+title:
+  pt: Indicadores alternativos e de alta frequência
+  en: Alternative and high-frequency indicators
+part: N
+section: N4
+level: L3
+status: planned
+index_hint: preços online, luzes noturnas, dados de pagamentos, busca
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

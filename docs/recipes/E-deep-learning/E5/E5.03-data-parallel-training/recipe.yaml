@@ -1,0 +1,15 @@
+id: E5.03
+slug: data-parallel-training
+title:
+  pt: Treino distribuído de dados (DDP)
+  en: Data-parallel training
+part: E
+section: E5
+level: L3
+status: planned
+index_hint: DDP, FSDP, DeepSpeed ZeRO, Horovod, Accelerate
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

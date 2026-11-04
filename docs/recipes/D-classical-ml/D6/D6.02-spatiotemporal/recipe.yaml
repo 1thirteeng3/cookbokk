@@ -1,0 +1,15 @@
+id: D6.02
+slug: spatiotemporal
+title:
+  pt: Previsão espaço-temporal
+  en: Spatiotemporal
+part: D
+section: D6
+level: L3
+status: planned
+index_hint: ConvLSTM, ST-GNN, Graph WaveNet
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

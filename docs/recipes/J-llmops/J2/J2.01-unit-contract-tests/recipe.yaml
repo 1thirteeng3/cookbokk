@@ -1,0 +1,15 @@
+id: J2.01
+slug: unit-contract-tests
+title:
+  pt: Testes unitários e de contrato em chamadas de LLM
+  en: Unit and contract tests
+part: J
+section: J2
+level: L2
+status: planned
+index_hint: pytest, mocks, asserts de schema; testes determinísticos vs estatísticos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: L3.03
+slug: time-series-synthesis
+title:
+  pt: Síntese de séries temporais
+  en: Time-series synthesis
+part: L
+section: L3
+level: L3
+status: planned
+index_hint: TimeGAN, Diffusion-TS; preservar autocorrelação, sazonalidade e regimes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

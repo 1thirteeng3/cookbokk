@@ -1,0 +1,15 @@
+id: L4.07
+slug: silicon-samples-their-limits
+title:
+  pt: Populações sintéticas ("silicon samples") e seus limites
+  en: Silicon samples and their limits
+part: L
+section: L4
+level: L3
+status: planned
+index_hint: personas, vieses, validade frente a pesquisas reais
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

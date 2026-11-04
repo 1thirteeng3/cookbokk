@@ -1,0 +1,15 @@
+id: E5.10
+slug: alternative-architectures
+title:
+  pt: Arquiteturas alternativas ao Transformer
+  en: Alternative architectures
+part: E
+section: E5
+level: L4
+status: planned
+index_hint: Mamba/SSM, RWKV, MoE, híbridos, linear attention
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

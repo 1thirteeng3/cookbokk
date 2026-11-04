@@ -1,0 +1,19 @@
+id: P7.01
+slug: retail-demand-forecasting
+title:
+  pt: Previsão de demanda no varejo
+  en: Retail demand forecasting
+group: P7
+domain: other
+status: planned
+recipes:
+- D4
+- B2
+- G1.03
+- G3
+index_hint: M5 (Walmart)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

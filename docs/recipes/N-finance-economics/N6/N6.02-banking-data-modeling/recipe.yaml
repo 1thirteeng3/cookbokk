@@ -1,0 +1,15 @@
+id: N6.02
+slug: banking-data-modeling
+title:
+  pt: Modelagem de dados bancários
+  en: Banking data modeling
+part: N
+section: N6
+level: L2
+status: planned
+index_hint: contratos, parcelas, eventos, saldos; snapshots e históricos (SCD)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

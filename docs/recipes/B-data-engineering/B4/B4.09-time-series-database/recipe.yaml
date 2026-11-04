@@ -1,0 +1,15 @@
+id: B4.09
+slug: time-series-database
+title:
+  pt: Banco de séries temporais
+  en: Time-series database
+part: B
+section: B4
+level: L3
+status: planned
+index_hint: TimescaleDB, InfluxDB, QuestDB, ClickHouse, Prometheus
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

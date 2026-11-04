@@ -1,0 +1,15 @@
+id: B4.07
+slug: partitioning-clustering-indexing
+title:
+  pt: Particionamento, clustering e indexação
+  en: Partitioning, clustering, indexing
+part: B
+section: B4
+level: L3
+status: planned
+index_hint: partition pruning, z-order, liquid clustering, bloom filters, índices
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

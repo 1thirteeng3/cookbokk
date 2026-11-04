@@ -1,0 +1,15 @@
+id: L5.13
+slug: knowledge-guided-ml
+title:
+  pt: Integrar conhecimento de domínio
+  en: Knowledge-guided ML
+part: L
+section: L5
+level: L3
+status: planned
+index_hint: priors informativos, features físicas, grafos de conhecimento, regras
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

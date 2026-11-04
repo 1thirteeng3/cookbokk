@@ -1,0 +1,15 @@
+id: B5.07
+slug: governance-pii-privacy-law
+title:
+  pt: Governança, PII, LGPD/GDPR
+  en: Governance, PII, privacy law
+part: B
+section: B5
+level: L3
+status: planned
+index_hint: classificação, mascaramento, tokenização, RBAC/ABAC, Presidio, row/column-level security
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

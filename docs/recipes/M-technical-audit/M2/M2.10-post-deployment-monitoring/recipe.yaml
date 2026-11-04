@@ -1,0 +1,15 @@
+id: M2.10
+slug: post-deployment-monitoring
+title:
+  pt: Monitoramento e operação pós-deploy
+  en: Post-deployment monitoring
+part: M
+section: M2
+level: L3
+status: planned
+index_hint: drift, alertas, retreino, rollback
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

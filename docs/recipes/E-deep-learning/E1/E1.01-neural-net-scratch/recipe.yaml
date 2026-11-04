@@ -1,0 +1,15 @@
+id: E1.01
+slug: neural-net-scratch
+title:
+  pt: Rede neural do zero
+  en: Neural net from scratch
+part: E
+section: E1
+level: L1
+status: planned
+index_hint: NumPy, depois PyTorch, TensorFlow/Keras, JAX/Flax; autodiff
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

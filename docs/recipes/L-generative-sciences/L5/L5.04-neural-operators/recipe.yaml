@@ -1,0 +1,15 @@
+id: L5.04
+slug: neural-operators
+title:
+  pt: Neural operators
+  en: Neural operators
+part: L
+section: L5
+level: L4
+status: planned
+index_hint: FNO, DeepONet, neuraloperator; generalização entre condições
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

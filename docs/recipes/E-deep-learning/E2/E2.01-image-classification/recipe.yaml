@@ -1,0 +1,15 @@
+id: E2.01
+slug: image-classification
+title:
+  pt: Classificação de imagens
+  en: Image classification
+part: E
+section: E2
+level: L1
+status: planned
+index_hint: CNN simples, ResNet, EfficientNet, ConvNeXt, ViT, DINOv2/SigLIP + linear probe
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

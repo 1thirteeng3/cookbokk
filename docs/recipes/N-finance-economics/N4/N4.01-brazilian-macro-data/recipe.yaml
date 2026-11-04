@@ -1,0 +1,15 @@
+id: N4.01
+slug: brazilian-macro-data
+title:
+  pt: Dados macroeconômicos brasileiros
+  en: Brazilian macro data
+part: N
+section: N4
+level: L1
+status: planned
+index_hint: BCB SGS, Focus (Olinda), IBGE SIDRA, Ipeadata, FRED; python-bcb, sidrapy
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

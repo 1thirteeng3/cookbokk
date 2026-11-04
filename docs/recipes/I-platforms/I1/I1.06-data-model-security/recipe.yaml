@@ -1,0 +1,15 @@
+id: I1.06
+slug: data-model-security
+title:
+  pt: Segurança de dados e modelos
+  en: Data and model security
+part: I
+section: I1
+level: L3
+status: planned
+index_hint: IAM, segredos, criptografia, VPC, supply chain (pickle, safetensors)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

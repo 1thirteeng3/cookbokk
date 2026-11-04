@@ -1,0 +1,15 @@
+id: B3.03
+slug: delivery-semantics
+title:
+  pt: Semânticas de entrega (at-least/exactly-once)
+  en: Delivery semantics
+part: B
+section: B3
+level: L3
+status: planned
+index_hint: idempotência, transações Kafka, checkpoints, outbox pattern
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

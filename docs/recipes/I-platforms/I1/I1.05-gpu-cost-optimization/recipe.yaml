@@ -1,0 +1,15 @@
+id: I1.05
+slug: gpu-cost-optimization
+title:
+  pt: Otimização de custo de GPU
+  en: GPU cost optimization
+part: I
+section: I1
+level: L3
+status: planned
+index_hint: spot, reservas, MIG, time-slicing, right-sizing, neoclouds
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

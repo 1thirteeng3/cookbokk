@@ -1,0 +1,15 @@
+id: I1.03
+slug: distributed-compute-ray
+title:
+  pt: Computação distribuída com Ray
+  en: Distributed compute with Ray
+part: I
+section: I1
+level: L3
+status: planned
+index_hint: Ray Core, Data, Train, Tune, Serve
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: L3.01
+slug: fidelity-utility-privacy
+title:
+  pt: 'Fundamentos: fidelidade, utilidade e privacidade'
+  en: Fidelity, utility, privacy
+part: L
+section: L3
+level: L1
+status: planned
+index_hint: SDV, SDMetrics, synthcity; train-synthetic-test-real (TSTR)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

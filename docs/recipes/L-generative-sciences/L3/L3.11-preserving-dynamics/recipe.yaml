@@ -1,0 +1,15 @@
+id: L3.11
+slug: preserving-dynamics
+title:
+  pt: 'Preservar dinâmica: atratores, invariantes, Lyapunov'
+  en: Preserving dynamics
+part: L
+section: L3
+level: L4
+status: planned
+index_hint: embedding de Takens, reservoir computing, neural ODEs, métricas de sistemas dinâmicos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

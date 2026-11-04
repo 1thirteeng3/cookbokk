@@ -1,0 +1,15 @@
+id: C2.02
+slug: scale-transform-numerics
+title:
+  pt: Escalonar e transformar numéricas
+  en: Scale and transform numerics
+part: C
+section: C2
+level: L1
+status: planned
+index_hint: standard, minmax, robust, quantile, Box-Cox, Yeo-Johnson, log
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

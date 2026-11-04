@@ -1,0 +1,15 @@
+id: N1.11
+slug: sme-lending-alternative-data
+title:
+  pt: Crédito para PMEs com dados alternativos
+  en: SME lending with alternative data
+part: N
+section: N1
+level: L3
+status: planned
+index_hint: Open Finance, notas fiscais, fluxo de caixa, grafos de relacionamento
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

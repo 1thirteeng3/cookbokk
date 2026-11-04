@@ -1,0 +1,15 @@
+id: L3.12
+slug: constraint-aware-synthesis
+title:
+  pt: Síntese guiada por restrições lógicas e físicas
+  en: Constraint-aware synthesis
+part: L
+section: L3
+level: L3
+status: planned
+index_hint: rejection sampling, guidance em difusão, programas probabilísticos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

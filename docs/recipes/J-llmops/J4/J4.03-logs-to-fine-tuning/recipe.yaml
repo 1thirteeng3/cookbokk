@@ -1,0 +1,15 @@
+id: J4.03
+slug: logs-to-fine-tuning
+title:
+  pt: 'Do log ao fine-tune: destilação contínua'
+  en: Logs to fine-tuning
+part: J
+section: J4
+level: L4
+status: planned
+index_hint: filtragem por qualidade, retreino, reavaliação, controle de regressão
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

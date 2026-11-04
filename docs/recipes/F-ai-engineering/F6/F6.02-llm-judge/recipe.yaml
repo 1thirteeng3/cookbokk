@@ -1,0 +1,15 @@
+id: F6.02
+slug: llm-judge
+title:
+  pt: LLM-as-a-judge
+  en: LLM-as-a-judge
+part: F
+section: F6
+level: L3
+status: planned
+index_hint: rubricas, pairwise, viés de posição/tamanho, calibração com humanos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

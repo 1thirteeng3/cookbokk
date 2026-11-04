@@ -1,0 +1,15 @@
+id: M3.04
+slug: calibration-uncertainty
+title:
+  pt: Calibração e incerteza
+  en: Calibration and uncertainty
+part: M
+section: M3
+level: L3
+status: planned
+index_hint: ECE, diagramas de confiabilidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: M2.02
+slug: validation-protocol
+title:
+  pt: Protocolo de validação
+  en: Validation protocol
+part: M
+section: M2
+level: L2
+status: planned
+index_hint: splits, vazamento temporal e de grupo, tuning no conjunto de teste
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

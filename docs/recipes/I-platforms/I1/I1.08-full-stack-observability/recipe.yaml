@@ -1,0 +1,15 @@
+id: I1.08
+slug: full-stack-observability
+title:
+  pt: Observabilidade full-stack
+  en: Full-stack observability
+part: I
+section: I1
+level: L3
+status: planned
+index_hint: OpenTelemetry, Prometheus, Grafana, Loki, Tempo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

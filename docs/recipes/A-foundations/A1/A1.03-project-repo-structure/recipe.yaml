@@ -1,0 +1,15 @@
+id: A1.03
+slug: project-repo-structure
+title:
+  pt: Estruturar um repositório de projeto DS/ML
+  en: Project repo structure
+part: A
+section: A1
+level: L1
+status: planned
+index_hint: cookiecutter-data-science, Kedro, estrutura monorepo vs polyrepo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

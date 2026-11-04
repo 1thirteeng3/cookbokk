@@ -1,0 +1,15 @@
+id: L3.15
+slug: synthetic-data-governance
+title:
+  pt: Governança de dados sintéticos
+  en: Synthetic data governance
+part: L
+section: L3
+level: L3
+status: planned
+index_hint: rotulagem, linhagem, riscos de contaminação de treino e eval
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

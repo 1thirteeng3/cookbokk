@@ -1,0 +1,15 @@
+id: K1.02
+slug: dataops-metrics
+title:
+  pt: Métricas de DataOps
+  en: DataOps metrics
+part: K
+section: K1
+level: L2
+status: planned
+index_hint: lead time, frequência de deploy, MTTR, taxa de falha de mudança, data downtime
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

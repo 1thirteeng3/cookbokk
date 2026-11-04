@@ -1,0 +1,16 @@
+id: D6.03
+slug: privacy-preserving-ml
+title:
+  pt: Dados com privacidade (DP, federated)
+  en: Privacy-preserving ML
+part: D
+section: D6
+level: L4
+status: planned
+index_hint: >-
+  differential privacy (Opacus, TF Privacy), federated (Flower, FedML), SMPC, dados sintéticos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

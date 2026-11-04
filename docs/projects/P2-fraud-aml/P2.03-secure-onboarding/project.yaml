@@ -1,0 +1,20 @@
+id: P2.03
+slug: secure-onboarding
+title:
+  pt: 'Onboarding seguro: KYC, fraude documental e deepfake'
+  en: Secure onboarding
+group: P2
+domain: fraud-aml
+status: planned
+recipes:
+- N2.02
+- N2.03
+- E2.06
+- E2.09
+- F1.09
+index_hint: datasets públicos de documentos e deepfakes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

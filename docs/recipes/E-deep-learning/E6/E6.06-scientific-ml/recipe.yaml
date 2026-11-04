@@ -1,0 +1,15 @@
+id: E6.06
+slug: scientific-ml
+title:
+  pt: Neural ODEs, PINNs, ML científico
+  en: Scientific ML
+part: E
+section: E6
+level: L4
+status: planned
+index_hint: torchdiffeq, DeepXDE, neural operators (FNO)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

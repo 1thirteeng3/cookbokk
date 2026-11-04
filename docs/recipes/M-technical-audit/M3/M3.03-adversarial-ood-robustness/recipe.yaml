@@ -1,0 +1,15 @@
+id: M3.03
+slug: adversarial-ood-robustness
+title:
+  pt: Robustez adversarial e fora de distribuição
+  en: Adversarial and OOD robustness
+part: M
+section: M3
+level: L3
+status: planned
+index_hint: ART, Foolbox, TextAttack, benchmarks de shift
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

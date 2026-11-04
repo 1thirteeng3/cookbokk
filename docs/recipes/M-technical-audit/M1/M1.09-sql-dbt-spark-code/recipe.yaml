@@ -1,0 +1,15 @@
+id: M1.09
+slug: sql-dbt-spark-code
+title:
+  pt: Código SQL, dbt e Spark
+  en: SQL, dbt, Spark code
+part: M
+section: M1
+level: L2
+status: planned
+index_hint: sqlfluff, revisão, cobertura de testes, anti-padrões
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

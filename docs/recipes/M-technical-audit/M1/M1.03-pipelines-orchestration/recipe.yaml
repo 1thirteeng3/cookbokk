@@ -1,0 +1,15 @@
+id: M1.03
+slug: pipelines-orchestration
+title:
+  pt: Pipelines e orquestração
+  en: Pipelines and orchestration
+part: M
+section: M1
+level: L3
+status: planned
+index_hint: idempotência, retries, backfill, dependências, tratamento de erro
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: F4.11
+slug: pretrain-small-llm-scratch
+title:
+  pt: Pré-treino de LLM pequeno do zero
+  en: Pretrain a small LLM from scratch
+part: F
+section: F4
+level: L4
+status: planned
+index_hint: nanoGPT, Megatron, torchtitan; dados, tokenizer, scaling
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

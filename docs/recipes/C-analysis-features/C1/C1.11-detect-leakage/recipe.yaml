@@ -1,0 +1,15 @@
+id: C1.11
+slug: detect-leakage
+title:
+  pt: Detectar data leakage
+  en: Detect leakage
+part: C
+section: C1
+level: L3
+status: planned
+index_hint: leakage temporal, de alvo, de grupo; auditoria sistemática
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

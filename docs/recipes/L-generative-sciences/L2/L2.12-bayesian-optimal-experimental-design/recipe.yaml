@@ -1,0 +1,15 @@
+id: L2.12
+slug: bayesian-optimal-experimental-design
+title:
+  pt: Design ótimo de experimentos bayesiano
+  en: Bayesian optimal experimental design
+part: L
+section: L2
+level: L4
+status: planned
+index_hint: expected information gain, BOED amortizado, Pyro OED
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: I1.09
+slug: local-infrastructure
+title:
+  pt: Infraestrutura local (homelab / workstation)
+  en: Local infrastructure
+part: I
+section: I1
+level: L2
+status: planned
+index_hint: escolha de GPU, VRAM, refrigeração, orçamento
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

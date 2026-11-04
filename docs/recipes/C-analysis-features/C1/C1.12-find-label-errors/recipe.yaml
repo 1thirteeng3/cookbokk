@@ -1,0 +1,15 @@
+id: C1.12
+slug: find-label-errors
+title:
+  pt: 'Data-centric AI: encontrar erros de rótulo'
+  en: Find label errors
+part: C
+section: C1
+level: L3
+status: planned
+index_hint: cleanlab, confident learning, FiftyOne, Argilla
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

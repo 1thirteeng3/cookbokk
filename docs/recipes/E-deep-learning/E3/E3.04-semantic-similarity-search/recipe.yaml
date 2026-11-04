@@ -1,0 +1,15 @@
+id: E3.04
+slug: semantic-similarity-search
+title:
+  pt: Similaridade semântica e busca
+  en: Semantic similarity and search
+part: E
+section: E3
+level: L2
+status: planned
+index_hint: BM25, sentence-transformers, bi-encoders, cross-encoders, híbrido
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

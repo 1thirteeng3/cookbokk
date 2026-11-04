@@ -1,0 +1,15 @@
+id: L1.12
+slug: time-series-dynamical-causality
+title:
+  pt: Causalidade em séries temporais e sistemas dinâmicos
+  en: Time-series and dynamical causality
+part: L
+section: L1
+level: L3
+status: planned
+index_hint: Granger, PCMCI (Tigramite), convergent cross mapping, transfer entropy
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

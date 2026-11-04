@@ -1,0 +1,20 @@
+id: P3.01
+slug: market-data-pipeline-plus-bias-free
+title:
+  pt: Pipeline de dados de mercado + backtesting sem vieses
+  en: Market data pipeline + bias-free backtesting
+group: P3
+domain: markets
+status: planned
+recipes:
+- N3.01
+- N3.02
+- B1
+- B4.05
+- B5
+index_hint: B3, CVM, yfinance
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

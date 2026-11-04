@@ -1,0 +1,15 @@
+id: D2.03
+slug: regression
+title:
+  pt: Regressão
+  en: Regression
+part: D
+section: D2
+level: L1
+status: planned
+index_hint: linear, Ridge/Lasso/Elastic, GBM, GAM, NN, quantile regression
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

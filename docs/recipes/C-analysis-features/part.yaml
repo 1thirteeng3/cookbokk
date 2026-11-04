@@ -1,0 +1,11 @@
+code: C
+title:
+  pt: Análise de Dados e Feature Engineering
+  en: Data Analysis and Feature Engineering
+sections:
+  C1:
+    pt: Análise exploratória e visualização
+    en: EDA and visualization
+  C2:
+    pt: Feature engineering
+    en: Feature engineering

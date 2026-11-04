@@ -1,0 +1,15 @@
+id: L2.14
+slug: calibrating-epidemic-agent-based-models
+title:
+  pt: Calibrar modelos epidemiológicos e baseados em agentes
+  en: Calibrating epidemic and agent-based models
+part: L
+section: L2
+level: L3
+status: planned
+index_hint: SEIR, ABMs (Mesa) + sbi (↔ L4.10)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

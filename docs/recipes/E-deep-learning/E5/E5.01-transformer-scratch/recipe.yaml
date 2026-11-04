@@ -1,0 +1,15 @@
+id: E5.01
+slug: transformer-scratch
+title:
+  pt: Implementar Transformer do zero
+  en: Transformer from scratch
+part: E
+section: E5
+level: L3
+status: planned
+index_hint: PyTorch, JAX; atenção, posicional (RoPE, ALiBi), KV cache
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

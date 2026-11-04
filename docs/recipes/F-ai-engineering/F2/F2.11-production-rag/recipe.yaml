@@ -1,0 +1,15 @@
+id: F2.11
+slug: production-rag
+title:
+  pt: 'RAG em produção: atualização, ACL, multi-tenant'
+  en: Production RAG
+part: F
+section: F2
+level: L4
+status: planned
+index_hint: indexação incremental, permissões por documento, citações, observabilidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

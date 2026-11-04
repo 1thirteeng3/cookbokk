@@ -1,0 +1,20 @@
+id: P3.06
+slug: equity-research-agent
+title:
+  pt: Agente de equity research com fontes citadas
+  en: Equity research agent
+group: P3
+domain: markets
+status: planned
+recipes:
+- F3
+- F2
+- F7.10
+- N3.09
+- F6
+index_hint: CVM, relações com investidores
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

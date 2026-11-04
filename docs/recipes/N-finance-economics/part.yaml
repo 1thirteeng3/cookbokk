@@ -1,0 +1,23 @@
+code: N
+title:
+  pt: Domínio Finanças, Economia e Socioeconomia
+  en: Finance, Economics and Socioeconomics Domain
+sections:
+  N1:
+    pt: Crédito e risco de crédito
+    en: Credit and credit risk
+  N2:
+    pt: Fraude, PLD/AML e compliance
+    en: Fraud, AML and compliance
+  N3:
+    pt: Mercados, investimentos e tesouraria
+    en: Markets, investments and treasury
+  N4:
+    pt: Macroeconomia e economia aplicada
+    en: Macroeconomics and applied economics
+  N5:
+    pt: Socioeconomia e políticas públicas
+    en: Socioeconomics and public policy
+  N6:
+    pt: Dados e regulação do sistema financeiro
+    en: Financial system data and regulation

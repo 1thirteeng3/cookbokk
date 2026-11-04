@@ -1,0 +1,15 @@
+id: F6.11
+slug: continuous-regression-testing
+title:
+  pt: Testes de regressão contínuos de prompts e modelos
+  en: Continuous regression testing
+part: F
+section: F6
+level: L3
+status: planned
+index_hint: CI com evals, versionamento de prompts, canários
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: G2.08
+slug: internal-ml-platform
+title:
+  pt: Plataforma interna de ML
+  en: Internal ML platform
+part: G
+section: G2
+level: L4
+status: planned
+index_hint: build vs buy, arquitetura, SLAs, multi-time
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

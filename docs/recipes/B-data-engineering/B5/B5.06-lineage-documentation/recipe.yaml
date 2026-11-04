@@ -1,0 +1,15 @@
+id: B5.06
+slug: lineage-documentation
+title:
+  pt: Linhagem e documentação de dados
+  en: Lineage and documentation
+part: B
+section: B5
+level: L3
+status: planned
+index_hint: OpenLineage, DataHub, OpenMetadata, dbt docs, Amundsen
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

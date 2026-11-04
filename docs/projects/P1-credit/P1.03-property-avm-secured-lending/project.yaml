@@ -1,0 +1,21 @@
+id: P1.03
+slug: property-avm-secured-lending
+title:
+  pt: AVM de imóveis para crédito com garantia
+  en: Property AVM for secured lending
+group: P1
+domain: credit
+status: planned
+recipes:
+- N1.09
+- N1.10
+- N5.11
+- C2.08
+- D2.08
+- B2.08
+index_hint: ITBI (Prefeitura de SP), FipeZap, dados geográficos (IBGE, OSM)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

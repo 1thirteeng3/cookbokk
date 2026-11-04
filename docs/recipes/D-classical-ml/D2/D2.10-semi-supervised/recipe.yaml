@@ -1,0 +1,15 @@
+id: D2.10
+slug: semi-supervised
+title:
+  pt: Aprendizado semi-supervisionado
+  en: Semi-supervised
+part: D
+section: D2
+level: L3
+status: planned
+index_hint: pseudo-labeling, label propagation, FixMatch-tabular
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

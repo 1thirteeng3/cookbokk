@@ -1,0 +1,15 @@
+id: L1.09
+slug: llm-counterfactuals
+title:
+  pt: 'Contrafactuais com LLMs: geração, avaliação e limites'
+  en: LLM counterfactuals
+part: L
+section: L1
+level: L3
+status: planned
+index_hint: counterfactual data augmentation, consistência causal de LLMs
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

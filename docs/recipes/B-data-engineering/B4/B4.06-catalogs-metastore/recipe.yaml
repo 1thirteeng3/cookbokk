@@ -1,0 +1,15 @@
+id: B4.06
+slug: catalogs-metastore
+title:
+  pt: Catálogos e metastore
+  en: Catalogs and metastore
+part: B
+section: B4
+level: L3
+status: planned
+index_hint: Unity Catalog, Glue, Polaris, Nessie, Hive Metastore, DataHub, OpenMetadata
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

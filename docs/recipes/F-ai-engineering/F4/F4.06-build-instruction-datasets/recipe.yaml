@@ -1,0 +1,16 @@
+id: F4.06
+slug: build-instruction-datasets
+title:
+  pt: Construir datasets de instrução
+  en: Build instruction datasets
+part: F
+section: F4
+level: L3
+status: planned
+index_hint: >-
+  dados sintéticos (self-instruct, Evol-Instruct), curadoria, deduplicação, qualidade, anotação humana
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: B2.03
+slug: distributed-batch
+title:
+  pt: Processamento distribuído batch
+  en: Distributed batch
+part: B
+section: B2
+level: L3
+status: planned
+index_hint: Spark (PySpark, Scala), Dask, Ray Data, Flink batch, Trino, BigQuery, Snowflake
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

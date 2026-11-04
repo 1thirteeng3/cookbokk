@@ -1,0 +1,15 @@
+id: F2.06
+slug: text-to-sql
+title:
+  pt: RAG sobre dados estruturados (text-to-SQL)
+  en: Text-to-SQL
+part: F
+section: F2
+level: L3
+status: planned
+index_hint: schema linking, semantic layer, validação, guardrails de execução
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

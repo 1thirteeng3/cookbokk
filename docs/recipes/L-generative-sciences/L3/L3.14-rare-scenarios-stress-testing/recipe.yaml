@@ -1,0 +1,15 @@
+id: L3.14
+slug: rare-scenarios-stress-testing
+title:
+  pt: Cenários raros e stress testing sintético
+  en: Rare scenarios and stress testing
+part: L
+section: L3
+level: L3
+status: planned
+index_hint: eventos de cauda, choques simulados, oversampling de raridades
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

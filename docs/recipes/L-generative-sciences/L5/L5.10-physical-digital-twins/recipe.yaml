@@ -1,0 +1,15 @@
+id: L5.10
+slug: physical-digital-twins
+title:
+  pt: Gêmeos digitais físicos
+  en: Physical digital twins
+part: L
+section: L5
+level: L4
+status: planned
+index_hint: sensores + modelo + assimilação + ML, atualização contínua
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

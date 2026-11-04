@@ -1,0 +1,15 @@
+id: M2.08
+slug: ml-code-tests
+title:
+  pt: Código e testes de ML
+  en: ML code and tests
+part: M
+section: M2
+level: L2
+status: planned
+index_hint: Giskard, Deepchecks, anti-padrões
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: M4.03
+slug: rag-pipelines
+title:
+  pt: Pipelines RAG
+  en: RAG pipelines
+part: M
+section: M4
+level: L3
+status: planned
+index_hint: ingestão, chunking, recuperação, permissões, citações, frescor
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: N1.14
+slug: credit-stress-testing
+title:
+  pt: Testes de estresse de crédito
+  en: Credit stress testing
+part: N
+section: N1
+level: L4
+status: planned
+index_hint: modelos satélite macro → PD, cenários, simulação de perdas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

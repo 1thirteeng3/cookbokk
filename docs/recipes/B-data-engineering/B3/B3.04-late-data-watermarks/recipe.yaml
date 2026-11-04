@@ -1,0 +1,15 @@
+id: B3.04
+slug: late-data-watermarks
+title:
+  pt: Late data, watermarks e reordenação
+  en: Late data and watermarks
+part: B
+section: B3
+level: L3
+status: planned
+index_hint: Flink, Beam, Spark; event time vs processing time
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

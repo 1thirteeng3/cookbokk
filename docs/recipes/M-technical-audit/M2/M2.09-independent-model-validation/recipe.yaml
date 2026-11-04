@@ -1,0 +1,15 @@
+id: M2.09
+slug: independent-model-validation
+title:
+  pt: Validação independente (model risk management)
+  en: Independent model validation
+part: M
+section: M2
+level: L3
+status: planned
+index_hint: SR 11-7, modelos challenger, benchmarking
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

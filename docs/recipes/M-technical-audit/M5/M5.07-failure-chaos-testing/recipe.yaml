@@ -1,0 +1,15 @@
+id: M5.07
+slug: failure-chaos-testing
+title:
+  pt: Testes de falha e caos
+  en: Failure and chaos testing
+part: M
+section: M5
+level: L4
+status: planned
+index_hint: ferramentas falhando, entradas adversariais, loops, custo descontrolado
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

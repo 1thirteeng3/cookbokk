@@ -1,0 +1,15 @@
+id: J5.04
+slug: multi-tenant-operation
+title:
+  pt: Operação multi-tenant
+  en: Multi-tenant operation
+part: J
+section: J5
+level: L4
+status: planned
+index_hint: isolamento de dados e contexto, limites e custos por tenant
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

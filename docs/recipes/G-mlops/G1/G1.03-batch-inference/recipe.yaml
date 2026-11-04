@@ -1,0 +1,15 @@
+id: G1.03
+slug: batch-inference
+title:
+  pt: Inferência em lote
+  en: Batch inference
+part: G
+section: G1
+level: L2
+status: planned
+index_hint: Spark, Ray, SageMaker Batch, Vertex Batch, Airflow
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

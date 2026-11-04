@@ -1,0 +1,15 @@
+id: F6.08
+slug: red-teaming
+title:
+  pt: Red teaming e testes adversariais
+  en: Red teaming
+part: F
+section: F6
+level: L4
+status: planned
+index_hint: garak, PyRIT, promptfoo, jailbreaks, automação
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

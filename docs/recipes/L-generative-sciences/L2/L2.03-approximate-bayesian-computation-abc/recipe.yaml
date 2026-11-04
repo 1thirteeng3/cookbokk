@@ -1,0 +1,15 @@
+id: L2.03
+slug: approximate-bayesian-computation-abc
+title:
+  pt: Approximate Bayesian Computation (ABC)
+  en: Approximate Bayesian Computation (ABC)
+part: L
+section: L2
+level: L2
+status: planned
+index_hint: rejeição, SMC-ABC; pyabc, ELFI; estatísticas-resumo, distâncias, tolerância
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

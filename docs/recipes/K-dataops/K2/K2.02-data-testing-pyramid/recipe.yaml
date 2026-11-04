@@ -1,0 +1,15 @@
+id: K2.02
+slug: data-testing-pyramid
+title:
+  pt: Pirâmide de testes de dados
+  en: Data testing pyramid
+part: K
+section: K2
+level: L2
+status: planned
+index_hint: unit tests (dbt, SQLMesh), integração, regressão, testes em produção
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

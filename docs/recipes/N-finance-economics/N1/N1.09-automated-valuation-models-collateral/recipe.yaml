@@ -1,0 +1,15 @@
+id: N1.09
+slug: automated-valuation-models-collateral
+title:
+  pt: Avaliação automática de imóveis (AVM) para garantias
+  en: Automated valuation models for collateral
+part: N
+section: N1
+level: L3
+status: planned
+index_hint: modelos hedônicos, comparáveis, geo-features (H3), GBM, intervalos de predição, LTV
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

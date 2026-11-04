@@ -1,0 +1,15 @@
+id: L2.15
+slug: end-to-end-uncertainty-quantification
+title:
+  pt: Quantificação de incerteza ponta a ponta
+  en: End-to-end uncertainty quantification
+part: L
+section: L2
+level: L3
+status: planned
+index_hint: propagação de incerteza, sensibilidade global (SALib, índices de Sobol)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

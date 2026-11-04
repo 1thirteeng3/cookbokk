@@ -1,0 +1,15 @@
+id: E2.02
+slug: transfer-learning-fine-tuning
+title:
+  pt: Transfer learning e fine-tuning
+  en: Transfer learning and fine-tuning
+part: E
+section: E2
+level: L2
+status: planned
+index_hint: congelar vs descongelar, LR discriminativo, timm, torchvision, HF
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

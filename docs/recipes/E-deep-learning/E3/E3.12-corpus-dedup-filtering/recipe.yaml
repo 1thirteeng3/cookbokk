@@ -1,0 +1,15 @@
+id: E3.12
+slug: corpus-dedup-filtering
+title:
+  pt: 'Texto em escala: dedup e filtragem de corpus'
+  en: Corpus dedup and filtering
+part: E
+section: E3
+level: L4
+status: planned
+index_hint: MinHash/LSH, fuzzy dedup, quality classifiers, datatrove, NeMo Curator
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: E1.04
+slug: regularization
+title:
+  pt: Regularização
+  en: Regularization
+part: E
+section: E1
+level: L2
+status: planned
+index_hint: dropout, weight decay, BN/LN/GN, augmentation, label smoothing, mixup
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

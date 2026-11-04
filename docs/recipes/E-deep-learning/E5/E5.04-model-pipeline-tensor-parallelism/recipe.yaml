@@ -1,0 +1,15 @@
+id: E5.04
+slug: model-pipeline-tensor-parallelism
+title:
+  pt: Paralelismo de modelo, pipeline e tensor
+  en: Model, pipeline, tensor parallelism
+part: E
+section: E5
+level: L4
+status: planned
+index_hint: Megatron-LM, DeepSpeed, torchtitan, JAX pjit/sharding, NeMo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

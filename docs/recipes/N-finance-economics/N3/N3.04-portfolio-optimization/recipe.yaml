@@ -1,0 +1,16 @@
+id: N3.04
+slug: portfolio-optimization
+title:
+  pt: Otimização de portfólio
+  en: Portfolio optimization
+part: N
+section: N3
+level: L2
+status: planned
+index_hint: >-
+  Markowitz, risk parity, HRP, Black-Litterman, robusta; PyPortfolioOpt, Riskfolio-Lib, CVXPY
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

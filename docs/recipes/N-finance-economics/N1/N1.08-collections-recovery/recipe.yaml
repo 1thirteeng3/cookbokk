@@ -1,0 +1,15 @@
+id: N1.08
+slug: collections-recovery
+title:
+  pt: Cobrança e recuperação
+  en: Collections and recovery
+part: N
+section: N1
+level: L3
+status: planned
+index_hint: time-to-cure (survival), uplift por ação de cobrança, roll rates, otimização de régua
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

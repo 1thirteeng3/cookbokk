@@ -1,0 +1,15 @@
+id: D3.05
+slug: association-rules
+title:
+  pt: Regras de associação
+  en: Association rules
+part: D
+section: D3
+level: L2
+status: planned
+index_hint: Apriori, FP-Growth, mlxtend
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

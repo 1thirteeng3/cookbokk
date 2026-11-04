@@ -1,0 +1,15 @@
+id: E5.09
+slug: scaling-laws-compute-planning
+title:
+  pt: Scaling laws e planejamento de compute
+  en: Scaling laws and compute planning
+part: E
+section: E5
+level: L4
+status: planned
+index_hint: Chinchilla, estimativa de FLOPs, orçamento, curvas
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

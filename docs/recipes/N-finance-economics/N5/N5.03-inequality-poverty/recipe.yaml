@@ -1,0 +1,15 @@
+id: N5.03
+slug: inequality-poverty
+title:
+  pt: Desigualdade e pobreza
+  en: Inequality and poverty
+part: N
+section: N5
+level: L2
+status: planned
+index_hint: Gini, Theil, Foster-Greer-Thorbecke, curvas de Lorenz, decomposições
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

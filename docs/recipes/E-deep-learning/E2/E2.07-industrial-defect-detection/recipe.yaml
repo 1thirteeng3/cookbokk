@@ -1,0 +1,15 @@
+id: E2.07
+slug: industrial-defect-detection
+title:
+  pt: Detecção de defeitos industriais
+  en: Industrial defect detection
+part: E
+section: E2
+level: L3
+status: planned
+index_hint: PatchCore, anomalib, autoencoder, few-shot
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

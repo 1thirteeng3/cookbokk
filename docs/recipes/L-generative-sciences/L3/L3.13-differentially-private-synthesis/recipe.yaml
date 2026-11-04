@@ -1,0 +1,15 @@
+id: L3.13
+slug: differentially-private-synthesis
+title:
+  pt: Dados sintéticos com privacidade diferencial
+  en: Differentially private synthesis
+part: L
+section: L3
+level: L4
+status: planned
+index_hint: DP-CTGAN, PATE-GAN, AIM, MST; validação por ataques de inferência de membro
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

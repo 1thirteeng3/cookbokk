@@ -1,0 +1,15 @@
+id: D1.04
+slug: over-underfitting-learning-curves
+title:
+  pt: Overfitting, underfitting, curvas de aprendizado
+  en: Over/underfitting, learning curves
+part: D
+section: D1
+level: L1
+status: planned
+index_hint: regularização, bias-variance, early stopping
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

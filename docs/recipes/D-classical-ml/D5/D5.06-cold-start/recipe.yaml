@@ -1,0 +1,15 @@
+id: D5.06
+slug: cold-start
+title:
+  pt: Cold start
+  en: Cold start
+part: D
+section: D5
+level: L3
+status: planned
+index_hint: conteúdo, bandits, meta-learning, LLM-based
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

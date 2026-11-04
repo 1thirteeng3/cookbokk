@@ -1,0 +1,15 @@
+id: N2.05
+slug: aml-alert-false-positive-reduction
+title:
+  pt: Redução de falsos positivos em alertas AML
+  en: AML alert false-positive reduction
+part: N
+section: N2
+level: L3
+status: planned
+index_hint: priorização, aprendizado com decisões de analistas, explicabilidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

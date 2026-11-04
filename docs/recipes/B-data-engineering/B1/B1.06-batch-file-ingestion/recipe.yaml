@@ -1,0 +1,15 @@
+id: B1.06
+slug: batch-file-ingestion
+title:
+  pt: Ingestão de arquivos em lote (S3/GCS/ADLS/SFTP)
+  en: Batch file ingestion
+part: B
+section: B1
+level: L1
+status: planned
+index_hint: boto3, gcsfs, fsspec, Auto Loader, Glue, Dataflow
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

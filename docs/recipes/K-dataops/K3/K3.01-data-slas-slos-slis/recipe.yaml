@@ -1,0 +1,15 @@
+id: K3.01
+slug: data-slas-slos-slis
+title:
+  pt: SLAs, SLOs e SLIs de dados
+  en: Data SLAs, SLOs, SLIs
+part: K
+section: K3
+level: L2
+status: planned
+index_hint: frescor, volume, schema, qualidade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

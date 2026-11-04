@@ -1,0 +1,15 @@
+id: B4.05
+slug: data-lake-lakehouse
+title:
+  pt: Data lake e lakehouse
+  en: Data lake and lakehouse
+part: B
+section: B4
+level: L3
+status: planned
+index_hint: Delta Lake, Iceberg, Hudi, Paimon; ACID, time travel, compaction, catálogos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

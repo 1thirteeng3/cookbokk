@@ -1,0 +1,15 @@
+id: N4.10
+slug: fx-rates-forecasting
+title:
+  pt: Previsão de câmbio e juros
+  en: FX and rates forecasting
+part: N
+section: N4
+level: L3
+status: planned
+index_hint: modelos estruturais vs ML, avaliação fora da amostra, testes de Diebold-Mariano
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

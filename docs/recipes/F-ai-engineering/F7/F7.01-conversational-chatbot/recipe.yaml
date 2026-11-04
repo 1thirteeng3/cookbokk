@@ -1,0 +1,15 @@
+id: F7.01
+slug: conversational-chatbot
+title:
+  pt: Chatbot conversacional com memória
+  en: Conversational chatbot
+part: F
+section: F7
+level: L2
+status: planned
+index_hint: histórico, resumo, persistência, UI (Streamlit, Gradio, Chainlit, Next.js)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

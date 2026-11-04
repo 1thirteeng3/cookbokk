@@ -1,0 +1,15 @@
+id: L5.09
+slug: residual-hybrid-models
+title:
+  pt: Modelos grey-box com correção de resíduo
+  en: Residual hybrid models
+part: L
+section: L5
+level: L2
+status: planned
+index_hint: mecanístico + ML no resíduo; arranjos em série e em paralelo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

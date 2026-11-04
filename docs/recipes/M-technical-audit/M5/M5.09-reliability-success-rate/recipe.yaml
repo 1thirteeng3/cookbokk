@@ -1,0 +1,15 @@
+id: M5.09
+slug: reliability-success-rate
+title:
+  pt: Confiabilidade e taxa de sucesso
+  en: Reliability and success rate
+part: M
+section: M5
+level: L3
+status: planned
+index_hint: benchmarks internos, pass^k, variância
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

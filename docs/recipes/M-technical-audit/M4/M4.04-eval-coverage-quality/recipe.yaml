@@ -1,0 +1,15 @@
+id: M4.04
+slug: eval-coverage-quality
+title:
+  pt: Cobertura e qualidade dos evals
+  en: Eval coverage and quality
+part: M
+section: M4
+level: L3
+status: planned
+index_hint: representatividade, vieses do juiz, contaminação
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

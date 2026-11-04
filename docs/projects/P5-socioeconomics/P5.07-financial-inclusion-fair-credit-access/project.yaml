@@ -1,0 +1,19 @@
+id: P5.07
+slug: financial-inclusion-fair-credit-access
+title:
+  pt: Inclusão financeira e equidade no acesso a crédito
+  en: Financial inclusion and fair credit access
+group: P5
+domain: socioeconomics
+status: planned
+recipes:
+- N5.10
+- M2.05
+- H3.04
+- L1.14
+index_hint: BCB (estatísticas de crédito por região), PNAD
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

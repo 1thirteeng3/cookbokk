@@ -1,0 +1,15 @@
+id: E2.05
+slug: segmentation
+title:
+  pt: Segmentação semântica/instância
+  en: Segmentation
+part: E
+section: E2
+level: L3
+status: planned
+index_hint: U-Net, DeepLab, Mask R-CNN, SegFormer, SAM/SAM2, Mask2Former
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

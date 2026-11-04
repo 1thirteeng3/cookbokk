@@ -1,0 +1,15 @@
+id: D2.11
+slug: active-learning
+title:
+  pt: Aprendizado ativo e rotulagem eficiente
+  en: Active learning
+part: D
+section: D2
+level: L3
+status: planned
+index_hint: uncertainty sampling, query-by-committee, modAL, Argilla, Label Studio
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: K2.06
+slug: schema-changes-contracts
+title:
+  pt: Mudanças de schema e contratos
+  en: Schema changes and contracts
+part: K
+section: K2
+level: L3
+status: planned
+index_hint: data contracts, detecção de breaking changes, schema registry
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

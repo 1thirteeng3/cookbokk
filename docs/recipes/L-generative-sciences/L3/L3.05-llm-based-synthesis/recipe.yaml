@@ -1,0 +1,15 @@
+id: L3.05
+slug: llm-based-synthesis
+title:
+  pt: Síntese com LLMs
+  en: LLM-based synthesis
+part: L
+section: L3
+level: L2
+status: planned
+index_hint: prompting estruturado, diversidade, colapso de modo, deduplicação
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

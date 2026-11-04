@@ -1,0 +1,15 @@
+id: M5.04
+slug: mcp-servers-integrations
+title:
+  pt: Servidores MCP e integrações
+  en: MCP servers and integrations
+part: M
+section: M5
+level: L3
+status: planned
+index_hint: procedência, permissões, descrições de ferramentas, supply chain
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

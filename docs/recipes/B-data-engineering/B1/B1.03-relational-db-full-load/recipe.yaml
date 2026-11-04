@@ -1,0 +1,15 @@
+id: B1.03
+slug: relational-db-full-load
+title:
+  pt: Ingestão de bancos relacionais (full load)
+  en: Relational DB full load
+part: B
+section: B1
+level: L1
+status: planned
+index_hint: SQLAlchemy, ConnectorX, pandas, Spark JDBC
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: L5.07
+slug: physical-constraints-equivariance
+title:
+  pt: Restrições físicas e simetrias em redes
+  en: Physical constraints and equivariance
+part: L
+section: L5
+level: L4
+status: planned
+index_hint: leis de conservação, redes hamiltonianas e lagrangianas, equivariância (e3nn)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

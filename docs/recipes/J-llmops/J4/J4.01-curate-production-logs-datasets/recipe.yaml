@@ -1,0 +1,15 @@
+id: J4.01
+slug: curate-production-logs-datasets
+title:
+  pt: Curar logs de produção em datasets
+  en: Curate production logs into datasets
+part: J
+section: J4
+level: L3
+status: planned
+index_hint: remoção de PII, amostragem, anotação (Argilla, Label Studio)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

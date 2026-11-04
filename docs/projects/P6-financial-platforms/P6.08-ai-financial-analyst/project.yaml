@@ -1,0 +1,19 @@
+id: P6.08
+slug: ai-financial-analyst
+title:
+  pt: Analista financeiro com IA (text-to-SQL + relatórios)
+  en: AI financial analyst
+group: P6
+domain: financial-platforms
+status: planned
+recipes:
+- F2.06
+- F3.11
+- B5.10
+- F6
+index_hint: CVM (DFP/ITR), BCB
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

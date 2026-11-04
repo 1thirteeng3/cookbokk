@@ -1,0 +1,19 @@
+id: P5.06
+slug: household-over-indebtedness-early-warning
+title:
+  pt: 'Superendividamento das famílias: diagnóstico e alerta precoce'
+  en: Household over-indebtedness early warning
+group: P5
+domain: socioeconomics
+status: planned
+recipes:
+- N5.09
+- N1.13
+- D3.02
+- N2.06
+index_hint: BCB (endividamento), Serasa agregados, dados sintéticos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

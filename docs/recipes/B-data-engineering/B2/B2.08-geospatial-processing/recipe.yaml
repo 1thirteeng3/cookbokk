@@ -1,0 +1,15 @@
+id: B2.08
+slug: geospatial-processing
+title:
+  pt: Processamento de dados geoespaciais
+  en: Geospatial processing
+part: B
+section: B2
+level: L3
+status: planned
+index_hint: GeoPandas, Shapely, H3, S2, PostGIS, Sedona, DuckDB spatial, raster (rasterio, xarray)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

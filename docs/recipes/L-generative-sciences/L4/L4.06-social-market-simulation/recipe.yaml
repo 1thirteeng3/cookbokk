@@ -1,0 +1,15 @@
+id: L4.06
+slug: social-market-simulation
+title:
+  pt: Simulação social e de mercado com LLMs
+  en: Social and market simulation
+part: L
+section: L4
+level: L4
+status: planned
+index_hint: difusão de opinião, adoção de produtos, precificação, negociação
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

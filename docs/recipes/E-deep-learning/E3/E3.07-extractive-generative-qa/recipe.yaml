@@ -1,0 +1,15 @@
+id: E3.07
+slug: extractive-generative-qa
+title:
+  pt: QA extrativo e generativo
+  en: Extractive and generative QA
+part: E
+section: E3
+level: L3
+status: planned
+index_hint: BERT-QA, FiD, LLM + RAG
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

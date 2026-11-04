@@ -1,0 +1,15 @@
+id: A2.03
+slug: types-dates-text-encoding
+title:
+  pt: Tipos de dados, datas, texto e encoding
+  en: Types, dates, text, encoding
+part: A
+section: A2
+level: L1
+status: planned
+index_hint: tipos pandas/Arrow, timezone, Unicode, categorical
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

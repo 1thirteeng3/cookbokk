@@ -1,0 +1,20 @@
+id: P5.04
+slug: policy-simulation-generative-agents
+title:
+  pt: Simulação de políticas com generative agents
+  en: Policy simulation with generative agents
+group: P5
+domain: socioeconomics
+status: planned
+recipes:
+- L4
+- L1.15
+- L2.14
+- N5.01
+- L4.14
+index_hint: PNAD Contínua (para calibrar populações)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

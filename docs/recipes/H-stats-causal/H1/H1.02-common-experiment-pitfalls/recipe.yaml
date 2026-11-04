@@ -1,0 +1,15 @@
+id: H1.02
+slug: common-experiment-pitfalls
+title:
+  pt: Problemas comuns em experimentos
+  en: Common experiment pitfalls
+part: H
+section: H1
+level: L3
+status: planned
+index_hint: peeking, múltiplas comparações, efeitos de novidade, interferência
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

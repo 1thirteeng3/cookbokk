@@ -1,0 +1,20 @@
+code: B
+title:
+  pt: Engenharia de Dados
+  en: Data Engineering
+sections:
+  B1:
+    pt: Ingestão
+    en: Ingestion
+  B2:
+    pt: Transformação e processamento
+    en: Transformation and processing
+  B3:
+    pt: Streaming e tempo real
+    en: Streaming and real time
+  B4:
+    pt: Armazenamento, modelagem e lakehouse
+    en: Storage, modeling, lakehouse
+  B5:
+    pt: Orquestração, qualidade, governança e observabilidade
+    en: Orchestration, quality, governance, observability

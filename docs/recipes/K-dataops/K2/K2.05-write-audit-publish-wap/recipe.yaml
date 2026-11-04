@@ -1,0 +1,15 @@
+id: K2.05
+slug: write-audit-publish-wap
+title:
+  pt: Write-Audit-Publish (WAP)
+  en: Write-Audit-Publish (WAP)
+part: K
+section: K2
+level: L3
+status: planned
+index_hint: branches Iceberg/Delta, tabelas blue-green, swaps atômicos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: F7.07
+slug: voice-assistant
+title:
+  pt: Assistente de voz
+  en: Voice assistant
+part: F
+section: F7
+level: L4
+status: planned
+index_hint: ASR + LLM + TTS ou modelos realtime
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: J1.04
+slug: model-upgrade-provider-migration
+title:
+  pt: Migrar de modelo ou de provedor
+  en: Model upgrade and provider migration
+part: J
+section: J1
+level: L3
+status: planned
+index_hint: evals de regressão, shadow traffic, adaptação de prompts entre famílias, deprecações
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

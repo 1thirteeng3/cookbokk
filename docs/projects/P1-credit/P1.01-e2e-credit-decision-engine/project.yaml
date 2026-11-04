@@ -1,0 +1,124 @@
+# Projeto-piloto do cookbook. Spec: SPEC.md §6.2 e §9.
+id: P1.01
+slug: e2e-credit-decision-engine
+title:
+  pt: 'Motor de concessão de crédito E2E: scorecard → GBM → decisão → monitoramento'
+  en: E2E credit decision engine
+group: P1
+domain: credit
+status: done
+summary:
+  pt: >-
+    Do arquivo bruto do Home Credit a uma decisão monitorada: scorecard WoE/IV, pipeline de
+    features com bureau, LightGBM monotônico e calibrado, política por lucro esperado, API com
+    paridade treino/serviço, monitoramento de estabilidade, inferência de rejeitados e TabM.
+  en: >-
+    From the raw Home Credit file to a monitored decision: WoE/IV scorecard, feature pipeline
+    with bureau data, monotonic calibrated LightGBM, expected-profit policy, API with
+    training/serving parity, stability monitoring, reject inference and TabM.
+recipes: [N1.01, N1.02, N1.03, N1.12, D1.06, D1.07, C2.06, D2.14, G1.02, G2.03, G3.02, H3.01]
+index_hint: Home Credit Default Risk, Give Me Some Credit, Lending Club
+tiers:
+  L1:
+    goal:
+      pt: Scorecard WoE/IV com regressão logística, tabela de pontos e regra de aprovar 70%, em um notebook.
+      en: WoE/IV scorecard with logistic regression, points table and an approve-70% rule, in one notebook.
+    notebooks: [notebooks/10-minimal-scorecard.ipynb]
+    stack: [pandas, optbinning, scikit-learn]
+  L3:
+    goal:
+      pt: >-
+        Features versionadas com contrato de dados, GBM monotônico calibrado e registrado,
+        política por lucro, API FastAPI com paridade testada e monitoramento PSI/CSI.
+      en: >-
+        Versioned features with a data contract, a calibrated and registered monotonic GBM,
+        profit policy, FastAPI service with tested parity and PSI/CSI monitoring.
+    notebooks:
+      - notebooks/30-feature-pipeline.ipynb
+      - notebooks/31-gbm-monotonic-calibrated.ipynb
+      - notebooks/32-decision-policy.ipynb
+      - notebooks/33-serving-api.ipynb
+      - notebooks/34-monitoring.ipynb
+    stack: [pandas, polars, lightgbm, optuna, mlflow, fastapi]
+  L4:
+    goal:
+      pt: Inferência de rejeitados medida contra gabarito e deep learning tabular (TabM) contra e junto com o GBM.
+      en: Reject inference measured against ground truth and tabular deep learning (TabM) against and alongside the GBM.
+    notebooks:
+      - notebooks/40-reject-inference.ipynb
+      - notebooks/41-tabular-deep-learning.ipynb
+    stack: [lightgbm, pytorch, tabm]
+datasets:
+  - name: Home Credit Default Risk (Kaggle) · application_train.csv + bureau.csv
+    url: https://www.kaggle.com/competitions/home-credit-default-risk
+    license: Kaggle competition rules
+    size_mb: 330
+    loader: cookbook.home_credit.load("home-credit")
+    requires_auth: true
+business_metrics:
+  - {pt: Taxa de aprovação, en: Approval rate}
+  - {pt: Inadimplência entre aprovados, en: Bad rate among approved}
+  - {pt: Lucro realizado por pedido, en: Realized profit per application}
+technical_metrics:
+  - gini
+  - ks
+  - brier
+  - ece
+  - gini_valid
+  - approval_rate
+  - bad_rate_approved
+  - profit_per_app
+  - latency_p95_ms
+  - parity_max_abs_diff
+  - psi_pd
+  - max_csi
+  - gini_ttd
+  - pd_error_rejects
+regulatory:
+  - Lei 13.709/2018 (LGPD), art. 20
+  - Lei 12.414/2011 (Cadastro Positivo)
+  - Resolução CMN 4.557/2017
+  - Resolução CMN 4.966/2021
+  - Código de Defesa do Consumidor (Lei 8.078/1990)
+environment:
+  python: "3.12"
+  colab_runtime: cpu
+last_verified: "2026-11-04"
+review_cycle_months: 12
+references:
+  - title: Home Credit Default Risk (competition and data description)
+    url: https://www.kaggle.com/competitions/home-credit-default-risk
+    type: dataset
+    accessed: "2026-11-04"
+  - title: OptBinning documentation
+    url: https://gnpalencia.org/optbinning/
+    type: docs
+    accessed: "2026-11-04"
+  - title: LightGBM parameters (monotone constraints)
+    url: https://lightgbm.readthedocs.io/en/latest/Parameters.html
+    type: docs
+    accessed: "2026-11-04"
+  - title: Optuna documentation
+    url: https://optuna.readthedocs.io/
+    type: docs
+    accessed: "2026-11-04"
+  - title: MLflow documentation (tracking and model registry)
+    url: https://mlflow.org/docs/latest/
+    type: docs
+    accessed: "2026-11-04"
+  - title: FastAPI, testing
+    url: https://fastapi.tiangolo.com/tutorial/testing/
+    type: docs
+    accessed: "2026-11-04"
+  - title: "Gorishniy et al. TabM: Advancing Tabular Deep Learning with Parameter-Efficient Ensembling (ICLR 2025)"
+    url: https://arxiv.org/abs/2410.24210
+    type: paper
+    accessed: "2026-11-04"
+  - title: Lei 13.709/2018 (LGPD)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+    type: regulation
+    accessed: "2026-11-04"
+  - title: Lei 12.414/2011 (Cadastro Positivo)
+    url: https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12414.htm
+    type: regulation
+    accessed: "2026-11-04"

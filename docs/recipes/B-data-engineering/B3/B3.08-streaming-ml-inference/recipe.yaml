@@ -1,0 +1,15 @@
+id: B3.08
+slug: streaming-ml-inference
+title:
+  pt: Streaming para inferência de ML
+  en: Streaming ML inference
+part: B
+section: B3
+level: L4
+status: planned
+index_hint: Flink + ONNX/Triton, Kafka + microservices, Ray Serve
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

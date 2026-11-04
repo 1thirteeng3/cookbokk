@@ -1,0 +1,15 @@
+id: N6.01
+slug: open-finance-brasil-integration
+title:
+  pt: Integração com Open Finance Brasil
+  en: Open Finance Brasil integration
+part: N
+section: N6
+level: L3
+status: planned
+index_hint: consentimentos, APIs, normalização de dados de contas e transações
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

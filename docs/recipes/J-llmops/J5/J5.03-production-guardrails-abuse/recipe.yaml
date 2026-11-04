@@ -1,0 +1,15 @@
+id: J5.03
+slug: production-guardrails-abuse
+title:
+  pt: Guardrails em produção e combate a abuso
+  en: Production guardrails and abuse
+part: J
+section: J5
+level: L3
+status: planned
+index_hint: rate limit por usuário, detecção de jailbreak, moderação
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

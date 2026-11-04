@@ -1,0 +1,15 @@
+id: F5.03
+slug: gpu-sizing-cost-per-token
+title:
+  pt: Dimensionar GPU e custo por token
+  en: GPU sizing and cost per token
+part: F
+section: F5
+level: L3
+status: planned
+index_hint: VRAM, throughput, latência (TTFT/ITL), A100/H100/L4/B200, spot
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

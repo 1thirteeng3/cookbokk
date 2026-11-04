@@ -1,0 +1,15 @@
+id: E4.06
+slug: vision-language-models
+title:
+  pt: Modelos visão-linguagem
+  en: Vision-language models
+part: E
+section: E4
+level: L4
+status: planned
+index_hint: CLIP, BLIP, LLaVA, Qwen-VL, PaliGemma, Gemini, Claude; fine-tuning
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

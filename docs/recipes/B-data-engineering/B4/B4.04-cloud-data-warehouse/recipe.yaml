@@ -1,0 +1,15 @@
+id: B4.04
+slug: cloud-data-warehouse
+title:
+  pt: Data warehouse na nuvem
+  en: Cloud data warehouse
+part: B
+section: B4
+level: L2
+status: planned
+index_hint: BigQuery, Snowflake, Redshift, Synapse, Databricks SQL, ClickHouse Cloud
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

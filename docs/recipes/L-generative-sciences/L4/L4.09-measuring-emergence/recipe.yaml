@@ -1,0 +1,15 @@
+id: L4.09
+slug: measuring-emergence
+title:
+  pt: Medir emergência e propriedades macro
+  en: Measuring emergence
+part: L
+section: L4
+level: L3
+status: planned
+index_hint: parâmetros de ordem, entropia, informação mútua, análise das redes resultantes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

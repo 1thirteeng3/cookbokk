@@ -1,0 +1,74 @@
+[project]
+name = "cookbook"
+version = "0.1.0"
+description = "Utilitários compartilhados do DS & AI Cookbook (seeds, dados públicos, resultados)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "jsonschema>=4.23",
+    "referencing>=0.35",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# Extras usados por receitas e projetos (os notebooks pinam versões exatas no setup)
+excel = ["xlrd>=2.0", "openpyxl>=3.1"]
+kaggle = ["kaggle>=2.2"]
+credit = [
+    "optbinning>=1.0",
+    "lightgbm>=4.6",
+    "optuna>=4.0",
+    "mlflow>=3.0",
+    "fastapi>=0.115",
+    "httpx>=0.28",
+    "polars>=1.20",
+    "pyarrow>=18",
+    "joblib>=1.4",
+    "matplotlib>=3.9",
+]
+dl = ["torch>=2.5", "tabm>=0.0.3"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+    "ruff>=0.8",
+    "pre-commit>=4.0",
+    "nbstripout>=0.8",
+    "nbformat>=5.10",
+    "papermill>=2.6",
+    "ipykernel>=6.29",
+]
+docs = [
+    "tomli-w>=1.2.0",
+    "zensical>=0.0.74",
+]
+
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cookbook"]
+
+[tool.uv]
+default-groups = ["dev", "docs"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-include = ["*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+# Notebooks: exploratory style (semicolons in plots, short lambdas, imports near use)
+"*.ipynb" = ["E402", "F401", "F821", "B018", "E702", "E731", "B007", "B905", "I001"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: executa notebooks ou build do site"]

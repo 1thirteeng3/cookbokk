@@ -1,0 +1,15 @@
+id: L4.15
+slug: infrastructure-massive-simulations
+title:
+  pt: Infraestrutura para simulações massivas
+  en: Infrastructure for massive simulations
+part: L
+section: L4
+level: L4
+status: planned
+index_hint: Ray, vLLM, batching de inferência, milhares de agentes
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

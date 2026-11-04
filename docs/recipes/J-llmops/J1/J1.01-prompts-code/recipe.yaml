@@ -1,0 +1,17 @@
+id: J1.01
+slug: prompts-code
+title:
+  pt: Versionar prompts como código
+  en: Prompts as code
+part: J
+section: J1
+level: L1
+status: planned
+index_hint: >-
+  Git + templates (Jinja), prompt registries (Langfuse, LangSmith, MLflow Prompt Registry, PromptLayer,
+  Agenta); acoplar prompt + modelo + parâmetros
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

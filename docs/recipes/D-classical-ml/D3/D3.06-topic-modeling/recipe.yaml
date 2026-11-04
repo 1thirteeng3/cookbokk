@@ -1,0 +1,15 @@
+id: D3.06
+slug: topic-modeling
+title:
+  pt: Modelagem de tópicos
+  en: Topic modeling
+part: D
+section: D3
+level: L2
+status: planned
+index_hint: LDA, NMF, BERTopic, Top2Vec
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

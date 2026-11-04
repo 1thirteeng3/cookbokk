@@ -1,0 +1,16 @@
+id: B4.01
+slug: choose-database-type
+title:
+  pt: Escolher o tipo de banco
+  en: Choose database type
+part: B
+section: B4
+level: L1
+status: planned
+index_hint: >-
+  relacional, document, key-value, colunar, grafo, vetorial, time series, NewSQL (decision tree)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

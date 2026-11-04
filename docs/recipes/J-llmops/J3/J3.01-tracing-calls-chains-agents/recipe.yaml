@@ -1,0 +1,15 @@
+id: J3.01
+slug: tracing-calls-chains-agents
+title:
+  pt: Tracing de chamadas, cadeias e agentes
+  en: Tracing calls, chains, agents
+part: J
+section: J3
+level: L2
+status: planned
+index_hint: OpenTelemetry (convenções GenAI), Langfuse, Phoenix, LangSmith, Weave, Opik
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

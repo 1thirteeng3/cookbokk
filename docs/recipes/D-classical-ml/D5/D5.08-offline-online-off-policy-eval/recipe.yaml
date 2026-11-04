@@ -1,0 +1,15 @@
+id: D5.08
+slug: offline-online-off-policy-eval
+title:
+  pt: Avaliação offline vs online, off-policy
+  en: Offline vs online, off-policy eval
+part: D
+section: D5
+level: L4
+status: planned
+index_hint: IPS, DR, replay, interleaving, A/B
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

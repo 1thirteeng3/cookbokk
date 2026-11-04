@@ -1,0 +1,17 @@
+id: C2.11
+slug: feature-store
+title:
+  pt: Feature store
+  en: Feature store
+part: C
+section: C2
+level: L4
+status: planned
+index_hint: >-
+  Feast, Tecton, Hopsworks, Databricks FS, SageMaker FS, Vertex FS; consistência online/offline, point-in-time
+  join
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

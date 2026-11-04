@@ -1,0 +1,15 @@
+id: F3.06
+slug: coding-computer-use-agents
+title:
+  pt: Agentes de código e uso de computador
+  en: Coding and computer-use agents
+part: F
+section: F3
+level: L4
+status: planned
+index_hint: sandboxes, Claude Code-style, browser/computer use, avaliação (SWE-bench)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

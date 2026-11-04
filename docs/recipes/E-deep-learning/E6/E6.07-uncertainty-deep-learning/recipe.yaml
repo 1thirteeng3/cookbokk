@@ -1,0 +1,15 @@
+id: E6.07
+slug: uncertainty-deep-learning
+title:
+  pt: Incerteza em deep learning
+  en: Uncertainty in deep learning
+part: E
+section: E6
+level: L4
+status: planned
+index_hint: MC Dropout, deep ensembles, Laplace, evidential, conformal
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

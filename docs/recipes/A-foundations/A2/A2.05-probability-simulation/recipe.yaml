@@ -1,0 +1,15 @@
+id: A2.05
+slug: probability-simulation
+title:
+  pt: Probabilidade e simulação (Monte Carlo, bootstrap)
+  en: Probability and simulation
+part: A
+section: A2
+level: L2
+status: planned
+index_hint: NumPy, SciPy, PyMC, resampling
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

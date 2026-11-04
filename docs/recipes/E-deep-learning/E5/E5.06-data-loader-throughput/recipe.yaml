@@ -1,0 +1,15 @@
+id: E5.06
+slug: data-loader-throughput
+title:
+  pt: Otimização de throughput de dados
+  en: Data loader throughput
+part: E
+section: E5
+level: L3
+status: planned
+index_hint: DataLoader tuning, WebDataset, Mosaic Streaming, DALI, FFCV
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

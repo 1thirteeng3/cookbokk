@@ -1,0 +1,15 @@
+id: D1.07
+slug: thresholding-cost-sensitive-decisions
+title:
+  pt: Ajuste de threshold e decisão sob custo
+  en: Thresholding and cost-sensitive decisions
+part: D
+section: D1
+level: L2
+status: planned
+index_hint: curvas PR/ROC, custo esperado, otimização de lucro
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

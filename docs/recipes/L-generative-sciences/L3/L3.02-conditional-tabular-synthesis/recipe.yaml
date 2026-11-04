@@ -1,0 +1,15 @@
+id: L3.02
+slug: conditional-tabular-synthesis
+title:
+  pt: Síntese tabular condicional e controlada
+  en: Conditional tabular synthesis
+part: L
+section: L3
+level: L2
+status: planned
+index_hint: CTGAN, TVAE, TabDDPM, cópulas; condicionamento e restrições de negócio
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

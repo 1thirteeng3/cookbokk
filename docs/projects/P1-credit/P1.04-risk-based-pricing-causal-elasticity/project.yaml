@@ -1,0 +1,21 @@
+id: P1.04
+slug: risk-based-pricing-causal-elasticity
+title:
+  pt: Precificação de crédito baseada em risco com elasticidade causal
+  en: Risk-based pricing with causal elasticity
+group: P1
+domain: credit
+status: planned
+recipes:
+- N1.07
+- H2.01
+- H2.03
+- L1.04
+- D6.06
+- H1
+index_hint: dados simulados + Lending Club
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

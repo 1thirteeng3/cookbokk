@@ -1,0 +1,15 @@
+id: N6.06
+slug: genai-financial-institutions
+title:
+  pt: Uso de IA generativa em instituições financeiras
+  en: GenAI in financial institutions
+part: N
+section: N6
+level: L3
+status: planned
+index_hint: riscos, governança, terceirização de serviços, supervisão
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

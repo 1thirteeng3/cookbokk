@@ -1,0 +1,15 @@
+id: F6.09
+slug: hallucination-detection-mitigation
+title:
+  pt: 'Alucinação: detecção e mitigação'
+  en: Hallucination detection and mitigation
+part: F
+section: F6
+level: L3
+status: planned
+index_hint: grounding, citações, verificação, auto-consistência
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

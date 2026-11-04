@@ -1,0 +1,15 @@
+id: K2.03
+slug: data-diff-impact-review
+title:
+  pt: Data diff e análise de impacto em PRs
+  en: Data diff and impact review
+part: K
+section: K2
+level: L3
+status: planned
+index_hint: data-diff, Recce, Datafold, SQLMesh plan, linhagem por coluna
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,18 @@
+id: P7.04
+slug: hybrid-physics-plus-ml-digital-twin
+title:
+  pt: Gêmeo digital híbrido física + ML
+  en: Hybrid physics + ML digital twin
+group: P7
+domain: other
+status: planned
+recipes:
+- L5
+- B3
+- G1
+index_hint: datasets públicos de sensores
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: G3.01
+slug: service-health-monitoring
+title:
+  pt: Monitorar performance e saúde do serviço
+  en: Service health monitoring
+part: G
+section: G3
+level: L2
+status: planned
+index_hint: Prometheus, Grafana, OpenTelemetry, Datadog, alertas, SLOs
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

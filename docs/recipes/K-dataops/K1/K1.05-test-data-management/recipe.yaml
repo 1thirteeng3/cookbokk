@@ -1,0 +1,15 @@
+id: K1.05
+slug: test-data-management
+title:
+  pt: Dados de teste
+  en: Test data management
+part: K
+section: K1
+level: L3
+status: planned
+index_hint: amostragem, subsetting, mascaramento, sintéticos (↔ L3), fixtures
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: J3.04
+slug: llm-finops
+title:
+  pt: 'FinOps de LLM: atribuição e controle de custo'
+  en: LLM FinOps
+part: J
+section: J3
+level: L3
+status: planned
+index_hint: custo por feature, usuário e tenant; orçamentos, quotas, alertas, roteamento por custo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

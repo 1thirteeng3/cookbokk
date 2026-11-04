@@ -1,0 +1,15 @@
+id: F4.05
+slug: rl-reasoning
+title:
+  pt: RL para raciocínio (RLVR/GRPO)
+  en: RL for reasoning
+part: F
+section: F4
+level: L4
+status: planned
+index_hint: GRPO, PPO, verificadores, TRL, veRL, OpenRLHF
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: K4.05
+slug: dataops-maturity-adoption
+title:
+  pt: Maturidade DataOps e roadmap de adoção
+  en: DataOps maturity and adoption
+part: K
+section: K4
+level: L3
+status: planned
+index_hint: diagnóstico, priorização, gestão da mudança
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: D2.13
+slug: survival-analysis-churn
+title:
+  pt: Survival analysis e churn
+  en: Survival analysis and churn
+part: D
+section: D2
+level: L3
+status: planned
+index_hint: lifelines, scikit-survival, DeepSurv, GBM survival
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

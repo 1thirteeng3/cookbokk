@@ -1,0 +1,15 @@
+id: B2.09
+slug: graph-processing
+title:
+  pt: Processamento de grafos
+  en: Graph processing
+part: B
+section: B2
+level: L3
+status: planned
+index_hint: NetworkX, igraph, GraphFrames, Neo4j, TigerGraph, cuGraph
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

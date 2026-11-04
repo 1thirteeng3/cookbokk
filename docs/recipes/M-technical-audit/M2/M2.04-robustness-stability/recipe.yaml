@@ -1,0 +1,15 @@
+id: M2.04
+slug: robustness-stability
+title:
+  pt: Robustez e estabilidade
+  en: Robustness and stability
+part: M
+section: M2
+level: L3
+status: planned
+index_hint: perturbações, sensibilidade, variância entre seeds e retreinos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

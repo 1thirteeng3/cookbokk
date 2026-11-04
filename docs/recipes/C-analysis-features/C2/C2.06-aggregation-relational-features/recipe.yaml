@@ -1,0 +1,15 @@
+id: C2.06
+slug: aggregation-relational-features
+title:
+  pt: Features de agregação e relacionais
+  en: Aggregation and relational features
+part: C
+section: C2
+level: L3
+status: planned
+index_hint: Featuretools, SQL, window functions, deep feature synthesis
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

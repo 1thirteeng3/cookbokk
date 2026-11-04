@@ -1,0 +1,15 @@
+id: A1.08
+slug: profiling-code-resources
+title:
+  pt: Profiling de código e uso de recursos
+  en: Profiling code and resources
+part: A
+section: A1
+level: L3
+status: planned
+index_hint: cProfile, py-spy, scalene, line_profiler, memray, PyTorch Profiler, Nsight
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

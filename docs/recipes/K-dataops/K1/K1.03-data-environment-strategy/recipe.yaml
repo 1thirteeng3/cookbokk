@@ -1,0 +1,15 @@
+id: K1.03
+slug: data-environment-strategy
+title:
+  pt: Estratégia de ambientes para dados
+  en: Data environment strategy
+part: K
+section: K1
+level: L2
+status: planned
+index_hint: schemas por desenvolvedor, zero-copy clones (Snowflake, BigQuery, Databricks)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

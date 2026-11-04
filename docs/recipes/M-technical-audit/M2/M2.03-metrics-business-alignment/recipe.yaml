@@ -1,0 +1,15 @@
+id: M2.03
+slug: metrics-business-alignment
+title:
+  pt: Métricas e alinhamento com o negócio
+  en: Metrics and business alignment
+part: M
+section: M2
+level: L2
+status: planned
+index_hint: métricas adequadas, custos de erro, thresholds
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

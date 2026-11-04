@@ -1,0 +1,15 @@
+id: F7.10
+slug: deep-research-agents
+title:
+  pt: Pesquisa profunda (deep research agents)
+  en: Deep research agents
+part: F
+section: F7
+level: L4
+status: planned
+index_hint: busca web, planejamento, subagentes, síntese com citações
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

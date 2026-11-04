@@ -1,0 +1,15 @@
+id: N3.05
+slug: market-risk-var-es
+title:
+  pt: 'Risco de mercado: VaR e Expected Shortfall'
+  en: 'Market risk: VaR and ES'
+part: N
+section: N3
+level: L3
+status: planned
+index_hint: histórico, paramétrico, Monte Carlo, cópulas, backtesting de VaR (Kupiec, Christoffersen)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

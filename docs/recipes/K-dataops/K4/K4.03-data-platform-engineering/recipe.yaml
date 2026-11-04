@@ -1,0 +1,15 @@
+id: K4.03
+slug: data-platform-engineering
+title:
+  pt: Platform engineering para dados
+  en: Data platform engineering
+part: K
+section: K4
+level: L4
+status: planned
+index_hint: plataforma interna (IDP), abstrações, autoatendimento
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

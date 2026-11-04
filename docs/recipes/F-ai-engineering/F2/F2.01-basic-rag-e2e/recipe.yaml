@@ -1,0 +1,16 @@
+id: F2.01
+slug: basic-rag-e2e
+title:
+  pt: RAG básico E2E
+  en: Basic RAG E2E
+part: F
+section: F2
+level: L2
+status: planned
+index_hint: >-
+  loader → chunk → embed → vector DB → retrieve → generate; LangChain, LlamaIndex, Haystack, código próprio
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

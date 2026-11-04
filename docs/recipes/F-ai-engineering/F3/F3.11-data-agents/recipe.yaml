@@ -1,0 +1,15 @@
+id: F3.11
+slug: data-agents
+title:
+  pt: Agentes para dados (analista de dados / SQL / BI)
+  en: Data agents
+part: F
+section: F3
+level: L3
+status: planned
+index_hint: text-to-SQL + código, notebooks, semantic layer, governança
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

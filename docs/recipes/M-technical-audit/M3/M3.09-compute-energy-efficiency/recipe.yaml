@@ -1,0 +1,15 @@
+id: M3.09
+slug: compute-energy-efficiency
+title:
+  pt: Eficiência computacional e energia
+  en: Compute and energy efficiency
+part: M
+section: M3
+level: L2
+status: planned
+index_hint: utilização de GPU, pegada de carbono
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

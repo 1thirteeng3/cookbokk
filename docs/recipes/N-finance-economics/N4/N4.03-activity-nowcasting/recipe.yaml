@@ -1,0 +1,15 @@
+id: N4.03
+slug: activity-nowcasting
+title:
+  pt: Nowcasting de atividade
+  en: Activity nowcasting
+part: N
+section: N4
+level: L3
+status: planned
+index_hint: modelos de fatores dinâmicos, MIDAS, bridge equations, ML com dados mistos
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

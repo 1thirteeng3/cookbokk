@@ -1,0 +1,15 @@
+id: J5.02
+slug: approved-model-catalog-policies
+title:
+  pt: Catálogo de modelos aprovados e políticas de uso
+  en: Approved model catalog and policies
+part: J
+section: J5
+level: L3
+status: planned
+index_hint: AI gateway com políticas, allowlists, avaliações de fornecedores
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

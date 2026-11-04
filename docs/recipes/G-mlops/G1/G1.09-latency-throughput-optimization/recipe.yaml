@@ -1,0 +1,15 @@
+id: G1.09
+slug: latency-throughput-optimization
+title:
+  pt: Otimização de latência e throughput
+  en: Latency and throughput optimization
+part: G
+section: G1
+level: L3
+status: planned
+index_hint: ONNX Runtime, TensorRT, batching dinâmico, quantização, cache
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: G1.01
+slug: package-model
+title:
+  pt: Empacotar um modelo
+  en: Package a model
+part: G
+section: G1
+level: L1
+status: planned
+index_hint: pickle/joblib (riscos), ONNX, TorchScript, SavedModel, MLflow Models, BentoML
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

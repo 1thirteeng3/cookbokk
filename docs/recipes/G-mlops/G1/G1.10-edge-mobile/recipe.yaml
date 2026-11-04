@@ -1,0 +1,15 @@
+id: G1.10
+slug: edge-mobile
+title:
+  pt: Inferência em borda/mobile
+  en: Edge and mobile
+part: G
+section: G1
+level: L3
+status: planned
+index_hint: TFLite, CoreML, ExecuTorch, ONNX, OpenVINO
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,15 @@
+id: C1.09
+slug: time-series-eda
+title:
+  pt: EDA de séries temporais
+  en: Time series EDA
+part: C
+section: C1
+level: L2
+status: planned
+index_hint: decomposição, ACF/PACF, sazonalidade, estacionariedade
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

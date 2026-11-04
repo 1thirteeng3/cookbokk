@@ -1,0 +1,15 @@
+id: C2.08
+slug: geo-features
+title:
+  pt: Features geográficas
+  en: Geo features
+part: C
+section: C2
+level: L3
+status: planned
+index_hint: H3, distâncias, POIs, raster, OSM
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: E2.08
+slug: medical-imaging
+title:
+  pt: Imagens médicas
+  en: Medical imaging
+part: E
+section: E2
+level: L4
+status: planned
+index_hint: MONAI, nnU-Net, DICOM, validação regulatória, incerteza
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

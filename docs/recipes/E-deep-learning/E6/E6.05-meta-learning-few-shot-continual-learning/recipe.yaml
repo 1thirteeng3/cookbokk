@@ -1,0 +1,15 @@
+id: E6.05
+slug: meta-learning-few-shot-continual-learning
+title:
+  pt: Meta-learning, few-shot, continual learning
+  en: Meta-learning, few-shot, continual learning
+part: E
+section: E6
+level: L4
+status: planned
+index_hint: MAML, prototypical, EWC, replay
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

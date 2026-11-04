@@ -1,0 +1,15 @@
+id: E5.12
+slug: fault-tolerance-checkpointing
+title:
+  pt: Tolerância a falhas e checkpointing
+  en: Fault tolerance and checkpointing
+part: E
+section: E5
+level: L4
+status: planned
+index_hint: checkpoint assíncrono, elastic training, spot
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

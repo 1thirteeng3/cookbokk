@@ -1,0 +1,15 @@
+id: N3.11
+slug: market-microstructure-order-books
+title:
+  pt: Microestrutura e livro de ofertas
+  en: Market microstructure and order books
+part: N
+section: N3
+level: L4
+status: planned
+index_hint: dados de alta frequência, simulação de LOB, impacto de mercado
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

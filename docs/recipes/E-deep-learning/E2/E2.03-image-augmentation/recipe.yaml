@@ -1,0 +1,15 @@
+id: E2.03
+slug: image-augmentation
+title:
+  pt: Data augmentation de imagens
+  en: Image augmentation
+part: E
+section: E2
+level: L2
+status: planned
+index_hint: Albumentations, torchvision v2, Kornia, RandAugment, CutMix, geração sintética
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

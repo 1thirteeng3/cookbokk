@@ -1,0 +1,15 @@
+id: K4.01
+slug: ownership-data-product-catalog
+title:
+  pt: Ownership e catálogo de produtos de dados
+  en: Ownership and data product catalog
+part: K
+section: K4
+level: L2
+status: planned
+index_hint: DataHub, OpenMetadata, metadados de dono e SLA
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

@@ -1,0 +1,19 @@
+id: P3.03
+slug: market-risk-var-es
+title:
+  pt: 'Risco de mercado: VaR/ES com backtesting regulatório'
+  en: Market risk with VaR/ES
+group: P3
+domain: markets
+status: planned
+recipes:
+- N3.05
+- N3.06
+- A2.05
+- D4.07
+index_hint: B3, curvas de juros (ANBIMA, BCB)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

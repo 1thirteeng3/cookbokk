@@ -1,0 +1,15 @@
+id: A1.06
+slug: code-quality-testing-ml
+title:
+  pt: Qualidade de código e testes para ML
+  en: Code quality and testing for ML
+part: A
+section: A1
+level: L2
+status: planned
+index_hint: pytest, hypothesis, ruff, mypy, pre-commit, testes de dados, testes de modelo
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

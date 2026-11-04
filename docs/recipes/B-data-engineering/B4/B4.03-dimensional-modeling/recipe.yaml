@@ -1,0 +1,15 @@
+id: B4.03
+slug: dimensional-modeling
+title:
+  pt: Modelagem dimensional
+  en: Dimensional modeling
+part: B
+section: B4
+level: L2
+status: planned
+index_hint: Kimball, star/snowflake, SCD tipos 1–6, Data Vault 2.0, One Big Table
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

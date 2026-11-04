@@ -1,0 +1,15 @@
+id: F4.04
+slug: preference-alignment
+title:
+  pt: Alinhamento por preferência
+  en: Preference alignment
+part: F
+section: F4
+level: L4
+status: planned
+index_hint: RLHF, DPO, IPO, KTO, ORPO, SimPO, reward models
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

@@ -1,0 +1,15 @@
+id: M5.10
+slug: governance-accountability
+title:
+  pt: Governança e responsabilização
+  en: Governance and accountability
+part: M
+section: M5
+level: L3
+status: planned
+index_hint: dono do agente, kill switch, aprovações, trilha de auditoria
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

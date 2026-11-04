@@ -1,0 +1,15 @@
+id: D5.07
+slug: bandits-exploration
+title:
+  pt: Bandits e exploração
+  en: Bandits and exploration
+part: D
+section: D5
+level: L3
+status: planned
+index_hint: ε-greedy, UCB, Thompson, contextual bandits (Vowpal Wabbit)
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

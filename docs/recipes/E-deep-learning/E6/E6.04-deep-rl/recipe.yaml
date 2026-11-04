@@ -1,0 +1,15 @@
+id: E6.04
+slug: deep-rl
+title:
+  pt: Aprendizado por reforço profundo
+  en: Deep RL
+part: E
+section: E6
+level: L4
+status: planned
+index_hint: PPO, SAC, DQN, Dreamer, RLlib, CleanRL
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

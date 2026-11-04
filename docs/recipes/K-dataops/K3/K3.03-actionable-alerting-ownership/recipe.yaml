@@ -1,0 +1,15 @@
+id: K3.03
+slug: actionable-alerting-ownership
+title:
+  pt: Alertas acionáveis e roteamento por dono
+  en: Actionable alerting and ownership
+part: K
+section: K3
+level: L2
+status: planned
+index_hint: ownership, PagerDuty, Opsgenie, Slack, redução de ruído
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

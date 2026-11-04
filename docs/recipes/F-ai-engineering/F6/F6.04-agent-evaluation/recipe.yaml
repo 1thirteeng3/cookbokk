@@ -1,0 +1,15 @@
+id: F6.04
+slug: agent-evaluation
+title:
+  pt: Avaliação de agentes
+  en: Agent evaluation
+part: F
+section: F6
+level: L4
+status: planned
+index_hint: trajetórias, sucesso de tarefa, custo, ambientes simulados
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

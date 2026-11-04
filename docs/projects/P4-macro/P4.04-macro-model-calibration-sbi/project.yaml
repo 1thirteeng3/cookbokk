@@ -1,0 +1,18 @@
+id: P4.04
+slug: macro-model-calibration-sbi
+title:
+  pt: Calibração de modelo macro (DSGE ou ABM) com SBI
+  en: Macro model calibration with SBI
+group: P4
+domain: macro
+status: planned
+recipes:
+- N4.06
+- N4.07
+- L2.04–L2.08
+index_hint: BCB SGS, IBGE
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

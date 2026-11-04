@@ -1,0 +1,15 @@
+id: E5.08
+slug: tpu-cluster-training
+title:
+  pt: Treino em TPUs e clusters
+  en: TPU and cluster training
+part: E
+section: E5
+level: L4
+status: planned
+index_hint: JAX/Flax, MaxText, SLURM, Kubernetes, Ray Train, SkyPilot
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 3

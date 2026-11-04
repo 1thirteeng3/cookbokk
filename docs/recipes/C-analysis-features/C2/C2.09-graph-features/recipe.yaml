@@ -1,0 +1,15 @@
+id: C2.09
+slug: graph-features
+title:
+  pt: Features de grafo
+  en: Graph features
+part: C
+section: C2
+level: L3
+status: planned
+index_hint: centralidades, node2vec, GNN embeddings
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

@@ -1,0 +1,15 @@
+id: B4.13
+slug: data-finops
+title:
+  pt: Estratégia de custo em dados (FinOps)
+  en: Data FinOps
+part: B
+section: B4
+level: L3
+status: planned
+index_hint: compressão, tiering, spot, slots/reservas, auditoria de queries
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6

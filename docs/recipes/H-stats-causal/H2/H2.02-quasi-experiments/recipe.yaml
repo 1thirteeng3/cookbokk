@@ -1,0 +1,15 @@
+id: H2.02
+slug: quasi-experiments
+title:
+  pt: Quasi-experimentos
+  en: Quasi-experiments
+part: H
+section: H2
+level: L3
+status: planned
+index_hint: diff-in-diff, RDD, IV, controle sintético, CausalImpact
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 12

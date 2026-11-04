@@ -1,0 +1,15 @@
+id: E1.08
+slug: framework-choice
+title:
+  pt: Escolha de framework
+  en: Framework choice
+part: E
+section: E1
+level: L2
+status: planned
+index_hint: PyTorch, TensorFlow, JAX, MLX, ONNX; critérios
+environment:
+  python: '3.12'
+  colab_runtime: cpu
+last_verified: null
+review_cycle_months: 6
