@@ -8,7 +8,7 @@ title: "P1.01 · End-to-end credit decision engine"
 <!-- SUMMARY:START -->
 | Domain | Recipes | Tiers | Colab runtime | Status | Last verified |
 |---|---|---|---|---|---|
-| credit | 12 | L1 · L3 · L4 | cpu | 🔍 review | — |
+| credit | 12 | L1 · L3 · L4 | cpu | ✅ done | 2026-11-04 |
 <!-- SUMMARY:END -->
 
 > **In one sentence:** you end up with a complete application-decision system, from the raw file to a monitored decision, built in three tiers that show how much each step of complexity actually pays.
@@ -107,7 +107,17 @@ Each notebook's results go to `results/` (in the working directory). On Colab, d
 8. Pitfalls: binning fitted with the test set and the sentinel treated as a number.
 
 <!-- RESULTS-L1:START -->
-_No `full` results yet._
+**`10-minimal-scorecard`**
+
+| Stack | gini | ks | brier | approval_rate | bad_rate_approved | gini_train_test_gap | n_features | Train (s) |
+|---|---|---|---|---|---|---|---|---|
+| baseline-ext-source-2 | 0.324 ± 0.0083 | — | — | — | — | — | — | 0 |
+| optbinning-scorecard | 0.4856 ± 0.0071 | 0.3639 ± 0.0066 | 0.06845 ± 0.00085 | 0.7 | 0.04228 | -0.000359 | 15 | 6.18 |
+| optbinning-scorecard · iv_min=0.02 | 0.4856 ± 0.0071 | — | — | — | — | — | 15 | 6.18 |
+| optbinning-scorecard · iv_min=0.05 | 0.4813 ± 0.0073 | — | — | — | — | — | 11 | 6.18 |
+| optbinning-scorecard · iv_min=0.1 | 0.4571 ± 0.0075 | — | — | — | — | — | 4 | 6.18 |
+
+**Conditions:** data Home Credit Default Risk (Kaggle) · x86_64 x2 · runs 2026-11-04
 <!-- RESULTS-L1:END -->
 
 ## 6. L3 tier · Production
@@ -147,7 +157,48 @@ A FastAPI service takes the raw application and the bureau history and returns P
 PD PSI, feature CSI, Gini and calibration-in-the-large under five controlled scenarios: no change, income +25%, younger population, `EXT_SOURCE_3` outage and bureau feed down → recipe [G3.02 · Drift detection](../../../recipes/G-mlops/G3/G3.02-drift-detection/index.md). The core lesson: **stability is not performance**. Economic shifts trigger CSI without ranking loss, while data failures can hurt Gini with the PD's PSI barely moving. That is why monitoring needs three layers: score, features and per-source quality.
 
 <!-- RESULTS-L3:START -->
-_No `full` results yet._
+**`30-feature-pipeline`**
+
+| Stack | gini_valid | bureau_coverage | contract_checks_passed | n_features | Train (s) |
+|---|---|---|---|---|---|
+| pandas+polars | — | 0.8569 | 8 | 68 | 3.95 |
+| lightgbm-fixed-params · with bureau | 0.5318 ± 0.0074 | — | — | — | 3.95 |
+| lightgbm-fixed-params · without bureau | 0.5208 ± 0.0072 | — | — | — | 3.95 |
+
+**`31-gbm-monotonic-calibrated`**
+
+| Stack | gini | ks | brier | ece | best_iteration | Train (s) |
+|---|---|---|---|---|---|---|
+| lightgbm-monotonic-calibrated | 0.5502 ± 0.0068 | 0.4129 ± 0.0067 | 0.06632 ± 0.00084 | 0.003971 | 613 | 1.66e+03 |
+| lightgbm-unconstrained · no monotonic constraints | 0.5492 ± 0.0068 | — | — | — | — | 80 |
+
+**`32-decision-policy`**
+
+| Stack | approval_rate | bad_rate_approved | profit_per_app | Train (s) |
+|---|---|---|---|---|
+| profit-policy · L1 · approve 70% | 0.7059 | 0.04261 | 3.172e+04 | 0 |
+| profit-policy · L1 · max profit | 0.8082 | 0.05132 | 3.284e+04 | 0 |
+| profit-policy · L3 · approve 70% | 0.7037 | 0.03721 | 3.28e+04 | 0 |
+| profit-policy · L3 · break-even PD | 0.8489 | 0.0512 | 3.407e+04 | 0 |
+| profit-policy · L3 · max profit | 0.8182 | 0.04741 | 3.425e+04 | 0 |
+
+**`33-serving-api`**
+
+| Stack | latency_p95_ms | parity_max_abs_diff | latency_p50_ms | Train (s) |
+|---|---|---|---|---|
+| fastapi-testclient | 116.4 | 0 | 75.82 | 0 |
+
+**`34-monitoring`**
+
+| Stack | gini | psi_pd | max_csi | default_rate | mean_pd | Train (s) |
+|---|---|---|---|---|---|---|
+| psi-csi · EXT_SOURCE_3 outage | 0.5345 | 0.002907 | 0.4692 | 0.08016 | 0.07819 | 0 |
+| psi-csi · bureau feed down | 0.5396 | 0.02018 | 0.8912 | 0.08016 | 0.08497 | 0 |
+| psi-csi · income +25% | 0.5496 | 0.000245 | 0.6909 | 0.08016 | 0.07972 | 0 |
+| psi-csi · no change | 0.5502 | 0.000315 | 0.001023 | 0.08016 | 0.08041 | 0 |
+| psi-csi · younger population | 0.5486 | 0.01106 | 0.1761 | 0.08834 | 0.08765 | 0 |
+
+**Conditions:** data Home Credit Default Risk (Kaggle) · x86_64 x2 · runs 2026-11-04
 <!-- RESULTS-L3:END -->
 
 ## 7. L4 tier · SOTA
@@ -167,7 +218,26 @@ Since the data only holds granted loans, we simulate an old policy that declines
 TabM (ICLR 2025), an efficient ensemble of MLPs, on the same L3 features, with a quantile transform and missing indicators → recipe [D2.14 · Tabular deep learning SOTA](../../../recipes/D-classical-ml/D2/D2.14-tabular-deep-learning-sota/index.md). We also measure a rank-average ensemble with LightGBM and the effect of the internal ensemble size (k = 1 is a plain MLP). In credit, ties between networks and GBMs are common. A gain, if any, must exceed the bootstrap deviation and pay for maintaining a second stack. A GPU on Colab is optional but speeds up `full` mode.
 
 <!-- RESULTS-L4:START -->
-_No `full` results yet._
+**`40-reject-inference`**
+
+| Stack | gini_ttd | pd_error_rejects | bad_rate_at_70 | gini_accepted | Train (s) |
+|---|---|---|---|---|---|
+| lightgbm-reject-inference · KGB (accepted only) | 0.5375 ± 0.0066 | -0.01723 | 0.03815 | 0.492 | 57.1 |
+| lightgbm-reject-inference · fuzzy augmentation | 0.5389 ± 0.0068 | -0.01746 | 0.03831 | 0.4909 | 57.1 |
+| lightgbm-reject-inference · hard cut-off | 0.527 ± 0.0071 | 0.1636 | 0.03838 | 0.4747 | 57.1 |
+| lightgbm-reject-inference · oracle (all true labels) | 0.5497 ± 0.0068 | -0.003115 | 0.03787 | 0.4989 | 57.1 |
+| lightgbm-reject-inference · parceling | 0.5307 ± 0.0067 | 0.1097 | 0.03826 | 0.4823 | 57.1 |
+
+**`41-tabular-deep-learning`**
+
+| Stack | gini | ks | Train (s) |
+|---|---|---|---|
+| lightgbm-l3-reference | 0.5502 ± 0.0068 | 0.4129 ± 0.0067 | 0 |
+| lightgbm+tabm-rank-average | 0.5452 ± 0.0068 | 0.4084 ± 0.0071 | 2.91e+03 |
+| tabm | 0.5258 ± 0.0069 | 0.3932 ± 0.007 | 2.91e+03 |
+| tabm · k=1 (plain MLP) | 0.5171 | — | 0 |
+
+**Conditions:** data Home Credit Default Risk (Kaggle) · x86_64 x2 · runs 2026-11-04
 <!-- RESULTS-L4:END -->
 
 ## 8. Risk, regulation and audit

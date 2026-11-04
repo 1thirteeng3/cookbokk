@@ -1,0 +1,73 @@
+{
+  "recipe_id": "P1.01",
+  "notebook": "34-monitoring",
+  "stack": "psi-csi",
+  "run_mode": "full",
+  "timestamp": "2026-11-04T20:39:08Z",
+  "git_sha": "4df5af9",
+  "hardware": {
+    "platform": "colab",
+    "cpu": "x86_64 x2",
+    "gpu": null,
+    "ram_gb": 12.7
+  },
+  "versions": {
+    "python": "3.13.18",
+    "optbinning": "1.0.0",
+    "lightgbm": "4.7.0",
+    "optuna": "5.0.0",
+    "mlflow": "3.18.0",
+    "fastapi": "0.162.0",
+    "httpx": "0.28.1",
+    "polars": "2.1.0",
+    "pyarrow": "26.0.1",
+    "kaggle": "2.2.5",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  },
+  "dataset": {
+    "name": "Home Credit Default Risk (Kaggle)",
+    "sha256": "52e96b895b1112e1c853f670e58372719c8441c5ed1c57ac2f7fad559d784f5f",
+    "n_rows": 61940,
+    "sample_frac": 1.0
+  },
+  "params": {
+    "bins": 10
+  },
+  "metrics": {
+    "psi_pd": {
+      "mean": 0.011058,
+      "std": null,
+      "n": 1
+    },
+    "max_csi": {
+      "mean": 0.176053,
+      "std": null,
+      "n": 1
+    },
+    "gini": {
+      "mean": 0.548631,
+      "std": null,
+      "n": 1
+    },
+    "mean_pd": {
+      "mean": 0.087655,
+      "std": null,
+      "n": 1
+    },
+    "default_rate": {
+      "mean": 0.088344,
+      "std": null,
+      "n": 1
+    }
+  },
+  "time_s": {
+    "train": 0.0,
+    "inference_per_1k": null
+  },
+  "peak_mem_mb": 1611.2,
+  "variant": "younger population"
+}

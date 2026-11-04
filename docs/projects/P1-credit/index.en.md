@@ -11,7 +11,7 @@ title: "P1 · Credit and credit risk"
 
 | ID | Title | Recipes | Status |
 |---|---|---|---|
-| [P1.01](P1.01-e2e-credit-decision-engine/index.md) | E2E credit decision engine | N1.01, N1.02, N1.03, N1.12, D1.06, D1.07, C2.06, D2.14, G1.02, G2.03, G3.02, H3.01 | 🔍 review |
+| [P1.01](P1.01-e2e-credit-decision-engine/index.md) | E2E credit decision engine | N1.01, N1.02, N1.03, N1.12, D1.06, D1.07, C2.06, D2.14, G1.02, G2.03, G3.02, H3.01 | ✅ done |
 | [P1.02](P1.02-pd-lgd-ead-ifrs-9-ecl/index.md) | PD-LGD-EAD and IFRS 9 ECL | N1.04, N1.05, N1.14, N4.01, D2.13 | ⚪ planned |
 | [P1.03](P1.03-property-avm-secured-lending/index.md) | Property AVM for secured lending | N1.09, N1.10, N5.11, C2.08, D2.08, B2.08 | ⚪ planned |
 | [P1.04](P1.04-risk-based-pricing-causal-elasticity/index.md) | Risk-based pricing with causal elasticity | N1.07, H2.01, H2.03, L1.04, D6.06, H1 | ⚪ planned |

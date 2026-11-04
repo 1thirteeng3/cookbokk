@@ -14,7 +14,7 @@ title: "Projects"
 
 | ID | Title | Status |
 |---|---|---|
-| [P1.01](P1-credit/P1.01-e2e-credit-decision-engine/index.md) | E2E credit decision engine | 🔍 review |
+| [P1.01](P1-credit/P1.01-e2e-credit-decision-engine/index.md) | E2E credit decision engine | ✅ done |
 | [P1.02](P1-credit/P1.02-pd-lgd-ead-ifrs-9-ecl/index.md) | PD-LGD-EAD and IFRS 9 ECL | ⚪ planned |
 | [P1.03](P1-credit/P1.03-property-avm-secured-lending/index.md) | Property AVM for secured lending | ⚪ planned |
 | [P1.04](P1-credit/P1.04-risk-based-pricing-causal-elasticity/index.md) | Risk-based pricing with causal elasticity | ⚪ planned |

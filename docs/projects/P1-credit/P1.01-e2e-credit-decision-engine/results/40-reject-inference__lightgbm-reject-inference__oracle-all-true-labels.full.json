@@ -1,0 +1,70 @@
+{
+  "recipe_id": "P1.01",
+  "notebook": "40-reject-inference",
+  "stack": "lightgbm-reject-inference",
+  "run_mode": "full",
+  "timestamp": "2026-11-04T20:47:25Z",
+  "git_sha": "4df5af9",
+  "hardware": {
+    "platform": "colab",
+    "cpu": "x86_64 x2",
+    "gpu": null,
+    "ram_gb": 12.7
+  },
+  "versions": {
+    "python": "3.13.18",
+    "optbinning": "1.0.0",
+    "lightgbm": "4.7.0",
+    "optuna": "5.0.0",
+    "mlflow": "3.18.0",
+    "fastapi": "0.162.0",
+    "httpx": "0.28.1",
+    "polars": "2.1.0",
+    "pyarrow": "26.0.1",
+    "kaggle": "2.2.5",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  },
+  "dataset": {
+    "name": "Home Credit Default Risk (Kaggle)",
+    "sha256": "52e96b895b1112e1c853f670e58372719c8441c5ed1c57ac2f7fad559d784f5f",
+    "n_rows": 307511,
+    "sample_frac": 1.0
+  },
+  "params": {
+    "reject_rate": 0.3,
+    "parcel_factor": 1.5,
+    "n_rounds": 613
+  },
+  "metrics": {
+    "gini_ttd": {
+      "mean": 0.549683,
+      "std": 0.006781,
+      "n": 200
+    },
+    "gini_accepted": {
+      "mean": 0.498933,
+      "std": null,
+      "n": 1
+    },
+    "pd_error_rejects": {
+      "mean": -0.003115,
+      "std": null,
+      "n": 1
+    },
+    "bad_rate_at_70": {
+      "mean": 0.037871,
+      "std": null,
+      "n": 1
+    }
+  },
+  "time_s": {
+    "train": 57.083,
+    "inference_per_1k": null
+  },
+  "peak_mem_mb": 1661.6,
+  "variant": "oracle (all true labels)"
+}

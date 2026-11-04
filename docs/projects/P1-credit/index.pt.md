@@ -11,7 +11,7 @@ title: "P1 · Crédito e risco de crédito"
 
 | ID | Título | Receitas | Status |
 |---|---|---|---|
-| [P1.01](P1.01-e2e-credit-decision-engine/index.md) | Motor de concessão de crédito E2E: scorecard → GBM → decisão → monitoramento | N1.01, N1.02, N1.03, N1.12, D1.06, D1.07, C2.06, D2.14, G1.02, G2.03, G3.02, H3.01 | 🔍 revisão |
+| [P1.01](P1.01-e2e-credit-decision-engine/index.md) | Motor de concessão de crédito E2E: scorecard → GBM → decisão → monitoramento | N1.01, N1.02, N1.03, N1.12, D1.06, D1.07, C2.06, D2.14, G1.02, G2.03, G3.02, H3.01 | ✅ pronto |
 | [P1.02](P1.02-pd-lgd-ead-ifrs-9-ecl/index.md) | Modelos PD/LGD/EAD e perda esperada IFRS 9 com cenários macro | N1.04, N1.05, N1.14, N4.01, D2.13 | ⚪ planejado |
 | [P1.03](P1.03-property-avm-secured-lending/index.md) | AVM de imóveis para crédito com garantia | N1.09, N1.10, N5.11, C2.08, D2.08, B2.08 | ⚪ planejado |
 | [P1.04](P1.04-risk-based-pricing-causal-elasticity/index.md) | Precificação de crédito baseada em risco com elasticidade causal | N1.07, H2.01, H2.03, L1.04, D6.06, H1 | ⚪ planejado |

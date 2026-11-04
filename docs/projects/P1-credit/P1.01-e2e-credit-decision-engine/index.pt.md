@@ -8,7 +8,7 @@ title: "P1.01 · Motor de concessão de crédito E2E"
 <!-- SUMMARY:START -->
 | Domínio | Receitas | Camadas | Runtime Colab | Status | Última verificação |
 |---|---|---|---|---|---|
-| credit | 12 | L1 · L3 · L4 | cpu | 🔍 revisão | — |
+| credit | 12 | L1 · L3 · L4 | cpu | ✅ pronto | 2026-11-04 |
 <!-- SUMMARY:END -->
 
 > **Em uma frase:** você termina com um sistema de concessão completo, do arquivo bruto à decisão monitorada, construído em três camadas que mostram quanto cada passo de complexidade realmente rende.
@@ -107,7 +107,17 @@ Os resultados de cada notebook vão para `results/` (na pasta corrente). No Cola
 8. Armadilhas: binning ajustado com o teste e o sentinela tratado como número.
 
 <!-- RESULTS-L1:START -->
-_Ainda sem resultados `full`._
+**`10-minimal-scorecard`**
+
+| Stack | gini | ks | brier | approval_rate | bad_rate_approved | gini_train_test_gap | n_features | Treino (s) |
+|---|---|---|---|---|---|---|---|---|
+| baseline-ext-source-2 | 0.324 ± 0.0083 | — | — | — | — | — | — | 0 |
+| optbinning-scorecard | 0.4856 ± 0.0071 | 0.3639 ± 0.0066 | 0.06845 ± 0.00085 | 0.7 | 0.04228 | -0.000359 | 15 | 6.18 |
+| optbinning-scorecard · iv_min=0.02 | 0.4856 ± 0.0071 | — | — | — | — | — | 15 | 6.18 |
+| optbinning-scorecard · iv_min=0.05 | 0.4813 ± 0.0073 | — | — | — | — | — | 11 | 6.18 |
+| optbinning-scorecard · iv_min=0.1 | 0.4571 ± 0.0075 | — | — | — | — | — | 4 | 6.18 |
+
+**Condições:** dados Home Credit Default Risk (Kaggle) · x86_64 x2 · execuções 2026-11-04
 <!-- RESULTS-L1:END -->
 
 ## 6. Camada L3 · Produção
@@ -147,7 +157,48 @@ Uma API FastAPI recebe o pedido bruto e o histórico de bureau e devolve PD, sco
 PSI do PD, CSI das features, Gini e calibração no agregado sob cinco cenários controlados: sem mudança, renda +25%, população mais jovem, falha no `EXT_SOURCE_3` e bureau fora do ar → receita [G3.02 · Detectar data drift e concept drift](../../../recipes/G-mlops/G3/G3.02-drift-detection/index.md). A lição central: **estabilidade não é desempenho**. Mudanças econômicas disparam CSI sem perda de ordenação, enquanto falhas de dados podem derrubar o Gini com o PSI do PD quase parado. Por isso o monitoramento precisa de três camadas: score, features e qualidade por fonte.
 
 <!-- RESULTS-L3:START -->
-_Ainda sem resultados `full`._
+**`30-feature-pipeline`**
+
+| Stack | gini_valid | bureau_coverage | contract_checks_passed | n_features | Treino (s) |
+|---|---|---|---|---|---|
+| pandas+polars | — | 0.8569 | 8 | 68 | 3.95 |
+| lightgbm-fixed-params · with bureau | 0.5318 ± 0.0074 | — | — | — | 3.95 |
+| lightgbm-fixed-params · without bureau | 0.5208 ± 0.0072 | — | — | — | 3.95 |
+
+**`31-gbm-monotonic-calibrated`**
+
+| Stack | gini | ks | brier | ece | best_iteration | Treino (s) |
+|---|---|---|---|---|---|---|
+| lightgbm-monotonic-calibrated | 0.5502 ± 0.0068 | 0.4129 ± 0.0067 | 0.06632 ± 0.00084 | 0.003971 | 613 | 1.66e+03 |
+| lightgbm-unconstrained · no monotonic constraints | 0.5492 ± 0.0068 | — | — | — | — | 80 |
+
+**`32-decision-policy`**
+
+| Stack | approval_rate | bad_rate_approved | profit_per_app | Treino (s) |
+|---|---|---|---|---|
+| profit-policy · L1 · approve 70% | 0.7059 | 0.04261 | 3.172e+04 | 0 |
+| profit-policy · L1 · max profit | 0.8082 | 0.05132 | 3.284e+04 | 0 |
+| profit-policy · L3 · approve 70% | 0.7037 | 0.03721 | 3.28e+04 | 0 |
+| profit-policy · L3 · break-even PD | 0.8489 | 0.0512 | 3.407e+04 | 0 |
+| profit-policy · L3 · max profit | 0.8182 | 0.04741 | 3.425e+04 | 0 |
+
+**`33-serving-api`**
+
+| Stack | latency_p95_ms | parity_max_abs_diff | latency_p50_ms | Treino (s) |
+|---|---|---|---|---|
+| fastapi-testclient | 116.4 | 0 | 75.82 | 0 |
+
+**`34-monitoring`**
+
+| Stack | gini | psi_pd | max_csi | default_rate | mean_pd | Treino (s) |
+|---|---|---|---|---|---|---|
+| psi-csi · EXT_SOURCE_3 outage | 0.5345 | 0.002907 | 0.4692 | 0.08016 | 0.07819 | 0 |
+| psi-csi · bureau feed down | 0.5396 | 0.02018 | 0.8912 | 0.08016 | 0.08497 | 0 |
+| psi-csi · income +25% | 0.5496 | 0.000245 | 0.6909 | 0.08016 | 0.07972 | 0 |
+| psi-csi · no change | 0.5502 | 0.000315 | 0.001023 | 0.08016 | 0.08041 | 0 |
+| psi-csi · younger population | 0.5486 | 0.01106 | 0.1761 | 0.08834 | 0.08765 | 0 |
+
+**Condições:** dados Home Credit Default Risk (Kaggle) · x86_64 x2 · execuções 2026-11-04
 <!-- RESULTS-L3:END -->
 
 ## 7. Camada L4 · SOTA
@@ -167,7 +218,26 @@ Como a base só tem empréstimos concedidos, simulamos uma política antiga que 
 TabM (ICLR 2025), um ensemble eficiente de MLPs, nas mesmas features da L3, com transformação por quantis e indicadores de ausência → receita [D2.14 · Deep learning tabular SOTA](../../../recipes/D-classical-ml/D2/D2.14-tabular-deep-learning-sota/index.md). Também medimos o ensemble por média de postos com o LightGBM e o efeito do tamanho do ensemble interno (k = 1 equivale a um MLP comum). Em crédito, o empate entre redes e GBMs é comum. O ganho, se houver, precisa ficar acima do desvio do *bootstrap* e pagar o custo de manter uma segunda stack. GPU no Colab é opcional, mas acelera o modo `full`.
 
 <!-- RESULTS-L4:START -->
-_Ainda sem resultados `full`._
+**`40-reject-inference`**
+
+| Stack | gini_ttd | pd_error_rejects | bad_rate_at_70 | gini_accepted | Treino (s) |
+|---|---|---|---|---|---|
+| lightgbm-reject-inference · KGB (accepted only) | 0.5375 ± 0.0066 | -0.01723 | 0.03815 | 0.492 | 57.1 |
+| lightgbm-reject-inference · fuzzy augmentation | 0.5389 ± 0.0068 | -0.01746 | 0.03831 | 0.4909 | 57.1 |
+| lightgbm-reject-inference · hard cut-off | 0.527 ± 0.0071 | 0.1636 | 0.03838 | 0.4747 | 57.1 |
+| lightgbm-reject-inference · oracle (all true labels) | 0.5497 ± 0.0068 | -0.003115 | 0.03787 | 0.4989 | 57.1 |
+| lightgbm-reject-inference · parceling | 0.5307 ± 0.0067 | 0.1097 | 0.03826 | 0.4823 | 57.1 |
+
+**`41-tabular-deep-learning`**
+
+| Stack | gini | ks | Treino (s) |
+|---|---|---|---|
+| lightgbm-l3-reference | 0.5502 ± 0.0068 | 0.4129 ± 0.0067 | 0 |
+| lightgbm+tabm-rank-average | 0.5452 ± 0.0068 | 0.4084 ± 0.0071 | 2.91e+03 |
+| tabm | 0.5258 ± 0.0069 | 0.3932 ± 0.007 | 2.91e+03 |
+| tabm · k=1 (plain MLP) | 0.5171 | — | 0 |
+
+**Condições:** dados Home Credit Default Risk (Kaggle) · x86_64 x2 · execuções 2026-11-04
 <!-- RESULTS-L4:END -->
 
 ## 8. Riscos, regulação e auditoria

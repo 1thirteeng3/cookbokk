@@ -38,12 +38,12 @@ End-to-end recipes for data science, machine learning, deep learning, data engin
 | [L · Generative Sciences + Data Science](recipes/L-generative-sciences/index.md) | 75 | 0 | 0 | 0 | 75 | 0% |
 | [M · Technical Auditing](recipes/M-technical-audit/index.md) | 57 | 0 | 0 | 0 | 57 | 0% |
 | [N · Finance, Economics and Socioeconomics Domain](recipes/N-finance-economics/index.md) | 61 | 0 | 0 | 0 | 61 | 0% |
-| [P1 · Credit and credit risk](projects/P1-credit/index.md) | 10 | 0 | 1 | 0 | 9 | 0% |
+| [P1 · Credit and credit risk](projects/P1-credit/index.md) | 10 | 1 | 0 | 0 | 9 | 10% |
 | [P2 · Fraud, AML and compliance](projects/P2-fraud-aml/index.md) | 5 | 0 | 0 | 0 | 5 | 0% |
 | [P3 · Markets, investments and treasury](projects/P3-markets/index.md) | 8 | 0 | 0 | 0 | 8 | 0% |
 | [P4 · Macroeconomics and applied economics](projects/P4-macro/index.md) | 7 | 0 | 0 | 0 | 7 | 0% |
 | [P5 · Socioeconomics and public policy](projects/P5-socioeconomics/index.md) | 9 | 0 | 0 | 0 | 9 | 0% |
 | [P6 · Platforms and operations in financial institutions](projects/P6-financial-platforms/index.md) | 9 | 0 | 0 | 0 | 9 | 0% |
 | [P7 · Other domains (technical breadth)](projects/P7-other-domains/index.md) | 6 | 0 | 0 | 0 | 6 | 0% |
-| **Total** | **641** | **0** | **1** | **0** | **640** | **0%** |
+| **Total** | **641** | **1** | **0** | **0** | **640** | **0%** |
 <!-- PROGRESS:END -->

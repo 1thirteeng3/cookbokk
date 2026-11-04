@@ -14,7 +14,7 @@ title: "Projetos"
 
 | ID | Título | Status |
 |---|---|---|
-| [P1.01](P1-credit/P1.01-e2e-credit-decision-engine/index.md) | Motor de concessão de crédito E2E: scorecard → GBM → decisão → monitoramento | 🔍 revisão |
+| [P1.01](P1-credit/P1.01-e2e-credit-decision-engine/index.md) | Motor de concessão de crédito E2E: scorecard → GBM → decisão → monitoramento | ✅ pronto |
 | [P1.02](P1-credit/P1.02-pd-lgd-ead-ifrs-9-ecl/index.md) | Modelos PD/LGD/EAD e perda esperada IFRS 9 com cenários macro | ⚪ planejado |
 | [P1.03](P1-credit/P1.03-property-avm-secured-lending/index.md) | AVM de imóveis para crédito com garantia | ⚪ planejado |
 | [P1.04](P1-credit/P1.04-risk-based-pricing-causal-elasticity/index.md) | Precificação de crédito baseada em risco com elasticidade causal | ⚪ planejado |

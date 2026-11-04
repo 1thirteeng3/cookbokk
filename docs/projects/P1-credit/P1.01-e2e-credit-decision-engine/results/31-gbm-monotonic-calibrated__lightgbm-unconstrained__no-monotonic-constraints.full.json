@@ -1,0 +1,60 @@
+{
+  "recipe_id": "P1.01",
+  "notebook": "31-gbm-monotonic-calibrated",
+  "stack": "lightgbm-unconstrained",
+  "run_mode": "full",
+  "timestamp": "2026-11-04T20:34:48Z",
+  "git_sha": "4df5af9",
+  "hardware": {
+    "platform": "colab",
+    "cpu": "x86_64 x2",
+    "gpu": null,
+    "ram_gb": 12.7
+  },
+  "versions": {
+    "python": "3.13.18",
+    "optbinning": "1.0.0",
+    "lightgbm": "4.7.0",
+    "optuna": "5.0.0",
+    "mlflow": "3.18.0",
+    "fastapi": "0.162.0",
+    "httpx": "0.28.1",
+    "polars": "2.1.0",
+    "pyarrow": "26.0.1",
+    "kaggle": "2.2.5",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.2",
+    "numpy": "2.4.6",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1"
+  },
+  "dataset": {
+    "name": "Home Credit Default Risk (Kaggle)",
+    "sha256": "52e96b895b1112e1c853f670e58372719c8441c5ed1c57ac2f7fad559d784f5f",
+    "n_rows": 307511,
+    "sample_frac": 1.0
+  },
+  "params": {
+    "seed": 42,
+    "learning_rate": 0.027690398543328606,
+    "num_leaves": 49,
+    "min_child_samples": 475,
+    "feature_fraction": 0.4097944674405517,
+    "bagging_fraction": 0.872150491391934,
+    "lambda_l2": 0.0011793416929582465,
+    "cat_smooth": 16.908004658562092
+  },
+  "metrics": {
+    "gini": {
+      "mean": 0.549179,
+      "std": 0.006842,
+      "n": 200
+    }
+  },
+  "time_s": {
+    "train": 79.9679,
+    "inference_per_1k": null
+  },
+  "peak_mem_mb": 1618.2,
+  "variant": "no monotonic constraints"
+}
