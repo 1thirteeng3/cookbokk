@@ -240,6 +240,8 @@ TabM (ICLR 2025), an efficient ensemble of MLPs, on the same L3 features, with a
 **Conditions:** data Home Credit Default Risk (Kaggle) · x86_64 x2 · runs 2026-11-04
 <!-- RESULTS-L4:END -->
 
+**Reading notebook 41:** L3's LightGBM (Gini 0.5502) won. TabM alone scored 0.5258, about 0.024 lower and more than three times the bootstrap deviation. The rank average scored 0.5452, 0.005 below the GBM: the gap fits inside the deviation, so we cannot say the ensemble loses, but there is no gain that justifies a second stack either (TabM took about 48 min to train versus a few minutes for the GBM). The internal ensemble helps: TabM with k members beats the plain MLP (k = 1, 0.5171). Compare with care: the deviation describes each Gini on the same test set, not a paired difference, and the result holds for this dataset and configuration, without an extensive hyperparameter search for the network.
+
 ## 8. Risk, regulation and audit
 
 | Risk | Impact | Mitigation | Recipe |

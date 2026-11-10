@@ -240,6 +240,8 @@ TabM (ICLR 2025), um ensemble eficiente de MLPs, nas mesmas features da L3, com 
 **Condições:** dados Home Credit Default Risk (Kaggle) · x86_64 x2 · execuções 2026-11-04
 <!-- RESULTS-L4:END -->
 
+**Leitura do notebook 41:** o LightGBM da L3 (Gini 0,5502) venceu. O TabM sozinho ficou em 0,5258, cerca de 0,024 abaixo e mais de três vezes o desvio do *bootstrap*. A média de postos ficou em 0,5452, 0,005 abaixo do GBM: a diferença cabe dentro do desvio, então não dá para afirmar que o ensemble perde, mas também não há ganho que justifique manter uma segunda stack (a do TabM levou cerca de 48 min de treino contra poucos minutos do GBM). O ensemble interno ajuda: o TabM com k membros supera o MLP comum (k = 1, 0,5171). Cuidado ao comparar: o desvio descreve cada Gini no mesmo teste, e não uma diferença pareada, e o resultado vale para esta base e esta configuração, sem busca extensa de hiperparâmetros para a rede.
+
 ## 8. Riscos, regulação e auditoria
 
 | Risco | Impacto | Mitigação | Receita |
