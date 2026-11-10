@@ -30,6 +30,7 @@ Fluxo completo em SPEC.md §16.
 | Caminho | Conteúdo |
 |---|---|
 | [`INDEX.md`](INDEX.md) | Índice mestre: 15 partes, 587 receitas-mãe, 54 projetos integradores |
+| [`ROADMAP.md`](ROADMAP.md) | Ordem de implementação dos 641 itens em ondas (gerado por `make roadmap`) |
 | [`SPEC.md`](SPEC.md) | Como o cookbook é organizado, escrito, executado e mantido |
 | [`docs/`](docs/) | Conteúdo do site: receitas, projetos, notebooks e resultados |
 | [`templates/`](templates/) | Templates de receita e de projeto |
@@ -43,4 +44,5 @@ Fluxo completo em SPEC.md §16.
 - [x] Passo 1: especificação e templates
 - [x] Passo 2: esqueleto executável (ambiente, pacote, ferramentas, site bilíngue, CI, 641 itens planejados)
 - [x] Passo 3: projeto-piloto P1.01 (8 notebooks L1/L3/L4, documento bilíngue; resultados `full` pendentes da execução no Colab)
-- [ ] Passo 4: priorização em ondas
+- [x] Passo 4a: roadmap de implementação ([`ROADMAP.md`](ROADMAP.md))
+- [ ] Passo 4b: escrever as receitas, onda por onda (começa pela W0)

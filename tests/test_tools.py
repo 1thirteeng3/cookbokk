@@ -104,3 +104,27 @@ def test_placeholder_detection():
 
 def test_root_is_repo():
     assert (ROOT / "INDEX.md").exists()
+
+
+def test_roadmap_covers_catalog_and_is_up_to_date():
+    import roadmap
+
+    cat = load_catalog()
+    plan = roadmap.build_plan(cat)
+    assert roadmap.check_coverage(plan) == []
+    assert len(plan["rows"]) == 641
+    assert [r["seq"] for r in plan["rows"]] == list(range(1, 642))
+    # a project is never scheduled before the recipes it cites (except the finished pilot)
+    seq = {r["id"]: r["seq"] for r in plan["rows"]}
+    rids = sorted(i for i in plan["catalog"] if i[0] != "P")
+    for item in cat.all_items():
+        if item.kind != "project" or item.id == roadmap.PILOT:
+            continue
+        for token in item.meta.get("recipes", []):
+            for r in roadmap.resolve_refs(token, rids):
+                assert seq[r] < seq[item.id], f"{r} must come before {item.id}"
+    outputs = roadmap.build(cat)
+    stale = [
+        p.name for p, t in outputs.items() if not p.exists() or p.read_text(encoding="utf-8") != t
+    ]
+    assert stale == [], "run `make roadmap`"

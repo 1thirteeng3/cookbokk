@@ -20,6 +20,9 @@ promote:         ## Promove um item para rascunho: make promote ID=N1.01
 	$(RUN) python tools/scaffold.py promote $(ID)
 	$(RUN) python tools/render.py
 
+roadmap:         ## Regenera ROADMAP.md e config/roadmap.yml (ordem de implementação)
+	$(RUN) python tools/roadmap.py
+
 validate:        ## Valida metadados, docs, notebooks e resultados
 	$(RUN) python tools/validate.py
 
@@ -28,6 +31,7 @@ render:          ## Regenera catálogos, quadros-resumo e resultados
 
 check: lint validate  ## Tudo que o CI verifica, menos notebooks e site
 	$(RUN) python tools/render.py --check
+	$(RUN) python tools/roadmap.py --check
 	$(RUN) pytest -m "not slow"
 
 test:            ## Testes rápidos
